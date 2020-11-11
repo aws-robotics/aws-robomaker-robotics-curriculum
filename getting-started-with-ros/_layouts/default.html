@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  {% include top.html %}
+  <body>
+    {% include header.html %}
+
+
+    <div class="home">
+      <div class="wrapper">
+        {% if page.menus %} 
+        {% include menu.html %}
+        <div class="main">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+        </div>
+        {% else %}
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+        {% endif %}
+
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>
