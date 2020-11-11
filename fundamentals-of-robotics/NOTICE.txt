@@ -1,0 +1,648 @@
+** Pneumatic cylinder (animation).gif --
+https://commons.wikimedia.org/wiki/File:Pneumatic_cylinder_(animation).gif
+Permission is granted to copy, distribute and/or modify this document under the
+terms of the GNU Free Documentation License, Version 1.2 or any later version
+published by the Free Software Foundation; with no Invariant Sections, no
+Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included
+in the section entitled GNU Free Documentation License.
+
+This file is licensed under the Creative Commons Attribution 3.0 Unported
+license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+
+------
+
+** Shadow Hand Bulb large.jpg; --
+https://commons.wikimedia.org/wiki/File:Shadow_Hand_Bulb_large.jpg
+Description	Shadow Dexterous Robot Hand holding a lightbulb
+Date	9 January 2007
+Source	http://www.shadowrobot.com/media/pictures.shtml
+Author	Richard Greenhill and Hugo Elias (myself) of the Shadow Robot Company
+Permission
+(Reusing this file)	With permission of Richard Greenhill and Hugo Elias
+
+Permission is granted to copy, distribute and/or modify this document under the
+terms of the GNU Free Documentation License, Version 1.2 or any later version
+published by the Free Software Foundation; with no Invariant Sections, no
+Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included
+in the section entitled GNU Free Documentation License.
+
+This file is licensed under the Creative Commons Attribution-Share Alike 3.0
+Unported license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+------
+
+** 2005-11-14 ShadowLeg Finished medium.jpg; --
+https://commons.wikimedia.org/wiki/File:2005-11-14_ShadowLeg_Finished_medium.jpg
+Description Robot leg, with Air Muscles. Designed and built by David Buckley
+for The Shadow Robot company Ltd.
+Date	14 May 2007
+Source	Shadow Robot Company Ltd. From our contract engineering gallery.
+Author	David Buckley
+
+Permission is granted to copy, distribute and/or modify this document under the
+terms of the GNU Free Documentation License, Version 1.2 or any later version
+published by the Free Software Foundation; with no Invariant Sections, no
+Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included
+in the section entitled GNU Free Documentation License.
+
+This file is licensed under the Creative Commons Attribution-Share Alike 3.0
+Unported license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+This file is licensed under the Creative Commons Attribution-Share Alike 2.5
+Generic, 2.0 Generic and 1.0 Generic license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+------
+
+** R3.jpg;  --
+https://commons.wikimedia.org/wiki/File:Arduino_Uno_-_R3.jpg
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+
+This image was originally posted to Flickr by SparkFunElectronics at
+https://www.flickr.com/photos/41898857@N04/8406865680. It was reviewed on 20
+June 2013 by FlickreviewR and was confirmed to be licensed under the terms of
+the cc-by-2.0.
+
+This file is licensed under the Creative Commons Attribution 2.0 Generic
+license.
+
+------
+
+** Maxbotix Ultrasonic-Range-Finder LV-MaxSonar-EZ0.jpg; --
+https://commons.wikimedia.org/wiki/File:Maxbotix_Ultrasonic-Range-Finder_LV-MaxSonar-EZ0.jpg
+Description
+English: Maxbotix Ultrasonic range finder EZ0. Provides readings of 0 to 6.45m
+in 1 inch increments with little or no dead zone. [1]
+Date	2015
+Source	https://www.sparkfun.com/products/8502
+Author	SparkFun
+
+This file is licensed under the Creative Commons Attribution 2.0 Generic license.	
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+
+** SparkFun 6DoF-IMU-Digital-Combo-Board ITG3200+ADXL345 10121-01d.jpg; 1 --
+https://commons.wikimedia.org/wiki/File:SparkFun_6DoF-IMU-Digital-Combo-Board_ITG3200%2BADXL345_10121-01d.jpg
+Description
+English: SparkFun breakout for the ADXL345 accelerometer and the ITG-3200 MEMS
+gyro. This board covers full 6 degrees of freedom. The sensors communicate over
+I2C and one INT output pin from each sensor is broken out. [1] [2]
+Date	30 July 2015, 10:45:36
+Source	https://www.sparkfun.com/products/10121
+Author	SparkFun
+
+This file is licensed under the Creative Commons Attribution 2.0 Generic
+license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+
+------
+
+** Rotary encoder.jpg; --
+https://commons.wikimedia.org/wiki/File:Rotary_encoder.jpg
+Description
+Português: Encoder rotativo
+Português: rotary encoder
+Date	16 September 2013, 10:33:39
+Source	Own work
+Author	Joao Paulo Chagas
+
+This file is licensed under the Creative Commons Attribution 4.0 International
+license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+
+------
+
+** Adafruit GPS Module Breakout.jpg; --
+https://commons.wikimedia.org/wiki/File:Adafruit_GPS_Module_Breakout.jpg
+Description	Adafruit GTPA010 GPS module.
+Date	30 April 2012, 14:11
+Source	ADAF-12-GP
+Author	oomlout
+
+This file is licensed under the Creative Commons Attribution-Share Alike 2.0
+Generic license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+------
+
+** PWM, 3-level.svg;  --
+https://commons.wikimedia.org/wiki/File:PWM,_3-level.svg
+Permission is granted to copy, distribute and/or modify this document under the
+terms of the GNU Free Documentation License, Version 1.2 or any later version
+published by the Free Software Foundation; with no Invariant Sections, no
+Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included
+in the section entitled GNU Free Documentation License.
+
+This file is licensed under the Creative Commons Attribution-Share Alike 3.0
+Unported license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+This file is licensed under the Creative Commons Attribution-Share Alike 2.5
+Generic, 2.0 Generic and 1.0 Generic license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+------
+
+** Electric motor.gif; --
+https://commons.wikimedia.org/wiki/File:Electric_motor.gif
+
+Permission is granted to copy, distribute and/or modify this document under the
+terms of the GNU Free Documentation License, Version 1.2 or any later version
+published by the Free Software Foundation; with no Invariant Sections, no
+Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included
+in the section entitled GNU Free Documentation License.
+** ETRX357 ZigBee module with size ref.JPG; version 1 --
+https://commons.wikimedia.org/wiki/File:ETRX357_ZigBee_module_with_size_ref.JPG
+Description
+English: Telegesis ETRX357 2.4GHz ZigBee module with ceramic chip antenna
+Date	18 March 2013, 22:31:24
+Source	Own work
+Author	AutolycusQ
+
+------
+
+** Underwater Linear Actuator.png;--
+https://commons.wikimedia.org/wiki/File:Underwater_Linear_Actuator.png
+Permission is granted to copy, distribute and/or modify this document under the
+terms of the GNU Free Documentation License, Version 1.2 or any later version
+published by the Free Software Foundation; with no Invariant Sections, no
+Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included
+in the section entitled GNU Free Documentation License.
+
+This file is licensed under the Creative Commons Attribution-Share Alike 3.0
+Unported license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+------
+
+** KinectSensor.png; --
+https://commons.wikimedia.org/wiki/File:KinectSensor.png
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+This file is licensed under the Creative Commons Attribution-Share Alike 3.0
+Unported license.
+
+------
+
+** Sonar Principle EN.svg; version 1 --
+https://commons.wikimedia.org/wiki/File:Sonar_Principle_EN.svg
+Permission is granted to copy, distribute and/or modify this document under the
+terms of the GNU Free Documentation License, Version 1.2 or any later version
+published by the Free Software Foundation; with no Invariant Sections, no
+Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included
+in the section entitled GNU Free Documentation License.
+
+This file is licensed under the Creative Commons Attribution-Share Alike 3.0
+Unported license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+This file is licensed under the Creative Commons Attribution-Share Alike 2.5
+Generic license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+------
+
+** Geolocation.png;  --
+https://commons.wikimedia.org/wiki/File:Geolocation.png
+Description
+English: Principle of geolocation with GPS. Data transmitted on real-time by
+telecom satellites or GSM/GPRS network.
+Français : Principe de géolocalisation par GPS. Données transmises en temps
+réel par le réseau de satellite de télécommunication ou le réseau GPS/GSM.
+Date	26 November 2009
+Source	Own work
+Author	Éric Chassaing
+
+This file is licensed under the Creative Commons Attribution-Share Alike 3.0
+Unported, 2.5 Generic, 2.0 Generic and 1.0 Generic license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+Permission is granted to copy, distribute and/or modify this document under
+the terms of the GNU Free Documentation License, Version 1.2 or any later
+version published by the Free Software Foundation; with no Invariant Sections,
+no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is
+included in the section entitled GNU Free Documentation License.
+
+------
+
+** DC_Motor.jpg; --
+https://commons.wikimedia.org/wiki/File:DC_Motor.jpg
+Description
+English: This is a direct connect motor that can be used for multiple projects.
+It needs at least 3V of power to run.
+Date	19 November 2007
+Source	Own work
+Author	Dcaldero8983
+
+This file is licensed under the Creative Commons Attribution-Share Alike 3.0
+Unported license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+------
+
+** Intel_NUC6_inside.jpg; --
+https://commons.wikimedia.org/wiki/File:Intel_NUC6_inside.jpg
+Description
+English: opened Intel NUC of 6th gen.
+Model: NUC6i3SYH
+
+Extended with two 8GB RAM modules.
+Date	30 December 2018, 22:35:08
+Source	Own work
+Author	Laserlicht
+
+This file is licensed under the Creative Commons Attribution-Share Alike 4.0
+International license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+------
+
+** Raspberry Pi 4 Model B - Side.jpg; --
+https://commons.wikimedia.org/wiki/File:Raspberry_Pi_4_Model_B_-_Side.jpg
+
+This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.
+
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+-----
+
+** Raspberry Pi Camera Module v2 with ribbon.jpg; --
+https://commons.wikimedia.org/wiki/File:Raspberry_Pi_Camera_Module_v2_with_ribbon.jpg
+This work is free and may be used by anyone for any purpose. If you wish to use
+this content, you do not need to request permission as long as you follow any
+licensing requirements mentioned on this page.
+Wikimedia Foundation has received an e-mail confirming that the copyright
+holder has approved publication under the terms mentioned on this page. This
+correspondence has been reviewed by an OTRS member and stored in our permission
+archive. The correspondence is available to trusted volunteers as ticket
+#2018062510010362.
+
+If you have questions about the archived correspondence, please us
+
+This file is licensed under the Creative Commons Attribution-Share Alike 4.0
+International license.
+
+------
+
+** 6DOF.svg;  -- 
+https://commons.wikimedia.org/wiki/File:6DOF.svg
+Description
+English: The six degrees of freedom three dimensions and three rotations. The
+texts are located on the positive direction according to the right hand rule.
+Français : Les six degrés de liberté dans un espace à trois dimensions : trois
+de translation et trois de rotation. Par convention les translations sont
+positives dans les directions Right, Forward, et Up (axes Ox, Oy et Oz). Chacun
+des mots Pitch (rotation autour de Ox), Roll (autour de Oy) et Yaw (autour de
+Oz) a été placé près de la flèche indiquant le sens de rotation positif
+(trièdre direct Oxyz).
+Date	16 February 2015
+Source	Own work
+Author	GregorDS
+
+-----
+
+** Velodyne ProductFamily BlueLens 32GreenLens.png; --
+https://commons.wikimedia.org/wiki/File:Velodyne_ProductFamily_BlueLens_32GreenLens.png
+Description
+English: Velodyne HDL-64E, an HDL-32E, a Puck, and an Ultra Puck lidar sensors
+Date	1 February 2019
+Source	Own work
+Author	APJarvis
+
+This file is licensed under the Creative Commons Attribution-Share Alike 4.0
+International license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+------
+
+** Distance Radar DR-1DHP 61 GHz Symeo.jpg; --
+https://commons.wikimedia.org/wiki/File:Distance_Radar_DR-1DHP_61_GHz_Symeo.jpg
+Description
+Deutsch: Symeo Industrielles Distanzradar Symeo LPR 1DHP
+61 GHz FMCW Radar
+
+Frequenzbereich: 61 GHz - 61,5 GHz; FMCW-Modulation; 20dBm Sendeleistung EIRP
+Source	Own work
+Author	Hihiman
+
+This file is made available under the Creative Commons CC0 1.0 Universal Public
+Domain Dedication.
+
+The person who associated a work with this deed has dedicated the work to the 
+public domain by waiving all of their rights to the work worldwide under copyright 
+law, including all related and neighboring rights, to the extent allowed by law. You 
+can copy, modify, distribute and perform the work, even for commercial purposes, all 
+without asking permission.
+
+------
+
+** Nvidia Jetson Nano 2 Development Kit 15 14 39 352000.jpeg; --
+https://commons.wikimedia.org/wiki/File:Nvidia_Jetson_Nano_2_Development_Kit_15_14_39_352000.jpeg
+Description	Nvidia Jetson Nano 2 Development Kit
+Date	2 March 2020, 15:08:29
+Source	Own work
+Author	Ubahnverleih
+
+This file is made available under the Creative Commons CC0 1.0 Universal Public
+Domain Dedication.
+The person who associated a work with this deed has dedicated the work to the
+public domain by waiving all of their rights to the work worldwide under
+copyright law, including all related and neighboring rights, to the extent
+allowed by law. You can copy, modify, distribute and perform the work, even for
+commercial purposes, all without asking permission.
+
+------
+
+** Filters for Color Imaging and for Science; --
+https://www.jpl.nasa.gov/spaceimages/details.php?id=PIA16799
+https://www.jpl.nasa.gov/imagepolicy/
+
+Unless otherwise noted, images and video on JPL public web sites (public sites
+ending with a jpl.nasa.gov address) may be used for any purpose without prior
+permission, subject to the special cases noted below. Publishers who wish to
+have authorization may print this page and retain it for their records; JPL
+does not issue image permissions on an image by image basis.
+
+By electing to download the material from this web site the user agrees:
+
+that Caltech makes no representations or warranties with respect to ownership
+of copyrights in the images, and does not represent others who may claim to be
+authors or owners of copyright of any of the images, and makes no warranties as
+to the quality of the images. Caltech shall not be responsible for any loss or
+expenses resulting from the use of the images, and you release and hold Caltech
+harmless from all liability arising from such use.
+to use a credit line in connection with images. Unless otherwise noted in the
+caption information for an image, the credit line should be "Courtesy
+NASA/JPL-Caltech."
+that the endorsement of any product or service by Caltech, JPL or NASA must not
+be claimed or implied.
+
+------
+
+** LIDARanim.gif; --
+https://commons.wikimedia.org/wiki/File:LIDARanim.gif
+Description
+English: Basic LIDAR Animation
+Date	30 December 2008
+Source	Own work
+Author	sleepisfortheweak
+
+This work has been released into the public domain by its author,
+Sleepisfortheweak at the Wikipedia project. This applies worldwide.
+In case this is not legally possible:
+Sleepisfortheweak grants anyone the right to use this work for any purpose,
+without any conditions, unless such conditions are required by law.
+
+------
+
+** Caterpillar_track_shingle.JPG; --
+https://commons.wikimedia.org/wiki/File:Caterpillar_track_shingle.JPG
+Description
+English: the track of a small bulldozer (used for hauling boats) on Aldeburgh
+beach
+Date	28 November 2009
+Source	Own work
+Author	JMiall
+
+I, the copyright holder of this work, release this work into the public domain.
+This applies worldwide.
+In some countries this may not be legally possible; if so:
+I grant anyone the right to use this work for any purpose, without any
+conditions, unless such conditions are required by law.
+
+------
+
+** Mars_rovers_wheels_isometric.jpg; version 1 --
+https://commons.wikimedia.org/wiki/File:Mars_rovers_wheels_isometric.jpg
+This image or video was catalogued by Jet Propulsion Laboratory of the United
+States National Aeronautics and Space Administration (NASA) under Photo ID:
+PIA10017.
+
+This file is in the public domain in the United States because it was solely
+created by NASA. NASA copyright policy states that "NASA material is not
+protected by copyright unless noted". (See Template:PD-USGov, NASA copyright
+policy page or JPL Image Use Policy.)
+
+Warnings:
+Use of NASA logos, insignia and emblems is restricted per U.S. law 14 CFR 1221.
+The NASA website hosts a large number of images from the Soviet/Russian space
+agency, and other non-American space agencies. These are not necessarily in the
+public domain.
+Materials based on Hubble Space Telescope data may be copyrighted if they are
+not explicitly produced by the STScI.[1] See also {{PD-Hubble}} and
+{{Cc-Hubble}}.
+The SOHO (ESA & NASA) joint project implies that all materials created by its
+probe are copyrighted and require permission for commercial non-educational
+use. [2]
+Images featured on the Astronomy Picture of the Day (APOD) web site may be
+copyrighted. [3]
+The National Space Science Data Center (NSSDC) site has been known to host
+copyrighted content. Its photo gallery FAQ states that all of the images in the
+photo gallery are in the public domain "Unless otherwise noted."
+
+------
+
+** Incremental directional encoder.gif;  --
+https://commons.wikimedia.org/wiki/File:Incremental_directional_encoder.gif
+Description
+English: Example of two-row rotary encoder for speed and direction detection.
+Basically a 2-bit Gray code pattern. Generated by Matt Hercules
+Date	18 December 2009 (original upload date)
+Source	Transferred from en.wikibooks to Commons.
+Author	Sidehack at English Wikibooks
+
+This work has been released into the public domain by its author, Sidehack at
+the Wikipedia project. This applies worldwide.
+In case this is not legally possible:
+Sidehack grants anyone the right to use this work for any purpose, without any
+conditions, unless such conditions are required by law.
+
+------
+
+** We Teardown a Mavic Mini and Put it Back Together Again!;--
+https://www.youtube.com/watch?v=E7hdTZ2BUSU
+YouTube Standard License: https://www.youtube.com/static?template=terms
+
+
+------
+
+** Kellys Rambling Robot Repair! Fixing Irobot Roomba not charging on dock or
+sensing dock 650; version 1 -- 
+https://www.youtube.com/watch?v=UE1KwIxWIFY
+https://www.youtube.com/static?template=terms
+
+YouTube Standard License: https://www.youtube.com/static?template=terms
+
+------
+
+** DEMO: NABi and ALPHRED (Dennis Hong, UCLA) | TC Sessions Robotics 2018;
+version 1 -- https://www.youtube.com/watch?v=JgeoR5utVUw
+
+
+YouTube Standard License: https://www.youtube.com/static?template=terms
