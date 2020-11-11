@@ -1,0 +1,14 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:04.160
+Artificial potential field methods combines
+attraction to the goal and repulsion to the
+
+00:00:04.160 --> 00:00:07.540
+obstacles, not requiring much computation.
+
+00:00:07.540 --> 00:00:09.590
+Eventually the robot gets to the goal.
+

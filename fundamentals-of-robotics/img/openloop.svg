@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="107mm"
+   height="25mm"
+   viewBox="0 0 107 25"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="openloop.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1509"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1507" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1352"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1350" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1348"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1302"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path1300"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1298"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1258"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1256" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1254"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1200"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1198"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path922"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect920"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <rect
+       x="48.910324"
+       y="27.261492"
+       width="54.522984"
+       height="17.907059"
+       id="rect865" />
+    <rect
+       id="rect865-1"
+       height="17.907059"
+       width="54.522984"
+       y="27.261492"
+       x="48.910324" />
+    <rect
+       id="rect878"
+       height="17.907059"
+       width="54.522984"
+       y="27.261492"
+       x="48.910324" />
+    <rect
+       id="rect865-8"
+       height="17.907059"
+       width="54.522984"
+       y="27.261492"
+       x="48.910324" />
+    <rect
+       id="rect1486"
+       height="17.907059"
+       width="54.522984"
+       y="27.261492"
+       x="48.910324" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="199.36416"
+     inkscape:cy="-107.9215"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1046"
+     inkscape:window-height="917"
+     inkscape:window-x="48"
+     inkscape:window-y="5"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.765;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect861"
+       width="28.754955"
+       height="15.743949"
+       x="18.816868"
+       y="6.9660778"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       id="text863"
+       style="font-size:4.23332999999999959px;line-height:1.25;font-family:sans-serif;word-spacing:0px;white-space:pre;shape-inside:url(#rect865);"
+       transform="translate(-26.216689,-14.4102)"><tspan
+         x="48.910156"
+         y="31.123914"><tspan
+           style="shape-inside:url(#rect865)">Controller</tspan></tspan></text>
+    <text
+       transform="translate(15.557256,-14.632565)"
+       style="font-size:4.23332999999999959px;line-height:1.25;font-family:sans-serif;word-spacing:0px;white-space:pre;shape-inside:url(#rect865-1);"
+       id="text863-4"
+       xml:space="preserve"><tspan
+         x="48.910156"
+         y="31.123914"><tspan
+           style="font-size:4.23333px">Actuators</tspan></tspan></text>
+    <rect
+       ry="0"
+       y="7.1714783"
+       x="60.65078"
+       height="15.743949"
+       width="28.754957"
+       id="rect861-1"
+       style="fill:none;stroke:#000000;stroke-width:0.765;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1258)"
+       d="m 2.7844092,15.323535 c 5.234289,0 10.4683178,0 15.7020798,0"
+       id="path1252"
+       inkscape:path-effect="#path-effect1254"
+       inkscape:original-d="m 2.7844092,15.323535 c 5.234289,2.64e-4 10.4683178,2.64e-4 15.7020798,0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1302)"
+       d="m 47.819319,15.457171 c 4.142944,0 8.241075,0 12.361217,0"
+       id="path1296"
+       inkscape:path-effect="#path-effect1298"
+       inkscape:original-d="m 47.819319,15.457171 c 4.142944,2.64e-4 8.241075,2.64e-4 12.361217,0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1352)"
+       d="m 89.71379,15.523986 c 3.964736,0 7.929215,0 11.89343,0"
+       id="path1346"
+       inkscape:path-effect="#path-effect1348"
+       inkscape:original-d="m 89.71379,15.523986 c 3.964736,2.64e-4 7.929215,2.64e-4 11.89343,0" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="44.904591"
+       y="4.939353"
+       id="text1591-5-3"><tspan
+         sodipodi:role="line"
+         x="44.904591"
+         y="4.939353"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         id="tspan1593-4-5">Commands</tspan></text>
+    <text
+       id="text1591-5-3-4"
+       y="11.086555"
+       x="91.132095"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         id="tspan1593-4-5-2"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         y="11.086555"
+         x="91.132095"
+         sodipodi:role="line">Output</tspan></text>
+    <text
+       id="text1591-9"
+       y="4.051877"
+       x="1.6949918"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-size:4.23333px;stroke-width:0.264583"
+         y="4.051877"
+         x="1.6949918"
+         id="tspan1589-5"
+         sodipodi:role="line">goal </tspan><tspan
+         id="tspan1593-9"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         y="9.3435392"
+         x="1.6949918"
+         sodipodi:role="line">state</tspan></text>
+  </g>
+</svg>

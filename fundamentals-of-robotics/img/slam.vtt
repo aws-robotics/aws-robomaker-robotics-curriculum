@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.130 --> 00:00:04.270
+A robot with wheel encoders and a laser sensor
+doesn't know where it is in the environment
+
+00:00:04.270 --> 00:00:05.990
+and doesn't have its map.
+
+00:00:05.990 --> 00:00:10.390
+It initializes its pose with respect to an
+arbitrary global reference frame.
+
+00:00:10.390 --> 00:00:15.540
+From there, as it moves, it integrates the
+laser sensor measurements into a grid map.
+
+00:00:15.540 --> 00:00:19.890
+At the same time, it corrects its pose with
+the partial map of the environment.
+
+00:00:19.890 --> 00:00:23.210
+This is required because of the drift in the
+wheel odometry.
+
+00:00:23.210 --> 00:00:27.820
+In the end, the robot has a map of the environment
+and knows where it is through the SLAM process.
+

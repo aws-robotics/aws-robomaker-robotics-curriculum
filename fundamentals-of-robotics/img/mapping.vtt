@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.149 --> 00:00:03.000
+A robot now is deployed in a new warehouse.
+
+00:00:03.000 --> 00:00:06.620
+How can the robot create a map with the doors
+as landmarks?
+
+00:00:06.620 --> 00:00:11.329
+Again the robot can move on a line and has
+a camera to detect a door.
+
+00:00:11.329 --> 00:00:14.490
+In addition, it has its location through GPS.
+
+00:00:14.490 --> 00:00:18.840
+We can model the belief on where the new discovered
+landmarks are as a probability distribution
+
+00:00:18.840 --> 00:00:21.160
+over the possible locations.
+
+00:00:21.160 --> 00:00:24.539
+Just deployed, there is no landmark known.
+
+00:00:24.539 --> 00:00:29.011
+As the robot gets an image from the camera,
+it detects a door and places a new landmark
+
+00:00:29.011 --> 00:00:30.250
+in the map.
+
+00:00:30.250 --> 00:00:36.690
+Because of uncertainty in the robot's location,
+also the landmark has a probability distribution.
+
+00:00:36.690 --> 00:00:41.440
+As the robot moves, it discovers new landmarks
+which are added in the map with their probability
+
+00:00:41.440 --> 00:00:44.050
+distributions, resulting in a final map.
+

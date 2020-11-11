@@ -1,0 +1,42 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.149 --> 00:00:03.520
+This is an example of A star search, over
+a grid.
+
+00:00:03.520 --> 00:00:07.290
+The robot in red, needs to get to the goal
+location in green.
+
+00:00:07.290 --> 00:00:11.629
+Applying the transition function over the
+grid, the robot can find the reachable cells
+
+00:00:11.629 --> 00:00:13.369
+from a given cell.
+
+00:00:13.369 --> 00:00:18.210
+Starting from the start state, A star computationally
+expands the possibilities by constructing
+
+00:00:18.210 --> 00:00:21.130
+a tree representing the different potential
+paths.
+
+00:00:21.130 --> 00:00:25.070
+A star chooses the next option based on the
+length of the path up to the current cell
+
+00:00:25.070 --> 00:00:28.490
+and the estimated distance to the goal, the
+heuristic.
+
+00:00:28.490 --> 00:00:32.920
+In this way, it is efficient in selecting
+the promising options, eventually reaching
+
+00:00:32.920 --> 00:00:33.470
+the goal.
+

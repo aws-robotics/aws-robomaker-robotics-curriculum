@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.570 --> 00:00:05.090
+A robot is just outside a warehouse and needs
+to get to the second door.
+
+00:00:05.090 --> 00:00:06.800
+It can move on a line.
+
+00:00:06.800 --> 00:00:09.360
+However, it doesn't know where it is.
+
+00:00:09.360 --> 00:00:11.599
+How does it localize itself?
+
+00:00:11.599 --> 00:00:17.039
+It has wheel odometry, a camera to detect
+a door, and a map of the warehouse.
+
+00:00:17.039 --> 00:00:20.820
+We can model the belief on where the robot
+is as a probability distribution over the
+
+00:00:20.820 --> 00:00:23.140
+possible locations.
+
+00:00:23.140 --> 00:00:28.680
+Just deployed, the probability is uniform
+as the robot's initial location is unknown.
+
+00:00:28.680 --> 00:00:32.509
+As the robot gets an image from the camera,
+it detects a door.
+
+00:00:32.509 --> 00:00:37.180
+Given that the map shows there are three doors,
+the probability increases at the locations
+
+00:00:37.180 --> 00:00:39.210
+in front of each door.
+
+00:00:39.210 --> 00:00:44.160
+The robot moves right, and the belief is also
+updated accordingly, with the information
+
+00:00:44.160 --> 00:00:46.270
+from the wheel odometry.
+
+00:00:46.270 --> 00:00:50.530
+The robot then senses a second door and the
+probability corresponding to location at the
+
+00:00:50.530 --> 00:00:53.570
+second door becomes the highest, localizing
+the robot.
+

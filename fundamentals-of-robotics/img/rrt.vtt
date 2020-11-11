@@ -1,0 +1,22 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.149 --> 00:00:06.500
+The Rapidly exploring Random Tree, RRT, starts
+from the start location, in red, and incrementally
+
+00:00:06.500 --> 00:00:07.770
+builds the tree.
+
+00:00:07.770 --> 00:00:12.549
+New samples are drawn randomly from the configuration
+space and connected to the nearest vertex.
+
+00:00:12.549 --> 00:00:17.890
+When the goal, in green, can be connected,
+then a search algorithm is applied to find
+
+00:00:17.890 --> 00:00:18.690
+the best path.
+

@@ -1,0 +1,26 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.089 --> 00:00:04.940
+Here, an example of two experiments with a
+wheeled robot: on the left one with more precise
+
+00:00:04.940 --> 00:00:07.140
+encoders than the one on the right.
+
+00:00:07.140 --> 00:00:11.260
+In green the ground truth, in red the estimate
+from the wheel odometry.
+
+00:00:11.260 --> 00:00:16.560
+The errors in the odometry result in the estimate
+being out of bound of the map, as time passes.
+
+00:00:16.560 --> 00:00:22.170
+Note the error can come from several factors,
+including inaccurate encoders, slipping wheels,
+
+00:00:22.170 --> 00:00:23.140
+and different friction.
+

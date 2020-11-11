@@ -1,0 +1,133 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.140 --> 00:00:03.330
+Let's do now a simple exercise on the discrete
+time controller.
+
+00:00:03.330 --> 00:00:08.590
+We need to have all the information
+that we have seen for a feedback controller.
+
+00:00:08.590 --> 00:00:11.440
+In particular, we need to have the set point.
+
+00:00:11.440 --> 00:00:13.790
+And let's say that it is 200.
+
+00:00:13.790 --> 00:00:17.210
+We have the proportional, integral, and derivative
+gains.
+
+00:00:17.210 --> 00:00:19.579
+These are equal to 2.
+
+00:00:19.579 --> 00:00:23.730
+And then we have the sampling rate, given
+that this is a discrete time controller, which
+
+00:00:23.730 --> 00:00:25.769
+is equal to 1 second.
+
+00:00:25.769 --> 00:00:28.320
+And let's say that we have the first 3 sensor
+readings.
+
+00:00:28.320 --> 00:00:30.630
+x1 is equal to 205.
+
+00:00:30.630 --> 00:00:33.539
+x2 is equal to 204.
+
+00:00:33.539 --> 00:00:36.350
+And x3 is equal 198.
+
+00:00:36.350 --> 00:00:39.400
+So the question is, what is the control at time 3, u3?
+
+00:00:39.400 --> 00:00:44.460
+In order to calculate this, we need
+then to apply the formula of the discrete
+
+00:00:44.460 --> 00:00:45.460
+time PID controller.
+
+00:00:45.460 --> 00:00:48.840
+This is equal to the proportional gain
+multiplied by
+
+00:00:48.840 --> 00:00:54.170
+the error at time 3, plus the integral gain
+multiplied by the sampling rate Delta t,
+
+00:00:54.170 --> 00:00:56.579
+multiplied by the sum of all the errors.
+
+00:00:56.579 --> 00:00:58.420
+From time one to three.
+
+00:00:58.420 --> 00:01:00.250
+And finally we have the derivative term.
+
+00:01:00.250 --> 00:01:02.600
+The derivative gain multiplied by the error
+
+00:01:02.600 --> 00:01:05.990
+at time 3 minus
+the error at time 2 divided by the sampling
+
+00:01:05.990 --> 00:01:06.990
+rate.
+
+00:01:06.990 --> 00:01:07.990
+Delta t.
+
+00:01:07.990 --> 00:01:11.570
+Let's do the partial calculation of the error
+terms.
+
+00:01:11.570 --> 00:01:15.810
+The error at time one is equal to the state
+at time 1 minus the set point.
+
+00:01:15.810 --> 00:01:20.520
+This is equal to 205 - 200, which is equal to five.
+
+00:01:20.520 --> 00:01:26.840
+Similarly for e2, we have that 204 minus the
+set point, 200, equal to 4.
+
+00:01:26.840 --> 00:01:30.549
+And e3 is equal to 198 minus 200.
+
+00:01:30.549 --> 00:01:32.770
+This is equal to minus 2.
+
+00:01:32.770 --> 00:01:36.369
+Now we have all these values that we can plug
+in in our formula.
+
+00:01:36.369 --> 00:01:40.790
+The proportional gain is 2, the error at time
+three is minus 2.
+
+00:01:40.790 --> 00:01:45.350
+The integral gain is again 2, multiplied by
+Delta t which is 1.
+
+00:01:45.350 --> 00:01:50.320
+And we have the sum of all the errors, so
+5 + 4 + (-2).
+
+00:01:50.320 --> 00:01:57.219
+We have finally the derivative term: 2 multiplied
+by (-2 - 4) divided by Delta T, which is equal
+
+00:01:57.219 --> 00:01:58.409
+to 1.
+
+00:01:58.409 --> 00:02:02.270
+Making all the calculations, the control at
+time 3 is equal to minus 2.
+
