@@ -1,5 +1,5 @@
 ---
-[//]: # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Future of Robotics
 permalink: /modules/2/future-robotics
 ---

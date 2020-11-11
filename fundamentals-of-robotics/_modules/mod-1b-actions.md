@@ -1,5 +1,5 @@
 ---
-[//]: # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Robot Actuators and Effectors
 permalink: /modules/1/robot-action
 ---

@@ -1,6 +1,6 @@
 # Fundamentals of Robotics
 
-This is the repository for the AWS Course 0 - Fundamentals of Robotics.
+This is the content for the AWS RoboMaker Course 0 - Fundamentals of Robotics.
 
 ## Setting up the environment
 The content is generated using Jekyll. Take a look at the instructions for setting up the system to generate the site [here](https://jekyllrb.com/docs/).
