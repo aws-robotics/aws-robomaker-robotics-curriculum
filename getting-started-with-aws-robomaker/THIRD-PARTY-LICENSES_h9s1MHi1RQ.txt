@@ -1,0 +1,39 @@
+** Gazebo logo.svg --
+https://en.wikipedia.org/wiki/File:Gazebo_logo.svg
+This media file is either in the public domain or published under a free
+license, and contains no inbound file links.
+If this media file is useful, then it should be transferred to the Wikimedia
+Commons. If the file lacks a description you can check edits the uploader made
+just after uploading this file with this tool.
+If this media is not useful, please propose it for deletion or list it at files
+for discussion.
+
+Description
+English: Logo of Gazebo
+Source
+http://gazebosim.org/media
+
+Date
+2015-07-14
+
+Author
+http://gazebosim.org/
+
+Permission
+(Reusing this file)
+http://gazebosim.org/
+
+------
+
+** Ros logo.svg --
+https://commons.wikimedia.org/wiki/File:Ros_logo.svg
+Description
+English: Logo type of en:Robot Operating System
+Date	20 October 2018
+Source	http://www.ros.org/press-kit/
+Author	en:Willow Garage
+
+This logo image consists only of simple geometric shapes or text. It does not
+meet the threshold of originality needed for copyright protection, and is
+therefore in the public domain. Although it is free of copyright restrictions,
+this image may still be subject to other restrictions.

@@ -1,0 +1,15 @@
+title: Getting started (AWS Robomaker)
+description: |
+  How to streamline robotic software development with the Robot Operating System (ROS)? 
+  
+  This course will get you started on setting up the development environment on the cloud, exploiting Amazon Web Services, AWS Robomaker. This will get you ready to write programs for robots in the cloud.
+  
+  The main goal is to provide you the main insights to understand the cloud development environment that allows you to integrate with other cloud services.
+
+  Assessment will be performed through short quizzes and exercises at the end of each module, including setting up a full environment in AWS Robomaker.
+
+  AWS offers multiple cloud computing services, which can be further explored beyond what discussed in this course. Additional resources are included to further deepen the topics covered in this course.
+  
+course_id: 2
+base_url: "courses/586/pages/"
+

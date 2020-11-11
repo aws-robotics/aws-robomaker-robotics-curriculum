@@ -1,0 +1,27 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.540 --> 00:00:07.339
+Go first to the AWS website and login to the
+AWS Management Console from My Account.
+
+00:00:07.339 --> 00:00:13.880
+Once logged in, type in the "Find services"
+search box, S3.
+
+00:00:13.880 --> 00:00:19.910
+We will create a new S3 bucket which will
+contain our robotic application.
+
+00:00:19.910 --> 00:00:26.541
+The name of the bucket can be anything, here
+test-robomaker is used.
+
+00:00:26.541 --> 00:00:29.050
+The other configurations can be left as default
+for our purpose.
+
+00:00:29.050 --> 00:00:35.110
+Finally a new S3 bucket is created.
+

@@ -1,0 +1,35 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.280 --> 00:00:03.580
+Now we are ready to start the cloud development
+environment.
+
+00:00:03.580 --> 00:00:05.680
+Search in all services, RoboMaker.
+
+00:00:05.680 --> 00:00:10.639
+Click on "Development Environment" and "Create
+Environment".
+
+00:00:10.639 --> 00:00:14.299
+The name is arbitrary.
+
+00:00:14.299 --> 00:00:16.290
+In the example it is called RoboMaker-HelloWorld.
+
+00:00:16.290 --> 00:00:20.621
+The Pre-installed ROS distribution can be
+ROS melodic.
+
+00:00:20.621 --> 00:00:26.820
+The instance type specifies the hardware of
+the host computer used for RoboMaker.
+
+00:00:26.820 --> 00:00:28.480
+The default is ok.
+
+00:00:28.480 --> 00:00:31.090
+Once done, the IDE will start.
+

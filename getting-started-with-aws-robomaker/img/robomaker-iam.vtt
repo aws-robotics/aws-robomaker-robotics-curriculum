@@ -1,0 +1,47 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.149 --> 00:00:04.520
+Now that we have the S3 bucket, we need to
+create a IAM role and ensure permissions are
+
+00:00:04.520 --> 00:00:07.210
+available to the key services.
+
+00:00:07.210 --> 00:00:13.129
+Search for IAM in the services search box.
+
+00:00:13.129 --> 00:00:15.659
+Then click on Roles and "Create Role".
+
+00:00:15.659 --> 00:00:21.760
+Select RoboMaker, and RoboMaker - Simulation
+to have a role for running simulations.
+
+00:00:21.760 --> 00:00:24.769
+Next we need to specify the specific permissions.
+
+00:00:24.769 --> 00:00:28.029
+First, we add EC2 Full Access.
+
+00:00:28.029 --> 00:00:30.670
+Second the S3FullAccess.
+
+00:00:30.670 --> 00:00:34.840
+Third, CloudWatchLogsFullAccess.
+
+00:00:34.840 --> 00:00:39.520
+Note that if there were additional services
+used, such as Kinesis or Rekognition, other
+
+00:00:39.520 --> 00:00:41.610
+permissions should be added.
+
+00:00:41.610 --> 00:00:43.290
+Adding tags is optional.
+
+00:00:43.290 --> 00:00:46.460
+Finally, choose a role name and click on "create
+role".
+
