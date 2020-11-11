@@ -17,4 +17,4 @@ Currently, there are two styles:
 
 ## Attribution & Licensing
 
-Materials and text substantially authored by Alberto Quattrini Li. Amazon would like to thank and acknowledge Dartmouth College. Copyright 2020 by Amazon.com, Inc. or its affiliates. Licensed CC-BY-4.0-I
+Materials and text substantially authored by Alberto Quattrini Li. Copyright 2020 by Amazon.com, Inc. or its affiliates. Licensed CC-BY-4.0-I
