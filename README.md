@@ -2,7 +2,7 @@
 
 ![ros-cloud](ros-cloud.png)
 
-Introductory cloud robotics curriculum, designed to help students and entry level developers get started building robotics applications with the Robot Operating System (ROS) and Amazon Web Services (AWS). The curriculum was developed in collaboration with Alberto Quattrini Li, Assistant Professor of Computer Science at Dartmouth University. To get started, instructors and students can access the materials by joining ![AWS Educate for free](https://aws.amazon.com/education/awseducate/). For users outside of AWS Educate, the curriculum can be accessed through this repository and build locally.
+Introductory cloud robotics curriculum, designed to help students and entry level developers get started building robotics applications with the Robot Operating System (ROS) and Amazon Web Services (AWS). The curriculum was developed in collaboration with Alberto Quattrini Li, Assistant Professor of Computer Science at Dartmouth University. To get started, instructors and students can access the materials by joining [AWS Educate for free](https://aws.amazon.com/education/awseducate/). For users outside of AWS Educate, the curriculum can be accessed through this repository and build locally.
 
 Developed to be modular, the first three courses span prerequisite topics and basic skills necessary for robotics development using ROS, including:
 
