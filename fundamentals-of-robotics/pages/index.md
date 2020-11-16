@@ -26,4 +26,4 @@ Let's get started seeing what are current exciting [applications for robots]({{
 
 ------
 
-A list of third party licenses used within Course 0 is available [here](/THIRD-PARTY-LICENSES_YiYSrBT9MR.txt).
+A list of third party licenses used within Course 0 is available [here](/NOTICE.txt).
