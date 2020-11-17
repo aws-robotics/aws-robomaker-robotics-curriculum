@@ -72,6 +72,10 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
+    minima (2.5.1)
+      jekyll (>= 3.5, < 5.0)
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
     minimal-mistakes-jekyll (4.20.2)
       jekyll (>= 3.7, < 5.0)
       jekyll-feed (~> 0.1)
@@ -106,11 +110,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll
+  jekyll (~> 4.1.1)
+  jekyll-feed (~> 0.12)
   jekyll-scholar
   jekyll-seo-tag
   jekyll-sitemap
+  minima (~> 2.5)
   minimal-mistakes-jekyll
+  tzinfo (~> 1.2)
+  tzinfo-data
+  wdm (~> 0.1.1)
 
 BUNDLED WITH
    2.1.4

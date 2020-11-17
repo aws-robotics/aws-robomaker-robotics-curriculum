@@ -3,6 +3,7 @@
 collections:
   modules:
     output: true
+    permalink: /:collection/:name.html
 
 plugins:
 - jekyll-sitemap
@@ -17,3 +18,5 @@ scholar:
   locale: en
 
   source: ./_bibliography
+
+theme                  : "minimal-mistakes-jekyll"

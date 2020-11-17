@@ -27,7 +27,7 @@ In the last decade, the retail industry has been undergoing a revolution through
 
 {% capture text_delivery %}
 ## Delivery
-Last-mile delivery has been receiving more attention and significant investment to meet the future demand -- from 390 million US$ in 2014 to 3.9 billion US$ in 2018 {% cite deloitte2019 %}. Aerial drones are under research and development by many of the big companies for the last-mile delivery, especially to cover rural areas.
+Last-mile delivery has been receiving more attention and significant investment to meet the future demand -- from 390 million USD in 2014 to 3.9 billion USD in 2018 {% cite deloitte2019 %}. Aerial drones are under research and development by many of the big companies for the last-mile delivery, especially to cover rural areas.
 {% endcapture %}
 {% capture video_drones %}
   {%include video-file.html url="https://m.media-amazon.com/images/G/01/acs/test/jr/121216/PrimeAirVideo._CB509077587_" %}
