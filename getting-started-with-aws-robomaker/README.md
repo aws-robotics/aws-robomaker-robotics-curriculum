@@ -1,6 +1,6 @@
 # Getting Started with AWS RoboMaker
 
-This is the content for the AWS RoboMaker Course 1 - Getting Started with AWS RoboMaker.
+This is the content for the AWS RoboMaker Course 1b - Getting Started with AWS RoboMaker.
 
 ## Setting up the environment
 The content is generated using Jekyll. Take a look at the instructions for setting up the system to generate the site [here](https://jekyllrb.com/docs/).
