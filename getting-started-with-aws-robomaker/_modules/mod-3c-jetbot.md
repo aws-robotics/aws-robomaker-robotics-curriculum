@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Waveshare Jetbot on AWS RoboMaker
-permalink: /modules/3/jetbot
+permalink: /modules/3/jetbot.html
 ---
 With the basics on AWS RoboMaker, we can set up a ROS package containing the model and the tools for the Gazebo simulation with the Waveshare Jetbot, the robot used as reference in this curriculum.
 

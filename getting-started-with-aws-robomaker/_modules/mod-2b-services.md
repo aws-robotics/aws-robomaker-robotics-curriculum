@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: AWS services at run-time
-permalink: /modules/2/services
+permalink: /modules/2/services.html
 ---
 
 After setting up the core services, there are a number of services that are useful to know to fully exploit the potential from RoboMaker and AWS.

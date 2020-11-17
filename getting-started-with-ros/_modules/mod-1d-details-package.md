@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: ROS package details
-permalink: /modules/1/package-details
+permalink: /modules/1/package-details.html
 ---
 
 Now that we ran our first node with some code, let's better understand the main elements of a Python ROS package.

@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Robot Actuators and Effectors
-permalink: /modules/1/robot-action
+permalink: /modules/1/robot-action.html
 ---
 
 Robots perform two main actions in the environment: **locomotion** and **manipulation**.

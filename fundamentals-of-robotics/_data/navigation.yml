@@ -1,7 +1,55 @@
-- name: Home
-  link: /
-- name: Modules
-  link: /modules/
-  show_on_mobile: true
-- name: Additional resources
-  link: /additional-resources/
+main:
+  - title: "Syllabus"
+    url: /index.html
+  - title: "Modules"
+    url: /modules/index.html
+  - title: "Additional resources"
+    url: /additional-resources.html
+
+docs:
+  - title: Course Introduction
+    children:
+      - title: "Motivation"
+        url: /modules/0/motivation.html
+      - title: "Course objectives"
+        url: /modules/0/objectives.html
+  - title: Module 1 - Robot definition and components
+    children:
+      - title: "Robot definition"
+        url: /modules/1/robot-definition.html
+      - title: "Robot actuators and effectors"
+        url: /modules/1/robot-action.html
+      - title: "Robot sensors"
+        url: /modules/1/robot-sensors.html
+      - title: "Robot computation and communication"
+        url: /modules/1/robot-computer.html
+      - title: "Robot design"
+        url: /modules/1/robot-design.html
+  - title: Module 2 - Robotics fundamental problems
+    children:
+      - title: "Robotic fundamental problems"
+        url: /modules/2/robot-problems.html
+      - title: "Models"
+        url: /modules/2/models.html
+      - title: "Sensing"
+        url: /modules/2/sensing.html
+      - title: "Planning"
+        url: /modules/2/planning.html
+      - title: "Future of robotics"
+        url: /modules/2/future-robotics.html
+  - title: Module 3 - Robotics software architecture
+    children:
+      - title: "Robot architecture"
+        url: /modules/3/robot-architecture.html
+      - title: "Reactive control"
+        url: /modules/3/reactive.html
+      - title: "Deliberative control"
+        url: /modules/3/deliberative.html
+      - title: "Hybrid control"
+        url: /modules/3/hybrid.html
+      - title: "Middleware"
+        url: /modules/3/middleware.html
+  - title: End of the course and additional resources
+    children:
+      - title: "Additional resources"
+        url: /additional-resources.html

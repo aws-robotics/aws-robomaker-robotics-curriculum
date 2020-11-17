@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Robot Sensors
-permalink: /modules/1/robot-sensors
+permalink: /modules/1/robot-sensors.html
 ---
 
 Sensors are devices to measure physical properties.
@@ -13,7 +13,7 @@ Another categorization is determined by whether they emit energy into the enviro
 
 Here a number of passive proprioceptive sensors that are common in mobile robots.
 
-{% include two-columns.html description='A rotary **encoder** provides **rotation** information, which can be used to determine displacement, velocity, or angle. Such a sensor, for example, is present on cars to measure the distance traveled.' media='<a title="Sidehack at English Wikibooks / Public domain" href="https://commons.wikimedia.org/wiki/File:Incremental_directional_encoder.gif"><img width="128" alt="Incremental directional encoder" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Incremental_directional_encoder.gif"></a> <a title="Joao Paulo Chagas / CC BY (https://creativecommons.org/licenses/by/4.0)" href="https://commons.wikimedia.org/wiki/File:Encoder_incremental_Dynapar_B58N.jpg"><img width="96" alt="Encoder incremental Dynapar B58N" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Encoder_incremental_Dynapar_B58N.jpg"></a>' position="right" %}
+{% include two-columns.html description='A rotary **encoder** provides **rotation** information, which can be used to determine displacement, velocity, or angle. Such a sensor, for example, is present on cars to measure the distance traveled.' media='<a title="Sidehack at English Wikibooks / Public domain" href="https://commons.wikimedia.org/wiki/File:Incremental_directional_encoder.gif"><img width="128" alt="Incremental directional encoder" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Incremental_directional_encoder.gif"></a> <a title="Joao Paulo Chagas, CC BY 4.0 &lt;https://creativecommons.org/licenses/by/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Rotary_encoder.jpg"><img width="96" alt="Rotary encoder" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Rotary_encoder.jpg"></a>' position="right" %}
 
 ----------
 {% capture text_imu %}

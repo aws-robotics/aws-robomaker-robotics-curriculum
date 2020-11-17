@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: ROS1 and ROS2
-permalink: /modules/3/ros2-intro
+permalink: /modules/3/ros2-intro.html
 ---
 
 ROS1 has been out there for more than 10 years and has been used on many robotics projects.

@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Physical models
-permalink: /modules/2/models
+permalink: /modules/2/models.html
 ---
 
 With a mobile robot in hand with actuators and effectors, It is important to study how a robotics system moves so that we can understand how to create control software for a specific robot.

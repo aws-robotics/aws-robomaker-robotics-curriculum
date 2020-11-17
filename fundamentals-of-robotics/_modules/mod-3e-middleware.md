@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Middleware
-permalink: /modules/3/middleware
+permalink: /modules/3/middleware.html
 ---
 
 We have seen different control architectures and how from the high-level perspective they should interact with each other. Robots are complex systems that involve a large number of individual components that need to share information with each other. **Modularity** and **reusability** are key features to enable widespread development and use, similarly to smartphones apps.

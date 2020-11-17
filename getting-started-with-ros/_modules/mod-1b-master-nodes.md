@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: ROS master and nodes example
-permalink: /modules/1/ros-demo
+permalink: /modules/1/ros-demo.html
 ---
 
 Here, we will run a simulator to better understand the concepts of publishers, subscribers, messages, and nodes, and specific commands to inspect nodes and topics.

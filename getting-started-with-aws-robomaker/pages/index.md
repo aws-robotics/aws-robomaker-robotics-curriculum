@@ -25,5 +25,5 @@ permalink: /
 Let’s get started and understand why it is important in the [next unit]({{ site.baseurl }}{% link _modules/mod-0a-motivation.md %}).
 
 -------
-A list of third party licenses used within Course 1b is available [here](/THIRD-PARTY-LICENSES_h9s1MHi1RQ.txt).
+A list of third party licenses used within Course 1b is available [here](/NOTICE.txt).
 

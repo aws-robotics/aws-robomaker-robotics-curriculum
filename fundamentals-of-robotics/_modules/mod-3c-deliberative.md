@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Deliberative control
-permalink: /modules/3/deliberative
+permalink: /modules/3/deliberative.html
 ---
 
 While reactive control reacts to sensor data, a **deliberative control** senses first, plans, and then executes the plan. The output of each step becomes the input of the following step.

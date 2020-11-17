@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Other interprocess communication means
-permalink: /modules/2/srv-act-param
+permalink: /modules/2/srv-act-param.html
 ---
 
 Publishers and subscribers is one of the main communication methods between different processes. There are a few others that are used. Given that there will be a transition towards ROS2, here we will give the main conceptual understanding and refer to other resources for examples.

@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.267 --> 00:00:03.500
+First, go to AWS and open RoboMaker.
+
+00:00:09.065 --> 00:00:12.300
+Assuming that it was already created from the previous course,
+
+00:00:12.300 --> 00:00:14.300
+ open the development environment.
+
+00:00:51.034 --> 00:00:57.700
+Once Cloud9 is open, use the terminal to download with git, the package containing the code we have seen in this unit.
+
+00:00:58.034 --> 00:01:00.662
+The package should be in the robot workspace.
+
+00:01:32.667 --> 00:01:36.700
+The simulation setting can then be changed to point to the new launch file.
+
+00:02:07.534 --> 00:02:12.034
+Build and bundle Hello World Robot. This might take a while.
+
+00:02:36.033 --> 00:02:38.700
+Once done, launch the simulation.
+
+00:02:39.033 --> 00:02:43.700
+This also might take a while to upload the bundle and launch the EC2 instance.
+
+00:02:53.700 --> 00:03:01.033
+When "preparing" appears at the top bar, click on "View Simulation Job Details", which will open a new tab in the web browser.
+
+00:03:02.700 --> 00:03:07.700
+Once the status becomes "running", the Gazebo client can be run by clicking "connect".
+
+00:03:18.033 --> 00:03:24.700
+The code already ran, as can be seen in the Gazebo world, with the robot in a different location from its start pose.
+
+00:03:28.400 --> 00:03:30.700
+A terminal can be open to run again the node.
+
+00:03:35.367 --> 00:03:37.986
+Source the bash file and run again the node.
+
+00:04:04.033 --> 00:04:06.367
+The robot will move accordingly.
+
+00:04:33.033 --> 00:04:34.766
+Finally the node terminates.
+

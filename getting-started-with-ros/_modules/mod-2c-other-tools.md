@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: ROS useful tools
-permalink: /modules/2/other-tools
+permalink: /modules/2/other-tools.html
 ---
 
 Tools that are useful to know and that are part of the ROS suite are listed below.

@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: ROS1 and ROS2 similarities and differences
-permalink: /modules/3/ros1-ros2
+permalink: /modules/3/ros1-ros2.html
 ---
 
 The core concepts of ROS1 and ROS2 are similar -- e.g., publish/subscribe paradigm -- thus the concepts learned in ROS1 will be useful for learning ROS2. There are some technical differences though that are useful to highlight, which might affect the workflow.

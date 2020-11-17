@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: ROS basic concepts
-permalink: /modules/1/ros-basic-concepts
+permalink: /modules/1/ros-basic-concepts.html
 ---
 
 In this module, we will discover the ROS basic concepts, which will allow you to progress and write software in ROS.

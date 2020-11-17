@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Setting up AWS RoboMaker
-permalink: /modules/3/robomaker
+permalink: /modules/3/robomaker.html
 ---
 
 Now that we know the different pieces that are needed for AWS RoboMaker, let's learn the main steps on setting up an AWS RoboMaker environment. As you run through these steps, if you have a question you might find an answer in the [RoboMaker Q&A forum](https://forums.aws.amazon.com/forum.jspa?forumID=313).

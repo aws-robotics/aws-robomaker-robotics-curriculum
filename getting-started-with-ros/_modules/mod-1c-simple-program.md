@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: ROS node with publisher and subscriber
-permalink: /modules/1/ros-simple-node
+permalink: /modules/1/ros-simple-node.html
 ---
 
 Now that we know the concept of publisher and subscriber, let's write a simple python ROS node to make the simulated Jetbot robot move for a specified distance or rotation, and stop if there is anything in front.
