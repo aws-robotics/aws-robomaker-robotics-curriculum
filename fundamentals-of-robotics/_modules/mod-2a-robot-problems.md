@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Robotic Fundamental Problems
-permalink: /modules/2/robot-problems
+permalink: /modules/2/robot-problems.html
 ---
 
 How do we make a physical robot, seen in the previous module, autonomous?

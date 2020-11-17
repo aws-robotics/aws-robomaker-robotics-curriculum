@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Robot Architecture
-permalink: /modules/3/robot-architecture
+permalink: /modules/3/robot-architecture.html
 ---
 
 In the first two modules, we have seen the robot hardware and the fundamental computational tasks that the robots need to solve together with some of the main algorithms.

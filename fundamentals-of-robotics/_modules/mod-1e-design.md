@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Robot Design
-permalink: /modules/1/robot-design
+permalink: /modules/1/robot-design.html
 ---
 
 {% capture text_computational %}

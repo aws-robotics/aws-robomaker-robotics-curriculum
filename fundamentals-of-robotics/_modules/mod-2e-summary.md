@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Future of Robotics
-permalink: /modules/2/future-robotics
+permalink: /modules/2/future-robotics.html
 ---
 
 In this module, the main takeaways are on what problems modeling, sensing, control, and planning are addressing and the main insights of the corresponding methods.

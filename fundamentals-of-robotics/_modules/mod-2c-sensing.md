@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Sensing
-permalink: /modules/2/sensing
+permalink: /modules/2/sensing.html
 ---
 
 We took a look at the [models]({{ site.baseurl }}{% link _modules/mod-2b-models.md %}). In practice, the robot needs to sense the surrounding to purposefully act in the environment.

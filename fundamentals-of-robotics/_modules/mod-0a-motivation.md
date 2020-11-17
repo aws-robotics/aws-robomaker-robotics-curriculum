@@ -1,10 +1,11 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Motivation
-permalink: /modules/0/motivation
+permalink: /modules/0/motivation.html
 menus: header
 ---
 In recent years, autonomous mobile robotics is increasingly becoming an effective way to carry out tasks that are difficult, dangerous, or simply boring for humans. Here a few examples, representative of some current trends.
+
 
 {% capture text_exploration %}
 ## Exploration

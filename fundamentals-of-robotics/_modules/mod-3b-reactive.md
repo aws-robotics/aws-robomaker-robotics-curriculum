@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Reactive control
-permalink: /modules/3/reactive
+permalink: /modules/3/reactive.html
 ---
 
 The simplest control architecture is just to react to sensory data, without doing any planning. This is called **reactive system**, as there is a direct mapping between sensors and effectors, and minimal state information. It does not plan.

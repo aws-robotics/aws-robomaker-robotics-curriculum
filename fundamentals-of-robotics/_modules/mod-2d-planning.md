@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Planning
-permalink: /modules/2/planning
+permalink: /modules/2/planning.html
 ---
 
 With the sensor information, the robot can then act in the environment.
@@ -62,3 +62,8 @@ As the search state space might be large, **sampling-based path planning** are u
 Another approach is based on **potential fields**. The intuition is that the goal has an attractive force, while obstacles have repulsive force. Combining the two forces would result in the robot going from high to low potential field. While computationally efficient, the method can be subject to local minima, where the robot could get stuck. A random selection can be introduced to recover from such a situation.
 
   {% include video-file.html url="/img/potential-field" %}
+
+
+-----
+Now, with an idea on the last problem, i.e., planning, let's take a look at the [future of robotics]({{ site.baseurl }}{% link _modules/mod-2e-summary.md %}).
+

@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Robot Computation and Communication
-permalink: /modules/1/robot-computer
+permalink: /modules/1/robot-computer.html
 ---
 
 Several choices are available for the computation devices processing the data from the sensors and sending commands to the actuators. Laptops can be a first choice for a powerful platform easy to use. In practice, other considerations are important, including **cost**, **power usage**, and **size**. In self-contained robots, roboticists dedicate effort to configure embedded systems or small form factor computers, allowing for lower cost and power usage. Examples include those below. A microcontroller, like an Arduino Uno, can run one program at a time, over and over again, useful a single purpose, e.g., used for controlling motors. Others, like Raspberry Pi 4 and Intel NUC are full computers that can run as normal laptops. The difference is with CPU, memory, and other interfaces. Some of those embedded systems have also GPU capabilities, such as the NVIDIA Jetson Nano.

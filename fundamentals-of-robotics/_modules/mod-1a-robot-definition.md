@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: Robot Definition
-permalink: /modules/1/robot-definition
+permalink: /modules/1/robot-definition.html
 ---
 
 What are the robots that we have seen in the exciting applications made of? In this module we will discover the main hardware that defines a robot.
