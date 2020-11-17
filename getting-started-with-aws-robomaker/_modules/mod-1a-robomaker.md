@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: AWS RoboMaker
-permalink: /modules/1/robomaker
+permalink: /modules/1/robomaker.html
 ---
 
 In this module, we will discover the main features of AWS RoboMaker which will allow you to understand overall how everything is set up.

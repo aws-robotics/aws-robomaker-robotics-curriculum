@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: AWS core services
-permalink: /modules/2/aws
+permalink: /modules/2/aws.html
 ---
 
 As we discovered what AWS RoboMaker is and the features it provides, let's discover in this module what are the AWS services that are needed to configure AWS RoboMaker. We will find out in the following module how to set up an AWS RoboMaker environment.

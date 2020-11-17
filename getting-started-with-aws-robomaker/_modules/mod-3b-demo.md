@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: AWS RoboMaker Demo
-permalink: /modules/3/robomaker-demo
+permalink: /modules/3/robomaker-demo.html
 ---
 
 With the AWS robot development configured, let's ensure that we understand the main tools and see a sample example which will show the simulation running. In this unit, we will learn what the structure of the code should be and how to run the simulation. We will learn in the next course, as we deepen into ROS, how the code can be modified.

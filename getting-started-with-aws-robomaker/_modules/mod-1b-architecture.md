@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: AWS RoboMaker architecture
-permalink: /modules/1/architecture
+permalink: /modules/1/architecture.html
 ---
 
 How is AWS RoboMaker structured and what is possible within it?
