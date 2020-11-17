@@ -23,4 +23,10 @@ permalink: /
 {% include two-columns.html description=text_learning media=img_learning position="left" %}
 
 
-Let's get started.
+Let's [get started]({{ site.baseurl }}{% link _modules/mod-0a-motivation.md %}).
+
+
+------
+
+A list of third party licenses used within Course 1a is available [here](/NOTICE.txt).
+

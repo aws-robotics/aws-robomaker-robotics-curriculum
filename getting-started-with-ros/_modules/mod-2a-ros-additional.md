@@ -1,7 +1,7 @@
 ---
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
 title: ROS additional components
-permalink: /modules/2/additional
+permalink: /modules/2/additional.html
 ---
 
 The publish/subscribe framework and the tools that we have seen for debugging are powerful enough to develop interesting robotic behaviors.
