@@ -1,0 +1,7 @@
+- name: Home
+  link: /
+- name: Modules
+  link: /modules/index.html
+  show_on_mobile: true
+- name: Additional resources
+  link: /additional-resources.html
