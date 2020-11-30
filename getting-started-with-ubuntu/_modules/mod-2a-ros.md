@@ -1,6 +1,6 @@
 ---
 title: Getting started with ROS
-permalink: /modules/2/ros
+permalink: /modules/2/ros.html
 ---
 
 In this module, we will discover the main features provided by the Robot Operating system (ROS), which will allow us to develop robotic software and enable behaviors. 

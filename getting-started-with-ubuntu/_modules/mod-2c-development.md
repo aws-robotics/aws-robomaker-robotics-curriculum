@@ -1,6 +1,6 @@
 ---
 title: ROS development
-permalink: /modules/2/ros-development
+permalink: /modules/2/ros-development.html
 ---
 
 ROS software is organized in **packages** {% cite ros-packages %}, each containing collection of files, including configuration files, executables, source code, etc.

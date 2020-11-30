@@ -1,6 +1,6 @@
 ---
 title: Command line
-permalink: /modules/1/commandline
+permalink: /modules/1/commandline.html
 ---
 
 Let's see some useful commands in the commandline in Ubuntu, which will be useful to navigate the filesystem in the computer of a robot or in a server in the cloud. Please refer for complete information to {% cite cooper2014advanced %}.

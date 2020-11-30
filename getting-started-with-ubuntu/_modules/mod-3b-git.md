@@ -1,6 +1,6 @@
 ---
 title: Git
-permalink: /modules/3/git
+permalink: /modules/3/git.html
 ---
 
 In this unit, our objective is to set up a ROS package from git. If `git` is not installed in your Ubuntu system, run in the terminal

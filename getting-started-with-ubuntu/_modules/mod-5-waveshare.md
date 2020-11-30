@@ -1,6 +1,6 @@
 ---
 title: Simulator with the Waveshare Jetbot of the course
-permalink: /modules/5/waveshare
+permalink: /modules/5/waveshare.html
 ---
 
 With the basics on Linux, ROS package installation, and git, we can set up a ROS package containing the model and the tools for the Gazebo simulation with the Waveshare Jetbot, the robot used as reference in this curriculum.

@@ -1,6 +1,6 @@
 ---
 title: Custom ROS packages fix
-permalink: /modules/4/fix
+permalink: /modules/4/fix.html
 ---
 
 We have discovered how to build a ROS package. 

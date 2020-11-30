@@ -1,6 +1,6 @@
 ---
 title: Linux
-permalink: /modules/1/linux
+permalink: /modules/1/linux.html
 ---
 
 In this module, we will discover the main features of such an operating system and put in practice some commands that will allow us to work with a command-line. This skill is necessary to work with real robots and servers on the cloud.

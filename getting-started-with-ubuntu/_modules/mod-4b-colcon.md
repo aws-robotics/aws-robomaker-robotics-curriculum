@@ -1,6 +1,6 @@
 ---
 title: Colcon
-permalink: /modules/4/colcon
+permalink: /modules/4/colcon.html
 ---
 
 After having cloned the package, as seen in the [previous module]({{ site.baseurl }}{% link _modules/mod-3b-git.md %}), we are ready to get into the building process with `colcon`. We will highlight the main steps to have the ROS packages usable in the environment. Note that `colcon` can provide additional tasks, including unit tests. For full details, please see the [documentation](https://colcon.readthedocs.io/en/released/user/quick-start.html).

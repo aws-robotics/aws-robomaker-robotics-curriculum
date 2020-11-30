@@ -1,6 +1,6 @@
 ---
 title: Motivation
-permalink: /modules/0/motivation
+permalink: /modules/0/motivation.html
 menus: header
 ---
 

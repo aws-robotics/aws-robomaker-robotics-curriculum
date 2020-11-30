@@ -1,6 +1,6 @@
 ---
 title: ROS installation
-permalink: /modules/2/ros-installation
+permalink: /modules/2/ros-installation.html
 ---
 
 There are multiple versions of ROS depending on the Ubuntu version.

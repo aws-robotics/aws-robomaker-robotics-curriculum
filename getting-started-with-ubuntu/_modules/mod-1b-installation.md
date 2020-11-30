@@ -1,6 +1,6 @@
 ---
 title: Installation process
-permalink: /modules/1/installation
+permalink: /modules/1/installation.html
 ---
 
 There are multiple ways to install a new operating system. All of them have three steps that are in common:

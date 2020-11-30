@@ -1,6 +1,6 @@
 ---
 title: Build Tool
-permalink: /modules/4/build-tool
+permalink: /modules/4/build-tool.html
 ---
 
 We have configured ROS and we have seen how to use `git` to download ROS packages directly from the source. What composes a package? How to build them so that executables and other files are generated? 

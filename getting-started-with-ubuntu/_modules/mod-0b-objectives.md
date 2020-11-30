@@ -1,6 +1,6 @@
 ---
 title: Course objectives
-permalink: /modules/0/objectives
+permalink: /modules/0/objectives.html
 menus: header
 ---
 

@@ -1,4 +1,4 @@
-# Getting Started with ROS
+# Getting Started with Ubuntu
 
 This is the content for the AWS RoboMaker Course 1a - Introduction to Linux and ROS.
 

@@ -1,6 +1,6 @@
 ---
 title: Modules
-permalink: /modules/
+permalink: /modules/index.html
 skip: true
 ---
 This course contains the following modules:

@@ -1,6 +1,6 @@
 ---
 title: Version Control systems
-permalink: /modules/3/version-control-systems
+permalink: /modules/3/version-control-systems.html
 ---
 
 As best practice for software development, source code is stored on repositories tracked by **version control systems**, which allows for managing software changes over time. This is extremely important for teams of multiple people, but also for a single developer it provides several benefits, including the ability to back up the code, to mark changes and histories, and recover past versions.
