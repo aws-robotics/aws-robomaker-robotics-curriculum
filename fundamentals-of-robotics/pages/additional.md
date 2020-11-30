@@ -1,6 +1,6 @@
 ---
 title: Additional resources
-permalink: /additional-resources
+permalink: /additional-resources.html
 ---
 
 Thank you for completing this introductory robotics course!
