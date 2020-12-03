@@ -1,0 +1,15 @@
+title: Getting started (Linux)
+description: |
+  Which development environment robots use? How to setup the environment to run the Robot Operating System (ROS)? 
+  
+  The second course will get you started on setting up the development environment in Linux and the Robot Operating System (ROS). This will get you ready to write programs for robots in ROS.
+  
+  The main goal is to provide you the main insights to understand the development environment that ROS is based on, so that you are comfortable working with ROS.
+
+  Assessment will be performed through short quizzes and exercises at the end of each module, including setting up a full environment.
+
+  Linux is an opensource operating system, which can be further explored beyond what discussed in this course. Additional resources are included to further deepen the topics covered in this course.
+  
+course_id: 1
+base_url: "courses/585/pages/"
+

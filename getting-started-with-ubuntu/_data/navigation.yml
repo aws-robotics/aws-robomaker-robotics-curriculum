@@ -1,0 +1,51 @@
+main:
+  - title: "Syllabus"
+    url: /index.html
+  - title: "Modules"
+    url: /modules/index.html
+  - title: "Additional resources"
+    url: /additional-resources.html
+
+docs:
+  - title: Course Introduction
+    children:
+      - title: "Motivation"
+        url: /modules/0/motivation.html
+      - title: "Course objectives"
+        url: /modules/0/objectives.html
+  - title: Module 1 - Linux
+    children:
+      - title: "Linux"
+        url: /modules/1/linux.html
+      - title: "Installation"
+        url: /modules/1/installation.html
+      - title: "Commandline"
+        url: /modules/1/commandline.html
+  - title: Module 2 - ROS configuration
+    children:
+      - title: "Getting started with ROS"
+        url: /modules/2/ros.html
+      - title: "ROS installation"
+        url: /modules/2/ros-installation.html
+      - title: "ROS packages"
+        url: /modules/2/ros-development.html
+  - title: Module 3 - Version control systems
+    children:
+      - title: "Version control systems"
+        url: /modules/3/version-control-systems.html
+      - title: "Git"
+        url: /modules/3/git.html
+  - title: Module 4 - Building tools
+    children:
+      - title: "Building systems"
+        url: /modules/4/build-tool.html
+      - title: "Colcon"
+        url: /modules/4/colcon.html
+      - title: "Custom ROS packages fix"
+        url: /modules/4/fix.html
+  - title: End of the course and additional resources
+    children:
+      - title: "Simulator with Waveshare Jetbot"
+        url: /modules/5/waveshare.html
+      - title: "Additional resources"
+        url: /additional-resources.html

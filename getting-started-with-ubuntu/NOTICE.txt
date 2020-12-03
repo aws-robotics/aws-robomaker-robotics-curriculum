@@ -1,0 +1,177 @@
+** Git-logo.svg --
+https://commons.wikimedia.org/wiki/File:Git-logo.svg
+This file is licensed under the Creative Commons Attribution 3.0 Unported
+license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+
+Description
+English: Logo for Git (introduced in 2012 as replacement for Git-logo-2007.svg)
+Deutsch: Neues Logo von Git, einer Versionsverwaltungssoftware
+Français : Logo du logiciel de gestion de version Git
+Date	May 2012
+Source	http://git-scm.com/downloads/logos
+Author	Jason Long
+
+------
+
+** Vcs distribuit.png --
+https://commons.wikimedia.org/wiki/File:Vcs_distribuit.png
+This file is licensed under the Creative Commons Attribution-Share Alike 4.0
+International license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+Description
+Català: Diagrama de control de versions descentralitzat.
+Date	3 November 2018
+Source	Own work
+Author	Edubevi
+
+------
+
+** Htop.png -- 
+https://commons.wikimedia.org/wiki/File:Htop.png
+This file is licensed under the Creative Commons Attribution-Share Alike 3.0
+Unported license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+This licensing tag was added to this file as part of the GFDL licensing update.
+
+Description htop running in ubuntu jeos
+http://www.ubuntu.com/products/whatisubuntu/serveredition/jeos
+Date	19 January 2008
+Source screenshot of htop running in ubuntu jeos in virtualbox, then cropped to
+remove frame.
+Author	PER9000, Per Erik Strandberg
+Permission
+(Reusing this file)	GFDL
+
+Permission is granted to copy, distribute and/or modify this document under the
+terms of the GNU Free Documentation License, Version 1.2 or any later version
+published by the Free Software Foundation; with no Invariant Sections, no
+Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included
+in the section entitled GNU Free Documentation License.
+
+------
+
+** Standard-unix-filesystem-hierarchy.svg --
+https://commons.wikimedia.org/wiki/File:Standard-unix-filesystem-hierarchy.svg
+This file is licensed under the Creative Commons Attribution-Share Alike 4.0
+International license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must
+distribute your contributions under the same or compatible license as the
+original.
+
+Description
+English: This image give an overview for standard unix-style file systems. The
+wikipedia:Filesystem_Hierarchy_Standard and wikipedia:Unix_filesystem contain
+further details.
+Date	23 June 2016
+Source	Own work
+Author	Ppgardne
+
+------
+
+** Tux.svg; --
+https://commons.wikimedia.org/wiki/File:Tux.svg
+Source https://isc.tamu.edu/~lewing/linux/,
+http://www.home.unix-ag.org/simon/penguin/, garrett/Tux on GitHub
+Author	Larry Ewing, Simon Budig, Garrett LeSage
+Permission
+(Reusing this file)
+Larry Ewing
+© The copyright holder of this file allows anyone to use it for any purpose,
+provided that the copyright holder is properly attributed. Redistribution,
+derivative work, commercial use, and all other use is permitted.
+Attribution: lewing@isc.tamu.edu Larry Ewing and The GIMP
+Simon Budig
+README: The use of these drawings is free. However I am happy about a sample of
+your mug/t-shirt/whatever with this penguin on it...
+Garrett LeSage
+CC0.
+
+This file is made available under the Creative Commons CC0 1.0 Universal Public
+Domain Dedication.
+The person who associated a work with this deed has dedicated the work to the
+public domain by waiving all of their rights to the work worldwide under
+copyright law, including all related and neighboring rights, to the extent
+allowed by law. You can copy, modify, distribute and perform the work, even for
+commercial purposes, all without asking permission.
+
+------
+
+** Linux kernel and Computer layers.png --
+https://commons.wikimedia.org/wiki/File:Linux_kernel_and_Computer_layers.png
+This file is made available under the Creative Commons CC0 1.0 Universal Public
+Domain Dedication. The person who associated a work with this deed has
+dedicated the work to the public domain by waiving all of their rights to the
+work worldwide under copyright law, including all related and neighboring
+rights, to the extent allowed by law. You can copy, modify, distribute and
+perform the work, even for commercial purposes, all without asking permission.
+
+Description
+English: Place operating system between user and computer. computer layers.
+layers: user, application or program, operating system and kernel, hardware.
+فارسی: جایگاه سیستم عامل بین انسان و کامپیوتر. رابطه بین انسان یا کاربر با سخت
+افزار
+Date	29 December 2014
+Source	Own work
+Author	mlibre
+
+------
+
+** ROS 10 Year Montage; -- 
+https://vimeo.com/245826128
+Service License: Subject to the terms hereof, we grant you access to our
+Services. This includes the right to:
+
+Stream videos that you have the right to view;
+Upload, store, and/or live stream videos, subject to your plan;
+Embed our embeddable video player on third-party websites; and Use all related
+functionality that we may provide.
+
+https://vimeo.com/terms
+
+------
+
+** Ros logo.svg; --
+https://commons.wikimedia.org/wiki/File:Ros_logo.svg
+Description
+English: Logo type of en:Robot Operating System
+Date	20 October 2018
+Source	http://www.ros.org/press-kit/
+Author	en:Willow Garage
+
+This logo image consists only of simple geometric shapes or text. It does not
+meet the threshold of originality needed for copyright protection, and is
+therefore in the public domain. Although it is free of copyright restrictions,
+this image may still be subject to other restrictions.

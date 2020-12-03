@@ -1,7 +1,39 @@
-- name: Home
-  link: /
-- name: Modules
-  link: /modules/index.html
-  show_on_mobile: true
-- name: Additional resources
-  link: /additional-resources.html
+main:
+  - title: "Syllabus"
+    url: /index.html
+  - title: "Modules"
+    url: /modules/index.html
+  - title: "Additional resources"
+    url: /additional-resources.html
+
+docs:
+  - title: Course Introduction
+    children:
+      - title: "Motivation"
+        url: /modules/0/motivation.html
+      - title: "Course objectives"
+        url: /modules/0/objectives.html
+  - title: Module 1 - Intro to AWS RoboMaker
+    children:
+      - title: "AWS RoboMaker"
+        url: /modules/1/robomaker.html
+      - title: "AWS RoboMaker Architecture"
+        url: /modules/1/architecture.html
+  - title: Module 2 - Necessary AWS Services
+    children:
+      - title: "AWS Core Services"
+        url: /modules/2/aws.html
+      - title: "AWS Services at Run-time"
+        url: /modules/2/services.html
+  - title: Module 3 - AWS RoboMaker Development Environment
+    children:
+      - title: "Setting up AWS RoboMaker"
+        url: /modules/3/robomaker.html
+      - title: "AWS RoboMaker demo"
+        url: /modules/3/robomaker-demo.html
+      - title: "Waveshare Jetbot on AWS RoboMaker"
+        url: /modules/3/jetbot.html
+  - title: End of the course and additional resources
+    children:
+      - title: "Additional resources"
+        url: /additional-resources.html
