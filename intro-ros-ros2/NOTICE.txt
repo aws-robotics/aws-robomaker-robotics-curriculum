@@ -1,0 +1,12 @@
+** Ros logo.svg; --
+https://commons.wikimedia.org/wiki/File:Ros_logo.svg
+Description
+English: Logo type of en:Robot Operating System
+Date	20 October 2018
+Source	http://www.ros.org/press-kit/
+Author	en:Willow Garage
+
+This logo image consists only of simple geometric shapes or text. It does not
+meet the threshold of originality needed for copyright protection, and is
+therefore in the public domain. Although it is free of copyright restrictions,
+this image may still be subject to other restrictions.

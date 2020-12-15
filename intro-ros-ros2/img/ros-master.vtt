@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.839 --> 00:00:06.220
+First of all, the ROS master will run and
+should be running until the robotics software
+
+00:00:06.220 --> 00:00:07.220
+is terminated.
+
+00:00:07.220 --> 00:00:12.860
+Let's assume that we have two programs to
+execute, that is two ROS nodes: one, a program
+
+00:00:12.860 --> 00:00:17.580
+that translates velocity commands to actual
+low-level motor commands -- a driver
+
+00:00:17.580 --> 00:00:22.279
+second, a program that sends commands to move
+the robot forward.
+
+00:00:22.279 --> 00:00:27.950
+The motor_driver will notify the ROS master
+that it wants to subscribe to a topic named
+
+00:00:27.950 --> 00:00:29.189
+command vel.
+
+00:00:29.189 --> 00:00:32.410
+The ROS master records that information.
+
+00:00:32.410 --> 00:00:37.980
+The move_forward node will notify the ROS
+master that it is a publisher to the topic
+
+00:00:37.980 --> 00:00:40.410
+named command vel.
+
+00:00:40.410 --> 00:00:44.430
+The ROS master retrieves the information about
+the already existing subscriber
+
+00:00:44.430 --> 00:00:52.489
+and a direct connection is established between
+motor_driver and move_forward.
+
+00:00:52.489 --> 00:00:58.480
+Every message sent by move_forward is received
+by motor_driver, making the robot move.
+

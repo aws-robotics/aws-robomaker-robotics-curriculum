@@ -1,0 +1,43 @@
+main:
+  - title: "Syllabus"
+    url: /index.html
+  - title: "Modules"
+    url: /modules/index.html
+  - title: "Additional resources"
+    url: /additional-resources.html
+
+docs:
+  - title: Course Introduction
+    children:
+      - title: "Motivation"
+        url: /modules/0/motivation.html
+      - title: "Course objectives"
+        url: /modules/0/objectives.html
+  - title: Module 1 - ROS publish/subscribe
+    children:
+      - title: "ROS basic concepts"
+        url: /modules/1/ros-basic-concepts.html
+      - title: "ROS nodes/topics demo"
+        url: /modules/1/ros-demo.html
+      - title: "ROS node with publisher and subscriber"
+        url: /modules/1/ros-simple-node.html
+      - title: "ROS package details"
+        url: /modules/1/package-details.html
+  - title: Module 2 - ROS additional components
+    children:
+      - title: "ROS additional components"
+        url: /modules/2/additional.html
+      - title: "Other interprocess communication means"
+        url: /modules/2/srv-act-param.html
+      - title: "ROS tools"
+        url: /modules/2/other-tools.html
+  - title: Module 3 - ROS vs. ROS 2
+    children:
+      - title: "ROS 2 intro"
+        url: /modules/3/ros2-intro.html
+      - title: "ROS and ROS 2 similarities and differences"
+        url: /modules/3/ros1-ros2.html
+  - title: End of the course and additional resources
+    children:
+      - title: "Additional resources"
+        url: /additional-resources.html

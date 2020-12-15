@@ -1,0 +1,12 @@
+---
+defaults:
+- scope:
+    path: _modules
+    type: modules
+  values:
+    layout: default_canvas
+- scope:
+    path: pages
+    type: pages
+  values:
+    layout: default_canvas
