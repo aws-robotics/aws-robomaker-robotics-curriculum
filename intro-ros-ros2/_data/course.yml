@@ -1,0 +1,15 @@
+title: ROS basics
+description: |
+  How to write robotics software?
+  
+  This course will get you started the basics to write robotics software in the Robot Operating System (ROS), a de facto standard used in robotics. The development environment should have been set up within a virtual machine (Course 1a) or AWS RoboMaker (Course 1b).
+  
+  The main goal is to provide you the main insights to understand ROS, which will be the building blocks for advancing and developing a full robotics application in the next courses.
+
+  Assessment will be performed through short quizzes and exercises at the end of each module, including working with a mobile robot in simulation, and potentially with a real robot.
+
+  ROS provides a set of tools and libraries to enable different type of robots application, and they can be further explored beyond what discussed in this course. Additional resources are included to further deepen the topics covered in this course.
+  
+course_id: 2
+base_url: "courses/586/pages/"
+
