@@ -1,0 +1,59 @@
+title: Linux commands
+description: This assignment is to help you self-assess your understanding on AWS RoboMaker's architecture. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+ - type: "multiple-answer"
+   points: 1
+   question: "AWS RoboMaker integrates which of the following software and services to speed up the development of robotics application? Select all that apply:"
+   items:
+    - choice: Cloud Extensions for ROS
+      correct: true
+    - choice: Development Environment
+      correct: true
+    - choice: Simulation
+      correct: true
+    - choice: Fleet management
+      correct: true
+
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Gazebo is a robot simulation software."
+   items:
+    - choice: True.
+      correct: true
+    - choice: False.
+      correct: false
+
+ - type: "multiple-answer"
+   points: 1
+   question: "The cost for development in AWS Robomaker depends on what components? Select all the is True."
+   items:
+    - choice: visualization service
+      comment: No. The cost does not depend on what service is used for visualization.
+      correct: false
+    - choice: time for running the services
+      comment: Correct!
+      correct: true
+    - choice: development environment
+      comment: No. The cost does not depend on the development environment.
+      correct: false
+    - choice: the storage used
+      comment: Correct!
+      correct: true
+   
+ - type: "matching"
+   points: 1
+   question: "Match the pairs."
+   items_a:
+    - Development Environment
+    - Amazon S3 bucket
+    - Rviz
+    - Gazebo
+    - Fleet Management
+   items_b:
+    - IDE that interfaces with ROS
+    - Storage in the cloud
+    - Data visualization
+    - Simulation
+    - Deployment in robot

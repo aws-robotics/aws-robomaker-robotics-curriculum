@@ -1,0 +1,47 @@
+title: ROS vs. ROS 2
+description: This assignment is to help you self-assess your comprehension on ROS 2 and ROS. Read carefully each question. Once answered, you will receive feedback.Good luck! 
+questions:
+
+ - type: "multiple-choice"
+   points: 1
+   question: "ROS 2 requires the ROS master."
+   items:
+    - choice: True.
+      comment: This is one of the main differences between ROS and ROS 2.
+      correct: false
+    - choice: False.
+      comment: Correct!
+      correct: true
+
+ - type: "multiple-choice"
+   points: 1
+   question: "ROS 2 is based on a custom-made message passing framework."
+   items:
+    - choice: True.
+      comment: This is another important difference between ROS 2 and ROS - ROS 2 relies on existing data distribution service.
+      correct: false
+    - choice: False.
+      comment: Correct! In fact, ROS 2 relies on existing data distribution service.
+      correct: true
+
+ - type: "multiple-choice"
+   points: 1
+   question: "ROS 2 publish/subscribe, messages, services, and actions are **conceptually** different from the ones in ROS."
+   items:
+    - choice: True.
+      comment: The way they are implemented are different, but conceptually they are very similar.
+      correct: false
+    - choice: False.
+      comment: Correct!
+      correct: true
+
+ - type: "multiple-choice"
+   points: 1
+   question: "ROS 2 is a modification of ROS."
+   items:
+    - choice: True.
+      comment: ROS 2 was developed from scratch, given the major changes required that would have made ROS1 not backward compatible.
+      correct: false
+    - choice: False.
+      comment: Correct!
+      correct: true

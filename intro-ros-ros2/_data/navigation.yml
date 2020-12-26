@@ -23,6 +23,8 @@ docs:
         url: /modules/1/ros-simple-node.html
       - title: "ROS package details"
         url: /modules/1/package-details.html
+      - title: "Assessment"
+        url: /modules/1/assessment.html
   - title: Module 2 - ROS additional components
     children:
       - title: "ROS additional components"
@@ -31,12 +33,16 @@ docs:
         url: /modules/2/srv-act-param.html
       - title: "ROS tools"
         url: /modules/2/other-tools.html
+      - title: "Assessment"
+        url: /modules/2/assessment.html
   - title: Module 3 - ROS vs. ROS 2
     children:
       - title: "ROS 2 intro"
         url: /modules/3/ros2-intro.html
       - title: "ROS and ROS 2 similarities and differences"
         url: /modules/3/ros1-ros2.html
+      - title: "Assessment"
+        url: /modules/3/assessment.html
   - title: End of the course and additional resources
     children:
       - title: "Additional resources"

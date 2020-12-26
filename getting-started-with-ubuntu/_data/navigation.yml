@@ -21,6 +21,8 @@ docs:
         url: /modules/1/installation.html
       - title: "Commandline"
         url: /modules/1/commandline.html
+      - title: "Assessment"
+        url: /modules/1/assessment.html
   - title: Module 2 - ROS configuration
     children:
       - title: "Getting started with ROS"
@@ -29,12 +31,16 @@ docs:
         url: /modules/2/ros-installation.html
       - title: "ROS packages"
         url: /modules/2/ros-development.html
+      - title: "Assessment"
+        url: /modules/2/assessment.html
   - title: Module 3 - Version control systems
     children:
       - title: "Version control systems"
         url: /modules/3/version-control-systems.html
       - title: "Git"
         url: /modules/3/git.html
+      - title: "Assessment"
+        url: /modules/3/assessment.html
   - title: Module 4 - Building tools
     children:
       - title: "Building systems"
@@ -43,6 +49,8 @@ docs:
         url: /modules/4/colcon.html
       - title: "Custom ROS packages fix"
         url: /modules/4/fix.html
+      - title: "Assessment"
+        url: /modules/4/assessment.html
   - title: End of the course and additional resources
     children:
       - title: "Simulator with Waveshare Jetbot"

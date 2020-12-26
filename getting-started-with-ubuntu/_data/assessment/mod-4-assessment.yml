@@ -1,0 +1,81 @@
+title: Colcon
+description: This assignment is to help you self-assess your comprehension on **building tools**. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+ - type: "multiple-answer"
+   points: 1
+   question: "A ROS package contains at least (select all that apply):"
+   items:
+    - choice: CMakeLists.txt
+      comment: Correct! It is for the CMake build system for building software package.
+      correct: true
+    - choice: package.xml
+      comment: Correct! It contains information about the package, e.g., package name, description, version, authors, maintainers, websites and dependencies.
+      correct: true
+    - choice: setup.sh
+      comment: There might be a script in a package called 'setup.sh' but that is not necessary for the package to be recognized.
+      correct: false
+    - choice: .bashrc
+      comment: The file is a script running whenever the terminal is started interactively.
+      correct: false
+
+ - type: "matching"
+   points: 1
+   question: "Match the functionalities of each directory after running `colcon build` in, e.g., `~/ros_workspace/`"
+   items_a:
+    - build
+    - install
+    - log
+    - src
+   items_b:
+    - directory, where intermediate built files are stored in a subfolder created for each package.
+    - directory, where each package will be installed to.
+    - directory, containing logging information about each colcon invocation.
+    - directory containing the source of the packages.
+   distractors:
+    - directory, containing configuration files.
+    - directory, containing data files.
+    - directory, containing documentation.view files
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Let's assume that a package `turtlebot_gazebo` is in `~/ros_workspace/src/`, `colcon build` should be run in which directory?"
+   items:
+    - choice: ~/ros_workspace/
+      comment: Correct! The build command is run at the parent of the directory where the packages are, as the single command is able to build multiple packages.
+      correct: true
+    - choice: ~/ros_workspace/src
+      comment: src contains the packages and is not the place where to run the command.
+      correct: false
+    - choice: ~/
+      comment: The home directory is two levels away from the directory containing the packages. The command should be run on a different directory.
+      correct: false
+    - choice: ~/ros_workspace/src/turtlebot_gazebo/
+      comment: The purpose of the command is to run one time the command for all custom packages. The command should be run in a different directory.
+      correct: false
+
+ - type: "fill-single"
+   points: 1
+   question: "Assuming that the packages have been built with `colcon build`, within `~/ros_workspace`, which command should be run so that the new packages can be found within ROS? Please type the full command."
+   answer: 
+    - source ~/ros_workspace/install/setup.sh
+    - source ~/ros_workspace/install/setup.bash
+   feedback_p: Great job!
+   feedback_n: Think about the script that should be executed to populate the environment variables.
+
+ - type: "multiple-answer"
+   points: 1
+   question: "How to fix an error of missing package? (select all that apply)"
+   items:
+    - choice: use apt to search if the package is existing in the repo and install it.
+      comment: Correct! This is the first preferred method.
+      correct: true
+    - choice: search on GitHub (or other servers hosting repositories) and build that package in the workspace
+      comment: Correct! This can be the second step, after finding out that it is not in the main ROS repository.
+      correct: true
+    - choice: copy the missing package in /opt/ros/melodic/share/
+      comment: The package does not need to be directly copied in that folder.
+      correct: false
+    - choice: the error cannot be solved
+      comment: There are at least two steps before giving up.
+      correct: false

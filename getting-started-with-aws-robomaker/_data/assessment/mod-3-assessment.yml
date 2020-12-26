@@ -1,0 +1,73 @@
+title: AWS RoboMaker setup
+description: This assignment is to help you self-assess your understanding on AWS RoboMaker setup and run. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+
+ - type: "multiple-answer"
+   points: 1
+   question: "To set up AWS RoboMaker, the required steps are: (select all that apply)"
+   items:
+    - choice: Set up S3 bucket.
+      correct: true
+    - choice: Set up the IAM permissions.
+      correct: true
+    - choice: Set Cloud9 for RoboMaker.
+      correct: true
+    - choice: Set Kinesis.
+      comment: Kinesis is not a core service necessary to run RoboMaker.
+      correct: false
+    - choice: Set Polly.
+      comment: Polly is not a core service necessary to run RoboMaker.
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "The workflow to develop and deploy software that has been written is:"
+   items:
+    - choice: "1. Build, 2. Bundle, 3. Run."
+      comment: Correct!
+      correct: true
+    - choice: "1. Bundle, 2. Build, 3. Run."
+      comment: The compilation should happen first.
+      correct: false
+    - choice: "1. Run, 2. Build, 3. Bundle."
+      comment: The execution can happen only when the portable environment is created.
+      correct: false
+    - choice: "1. Build, 2. Run, 3. Bundle."
+      comment: The execution can happen only when the portable environment is created.
+      correct: false
+    - choice: "1. Run, 2. Bundle, 3. Build."
+      comment: The execution can happen only when the portable environment is created and the portable environment can be created once the code is compiled.
+      correct: false
+
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Running the simulation indefinitely does not affect the cost."
+   items:
+    - choice: True.
+      comment: Resources are used when the simulation is running, thus the usage is billed accordingly.
+      correct: false
+    - choice: False.
+      comment: Correct!
+      correct: true
+
+ - type: "multiple-choice"
+   points: 1
+   question: "A ROS package to be built, bundled, and run within AWS RoboMaker, should be in:"
+   items:
+    - choice: the src folder of a colcon workspace.
+      comment: Correct! The colcon workspace structure should be followed.
+      correct: true
+    - choice: just having an src folder in the home directory.
+      comment: The build and bundle is based on colcon.
+      correct: false
+    - choice: It doesn't matter where the ROS package is.
+      comment: The build and bundle is based on colcon.
+      correct: false
+    - choice: GitHub.
+      comment: While the code can be on GitHub, it needs to be downloaded in Cloud9 so that the software can be built and bundled for the running in the cloud.
+      correct: false
+
+ - type: "text"
+   question: "You are welcome now to explore some of the existing packages, e.g., from GitHub, and try to run them on AWS RoboMaker. We will discover what is under the hood of ROS so that we can start developing exciting behaviors for the robot."

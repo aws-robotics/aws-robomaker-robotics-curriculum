@@ -19,12 +19,16 @@ docs:
         url: /modules/1/robomaker.html
       - title: "AWS RoboMaker Architecture"
         url: /modules/1/architecture.html
+      - title: "Assessment"
+        url: /modules/1/assessment.html
   - title: Module 2 - Necessary AWS Services
     children:
       - title: "AWS Core Services"
         url: /modules/2/aws.html
       - title: "AWS Services at Run-time"
         url: /modules/2/services.html
+      - title: "Assessment"
+        url: /modules/2/assessment.html
   - title: Module 3 - AWS RoboMaker Development Environment
     children:
       - title: "Setting up AWS RoboMaker"
@@ -33,6 +37,8 @@ docs:
         url: /modules/3/robomaker-demo.html
       - title: "Waveshare Jetbot on AWS RoboMaker"
         url: /modules/3/jetbot.html
+      - title: "Assessment"
+        url: /modules/3/assessment.html
   - title: End of the course and additional resources
     children:
       - title: "Additional resources"

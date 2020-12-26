@@ -1,0 +1,64 @@
+title: Linux commands
+description: This assignment is to help you self-assess your comprehension on **Linux**. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+ - type: "fill-single"
+   points: 1
+   question: "You have a file `robot_script.sh` with read-only permission in your current directory belonging to the current user `class`.<br>
+     
+     `class@ubuntu:~$ ls -al robot_script.sh` <br> 
+     `-r--r--r-- 1 class class 0 Nov 3 13:08 robot_script.sh`<br>
+
+     What command would you run to give write and execute permissions to the current user, owner of that file? (please type exactly how you would type in the terminal.)
+     "
+   answer: 
+    - chmod u+wx robot_script.sh
+   feedback_p: Great job!
+   feedback_n: Which command was to change permission? What are the options that are necessary?
+
+ - type: "fill-single"
+   points: 1
+   question: "Consider this absolute path: `/home/class/test1/`. If you are in your home directory (`/home/class`), after running this command `cd test1/../../` what will be your current directory? Write the full absolute path."
+   answer: 
+    - /home/
+    - /home
+   feedback_p: Great! Two times the characters for the previous directory were used, starting from test1 directory.
+   feedback_n: Think about the meaning of `..` and from where it starts resolving the path.
+
+ - type: "fill-single"
+   points: 1
+   question: "What is the command if you want to search through all files and subdirectories for the word 'Amazon' from your current directory? Write the full command that you would use in the terminal."
+   answer: 
+    - grep -r Amazon ./
+    - grep -r Amazon .
+   feedback_p: Correct!
+   feedback_n: Think about the command, the option, the pattern, and the directory/files you should use.
+
+ - type: "fill-single"
+   points: 1
+   question: "Assume, you are in your home directory (`~/`) and you have a file named `old.txt`. Now you want to rename it to `new.txt` and move it to `Desktop`, which is a directory in the user's home directory. What command should you run? Run a single command."
+   answer: 
+    - mv old.txt Desktop/new.txt
+    - mv old.txt ~/Desktop/new.txt
+   feedback_p: Correct!
+   feedback_n: Think about the order for what should be the source and what should be the destination.
+
+ - type: "matching"
+   points: 1
+   question: "Match commands with functionality."
+   items_a:
+    - htop
+    - man
+    - nano
+    - pwd
+    - cd
+   items_b:
+    - monitor running processes.
+    - getting help 
+    - edit files
+    - print current directory
+    - change directory
+   distractors:
+    - view files
+    - remove files
+    - change file permissions

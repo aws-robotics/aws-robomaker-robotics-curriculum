@@ -1,0 +1,34 @@
+{% if include.item.distractors %}
+  {% assign items_b_distractors = include.item.items_b | concat: include.item.distractors %}
+{% else %}
+  {% assign items_b_distractors = include.item.items_b %}
+{% endif %}
+{% assign items_shuffled = items_b_distractors | sample: items_b_distractors.size %}
+{% assign element_last_index = items_shuffled.size | minus: 1 %}
+<table>
+  {% for i in (0..element_last_index) %} 
+  <tr>
+    <th style="font-weight: normal">
+      {% if i < include.item.items_a.size %}
+        {{ i }}. {{ include.item.items_a[i] }}
+      {% endif %}
+    </th>
+    <th class="correct-{{ include.count }}" style="font-weight: normal; display: none">
+      {% assign position = "" %}
+      {% for item in include.item.items_b %}
+        {% if item == items_shuffled[i] %}
+          {% assign position = forloop.index0 %}
+          {% break %} 
+        {% endif %}
+      {% endfor %}
+      {% if position != "" %}
+       {{ position }}. 
+      {% endif %}
+    </th>
+    <th style="font-weight: normal">
+      {{ items_shuffled[i] }}
+    </th>
+  </tr>
+  {% endfor %}
+</table>
+<button class="btn btn-success" onclick='$(".correct-{{ include.count }}").css("font-weight", 600);$(".correct-{{ include.count }}").css("display", "block")'>Show Answer</button>

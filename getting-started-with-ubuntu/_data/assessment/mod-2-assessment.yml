@@ -1,0 +1,81 @@
+title: ROS configuration and structure
+description: This assignment is to help you self-assess your comprehension on **ROS**. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+ - type: "multiple-choice"
+   points: 1
+   question: "The command `source /opt/ros/melodic/setup.bash` is for"
+   items:
+    - choice: will set the environment variables so that all ROS commands are available at command line.
+      comment: Correct! This can be set in .bashrc, so that the command in the question does not need to be run every time a new terminal is open.
+      correct: true
+    - choice: will install ROS.
+      comment: One way for installing ROS is through apt commands. The command in the question is for something else.
+      correct: false
+    - choice: will add the ROS repository for the apt command.
+      comment: The ROS repository is added at installation with a tool from apt. The command in the question is for something else.
+      correct: false
+    - choice: the file does not exist.
+      comment: The file might not exist if the installation through apt is not completed. Afterwards it will exist and serves a specific purpose.
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "A ROS package is"
+   items:
+    - choice: a directory containing files, including configuration files, executables, source code, etc, typically organized to provide specific robot functionalities.
+      comment: Correct!
+      correct: true
+    - choice: a zip file.
+      comment: While a ROS package can be archived and compressed, a ROS package is something different.
+      correct: false
+    - choice: a part of the robot hardware.
+      comment: a ROS package might handle the robot hardware, but it is not the hardware itself.
+      correct: false
+    - choice: provides only the functionality of Simultaneous Localization and Mapping.
+      comment: There are packages providing such a functionality for a robot, but it is not the only one.
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "The ROS packages are searched within"
+   items:
+    - choice: the directories listed in ROS_PACKAGE_PATH
+      comment: Correct! This is automatically set up by the setup.bash script we have seen.
+      correct: true
+    - choice: in /opt/ros/melodic/
+      comment: While that might be a directory that is searched for, it is not necessarily the only directory.
+      correct: false
+    - choice: ~/ros_workspace/src/
+      comment: While that might be a directory that is added to where ROS packages are searched for, it is not necessarily the only directory.
+      correct: false
+    - choice: /opt/ros/melodic/share
+      comment: While that might be a directory that is searched for, it is not necessarily the only directory.
+
+ - type: "fill-single"
+   points: 1
+   question: "To install the package 'gmapping' in ROS melodic through apt, the full command to be typed on the terminal is"
+   answer: 
+    - sudo apt install ros-melodic-gmapping
+   feedback_p: Correct!
+   feedback_n: Think about the permission to install the package and what is the usual convention used for naming the packages in apt.
+
+ - type: "multiple-answer"
+   points: 1
+   question: Some of the ROS benefits include (select all that apply) 
+   items:
+    - choice: Software Reuse
+      comment: Correct! Many robotic capabilities are readily available in ROS, allowing new users to get started with a mobile robot.
+      correct: true
+    - choice: Rapid testing
+      comment: Correct! The hardware abstraction and the standardization of message-passing between processes allow developers to seamlessly work with simulators and with real robots.
+      correct: true
+    - choice: Distributed computation
+      comment: Correct! Processes on robots can run on different computers or in the cloud and ROS enables different processes to communicate over the network.
+      correct: true
+    - choice: it is a simple programming language.
+      comment: ROS is not a programming language. Different programming languages, such as Python and C++, can be used to write code that interfaces with ROS.
+      correct: false
+    - choice: it is an integrated development environment (IDE) 
+      comment: ROS is not an IDE. Different IDEs can be used to write code for ROS.
+      correct: false

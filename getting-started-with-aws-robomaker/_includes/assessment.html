@@ -1,0 +1,18 @@
+{% assign assessment = site.data.assessment[include.file] %}
+{% assign questions = assessment.questions %}
+{% if assessment.title %}<h2>{{ assessment.title }}</h2>{% endif %}
+{% if assessment.description %}<p>{{ assessment.description | markdownify }}</p>{% endif %}
+------
+{% for item in questions %}
+<p style="font-weight: 550;">Q{{ forloop.index }} {% if item.question %}{{ item.question | markdownify }}{% endif %}</p>
+{% capture question %}
+{% if item.type == "fill-multi" %}{% include assessment/fill-multi.html item=item count=forloop.index %}{% endif %}
+{% if item.type == "fill-single" %}{% include assessment/fill-single.html item=item count=forloop.index %}{% endif %}
+{% if item.type == "matching" %}{% include assessment/matching.html item=item count=forloop.index %}{% endif %}
+{% if item.type == "multiple-answer" %}{% include assessment/multiple-answer.html item=item count=forloop.index %}{% endif %}
+{% if item.type == "multiple-choice" %}{% include assessment/multiple-choice.html item=item count=forloop.index %}{% endif %}
+{% if item.type == "numerical" %}{% include assessment/numerical.html item=item count=forloop.index %}{% endif %}
+{% endcapture %}
+{{ question }}
+------
+{% endfor %}

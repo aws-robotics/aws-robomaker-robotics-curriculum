@@ -1,0 +1,4 @@
+<span class="correct-{{ include.count }}" style="font-weight: normal; display: none">
+  {{ include.item.answer }}
+</span>
+<button class="btn btn-success" onclick='$(".correct-{{ include.count }}").css("font-weight", 600);$(".correct-{{ include.count }}").css("display", "block")'>Show Answer</button>
