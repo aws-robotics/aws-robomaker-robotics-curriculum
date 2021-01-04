@@ -1,0 +1,106 @@
+title: Robot Definition and Components
+description: This assignment is to help you self-assess your comprehension on the robot components. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+ - type: "multiple-choice"
+   points: 1
+   question: "According to the **current** definition, a robot is"
+   items:
+    - choice: a reprogrammable, multifunctional manipulator designed to move material, parts, tools, or specialized devices through various programmed motions for the performance of a variety of tasks.
+      comment: This definition from the Robot Institute of America, 1979, mainly considers industrial manipulators.
+      correct: false
+    - choice: an actuated mechanism programmable in two or more axes with a degree of autonomy, moving within its environment, to perform intended tasks.
+      comment: This definition from ISO 8373(2012) doesn't explicitly capture the sensing capabilities a robot needs to have.
+      correct: false
+    - choice: an autonomous system, which exists in the physical world, can sense its environment, can act on it, and has a goal.
+      comment: Correct! While definitions change over time, this one captures all elements that an autonomous robot needs to have.
+      correct: true
+    - choice: a humanoid.
+      comment: While a humanoid is a type of robot, it does not capture all the elements of an autonomous robot.Blue
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Actuators and effectors are"
+   items:
+    - choice: devices to sense the environment.
+      comment: This definition is for sensors. 
+      correct: false
+    - choice: devices to achieve motion and have an effect on the environment, respectively. 
+      comment: Correct!
+      correct: true
+    - choice: devices have an effect on the environment and to achieve motion, respectively. 
+      comment: It is actually the reverse -- actuators are like the muscles, allowing to achieve motion, and effectors have an effect of the environment, e.g., a hand. 
+      correct: false
+    - choice: devices for computation. 
+      comment: This is for computers.
+      correct: false
+
+ - type: "matching"
+   points: 1
+   question: "Pair the sensors with the raw measurement they provide."
+   items_a: 
+    - GPS
+    - IMU
+    - LiDAR
+    - Rotary encoder
+   items_b:
+    - Global position
+    - Linear acceleration and angular velocity
+    - Distance
+    - Rotations
+   distractors: 
+    - Light
+    - Contact
+    - Pressure
+    - Sound
+    - Smell
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Typically, only one computation device is used on a robot."
+   items:
+    - choice: True.
+      comment: Typically, there is more than one. In this way, different parts of the robot can be processed at the same time and it could provide redundancy.
+      correct: false
+    - choice: False. 
+      comment: Correct! More computation devices are on the robot to process parts of the robot in parallel and providing, e.g., work differentiation and redundancy.
+      correct: true
+
+ - type: "multiple-choice"
+   points: 1
+   question: "When designing a robot, the application/domain in which the robot is deployed does not matter."
+   items:
+    - choice: True.
+      comment: It is fundamental to understand the application/domain of the robot, to best design a robot, otherwise the robot might not function at all. For example, a wheeled robot with a very rough terrain might not be able to move around.
+      correct: false
+    - choice: False. 
+      comment: Correct! It is necessary to study the application/domain so that all components are suitable for reliable operation. 
+      correct: true
+
+ - type: "multiple-answer"
+   points: 1
+   question: "Analyze the Waveshare Jetbot finding the specifications on the website [https://www.waveshare.com/jetbot-ai-kit.htm](https://www.waveshare.com/jetbot-ai-kit.htm). Which of the following components are in the robot? Select all that apply."
+   items:
+    - choice: IMU.
+      correct: false
+    - choice: LiDAR.
+      correct: false
+    - choice: RGB camera.
+      correct: true
+    - choice: RGB-D camera.
+      correct: false
+    - choice: GPS.
+      correct: false
+    - choice: SONAR.
+      correct: false
+    - choice: RADAR.
+      correct: false
+    - choice: Infrared sensors.
+      correct: false
+    - choice: DC motor.
+      correct: true
+    - choice: Wheel encoders.
+      correct: false
+   followup_p: Correct! You identified all sensors and actuators in the robot. It is important to know the hardware specifications of the robot.
+   followup_n: Please check the technical specifications [https://www.waveshare.com/jetbot-ai-kit.htm](https://www.waveshare.com/jetbot-ai-kit.htm)

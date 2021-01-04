@@ -1,0 +1,96 @@
+title: Control architectures
+description: This assignment is to help you self-assess your comprehension on the robot **control architectures**. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+ - type: "multiple-choice"
+   points: 1
+   question: "A middleware" 
+   items:
+    - choice: provides message passing interface for inter-process communication.
+      comment: Correct! In this way, the software layer is abstracted between software.
+      correct: true
+    - choice: is a driver for robotics sensors.
+      comment: It is not a driver.
+      correct: false
+    - choice: is a library of robotics software for localization, mapping, and planning.
+      comment: While some middleware provide libraries, the middleware itself is not a library for robotics software.
+      correct: false
+    - choice: is part of the hardware of the robot.
+      comment: It is not the hardware, it relates to the message passing for inter-communication between processes.
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "A reactive controller is enough to achieve any task."
+   items:
+    - choice: True.
+      comment: A reactive controller does not store any information or learn, as such it doesn't plan and predict and it is typically used with the deliberative architecture.
+      correct: false
+    - choice: False.
+      comment: Correct! A reactive controller does not store any information or learn, as such it doesn't plan and predict and it is typically used with the deliberative architecture.
+      correct: true
+
+ - type: "multiple-answer"
+   points: 1
+   question: "The drawbacks of a purely deliberative architecture are (select all that apply)"
+   items:
+    - choice: time-scale.
+      comment: Correct! Planning in large state spaces can take a very long time. 
+      correct: true
+    - choice: assumption on up-to-date information.
+      comment: Correct! In practice, environments are dynamic as such the assumption might not hold.
+      correct: true
+    - choice: memory-intensive.
+      comment: Correct! The representation of the environment might require large memory.
+      correct: true
+    - choice: inflexible.
+      comment: The robot can actually learn, as the representation of the state is updated with new sensor data.
+      correct: false
+    - choice: oscillations.
+      comment: Such an architecture plans ahead, contrarily to the reactive architecture, which just reacts; as such, it won't oscillate between behaviors.
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "What is one of the main challenges of using a hybrid control architecture?"
+   items:
+    - choice: Its design so that the best trade-off between deliberative and reactive behaviors is achieved.
+      comment: Correct! How to switch between reactive and deliberative is part of the design challenge of a hybrid control architecture.
+      correct: true
+    - choice: Combining different programming languages. 
+      comment: Programming languages have nothing to do with the hybrid control architecture. That can be a potential problem in any other architecture, if there are libraries written in different languages that a roboticist would like to use in a robot. 
+      correct: false
+    - choice: It requires more memory than a deliberative architecture.
+      comment: The memory footprint of a reactive control architecture is minimal given that it doesn't store any representation of the environment.
+      correct: false
+    - choice: It requires more sensors. 
+      comment: The sensor hardware is not directly affected by this choice, as the control architecture sets the principles for the computational aspects of the robot.
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Assume an aerial drone equipped with a camera. The task is to follow a bright colored tractor in a corn field. Which control architecture is the minimal one that can achieve such a task?<br>![](https://upload.wikimedia.org/wikipedia/commons/2/23/Figure_16_Components_of_a_Precision_Agriculture_System_%2849132514563%29.jpg)"
+   items:
+    - choice: Reactive.
+      comment: Correct! Given that the environment is open and the robot just needs to follow a tractor, the robot can just react to changes in the position of the tractor in the image.
+      correct: true
+    - choice: Deliberative.
+      comment: The robot does not need to plan - given that the environment is open and the robot just needs to follow a tractor, the robot can just react to changes in the position of the tractor in the image.
+      correct: false
+    - choice: Hybrid.
+      comment: The robot does not need the deliberative part - given that the environment is open and the robot just needs to follow a tractor, the robot can just react to changes in the position of the tractor in the image.
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Stanley is a self driving car that participated in the DARPA challenge in 2005. ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Stanley2.JPG/320px-Stanley2.JPG) It was developed by Stanford University's Stanford Racing Team jointly with the Volkswagen Electronics Research Laboratory (ERL). Take a look at the software system architecture in the [corresponding paper](https://doi.org/10.1002/rob.20147) (Fig. 5). What type of control architecture is it?"
+   items:
+    - choice: Reactive.
+      comment: Check if the architecture has a path planner.
+      correct: false
+    - choice: Deliberative.
+      comment: Look at how the sensor data flows. Is it only to the path planner?
+      correct: false
+    - choice: Hybrid.
+      comment: Correct!
+      correct: true

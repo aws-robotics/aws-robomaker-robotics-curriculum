@@ -1,0 +1,78 @@
+title: git commands
+description: This assignment is to help you self-assess your comprehension on **git**. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+ - type: "multiple-choice"
+   points: 1
+   question: "A version control system"
+   items:
+    - choice: allows for managing software changes over time.
+      comment: Correct!
+      correct: true
+    - choice: checks for errors in the code.
+      comment: It does not check for errors. Think about its role in software management.
+      correct: false
+    - choice: is only for storing files.
+      comment: It provides more functionalities than storing files.
+      correct: false
+    - choice: provides just a communication tool between developers.
+      comment: While version control systems is used to manage software development across a number of people, it is not a direct tool for communication.
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "While version control systems is used to manage software development across a number of people, it is not a direct tool for communication."
+   items:
+    - choice: "git clone repository_url"
+      comment: Correct!
+      correct: true
+    - choice: "git pull repository_url"
+      comment: pull is an important command for update but is not for creating a copy of a repository.
+      correct: false
+    - choice: "git add repository_url"
+      comment: add is an important command to stage changed files but is not for creating a copy of a repository.
+      correct: false
+    - choice: git commit
+      comment: commit is an important command for staging changes but is not for creating a copy of a repository.
+      correct: false
+
+ - type: "fill-single"
+   points: 1
+   question: "Type the full command needed on the terminal to locally change the branch of a git repository to 'indigo'."
+   answer: 
+    - git checkout indigo
+   feedback_p: Correct!
+
+ - type: "multiple-choice"
+   points: 1
+   question: "What is the first git command  to get the latest version from the server? (select one)"
+   items:
+    - choice: git pull
+      comment: Correct! You want to ensure that the code is up-to-date with the remote repository.
+      correct: true
+    - choice: git clone
+      comment: The repository is already existing locally thus there is no need to clone it again.
+      correct: false
+    - choice: git push
+      comment: git push is the last step after changes have been made and committed to push such changes to the remote repository.
+      correct: false
+    - choice: git commit
+      comment: "`git commit` is to commit the staged snapshot, after modifying the files."
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "A custom ROS package cloned through git should be in the following folder:"
+   items:
+    - choice: ~/ros_workspace/
+      comment: There is a usual structure that is followed to have custom ROS packages, as some other directories will be generated.
+      correct: false
+    - choice: ~/ros_workspace/src/
+      comment: Correct! While `ros_workspace` is arbitrary, a custom package is within `src` of another folder.
+      correct: true
+    - choice: /opt/ros/melodic/share/
+      comment: This is the "system" directory where ROS packages are installed through apt.
+      correct: false
+    - choice: ~/
+      comment: A specific structure should be followed for the directory containing custom ROS packages.
+      correct: false

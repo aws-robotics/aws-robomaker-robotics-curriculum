@@ -1,0 +1,56 @@
+title: ROS nodes and topics
+description: This assignment is to help you self-assess your comprehension on the **ROS basics**, i.e., ROS nodes, publishers, subscribers, message types, and the writing of the code. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+ - type: "fill-single"
+   points: 1
+   question: "If running the following command to run the teleoperation node `rosrun turtlebot3_teleop turtlebot3_teleop_key`
+     and this error appears: `Unable to register with master node [http://localhost:11311]: master may not be running yet. Will keep trying.`
+     
+     Which command to run to solve the problem? Please type it."
+   answer:
+    - roscore
+   feedback_p: Correct! The ROS master is necessary for running ROS nodes, enabling communication.
+   feedback_n: The problem is with the ROS master that is not running.
+
+
+ - type: "multiple-choice"
+   points: 1
+   question: "ROS message passing paradigm is based on publish/subscribe."
+   items:
+    - choice: True.
+      correct: true
+    - choice: False.
+      correct: false
+
+ - type: "matching"
+   points: 1
+   question: "Match the commands with their function."
+   items_a:
+    - rostopic pub
+    - rostopic echo
+    - rostopic list
+    - rostopic info
+    - rosnode list
+    - rosnode info
+   items_b:
+    - Program to publish messages on a topic. 
+    - Program to print on the screen the content of messages exchanged on a topic.
+    - Show all current topics registered to the ROS master.
+    - Program to show the information about a topic, including message type, publisher, and subscriber.
+    - Program to print all nodes running.
+    - Program to show the information about a specific node, including subscribed and published topics.
+
+ - type: "multiple-choice"
+   points: 1
+   question: "More than one node can publish or subscribe to a topic."
+   items:
+    - choice: True.
+      correct: true
+    - choice: False.
+      correct: false
+
+ - type: "file-upload"
+   points: 5
+   question: "Modify the ROS node to make the robot follow a predefined shape, for example a square which size is 3m x 3m. You are welcome to try out other shapes. Upload the code and the resulting video of the robot performing the shape."
+   feedback: Combine the translation and the rotation motions.

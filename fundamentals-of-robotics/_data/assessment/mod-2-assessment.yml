@@ -1,0 +1,142 @@
+title: Fundamental computational problems
+description: This assignment is to help you self-assess your comprehension on the robot fundamental computational problems and approaches. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+ - type: "fill-multi"
+   points: 1
+   question: "The main elements for a kinematic model are:"
+   answer:
+    - state
+    - action
+    - forward kinematics
+    - inverse kinematics
+
+ - type: "numerical"
+   points: 1
+   question: "Assume a robot moving in a line. At time t, the position of the robot is 10 m and the robot is facing the positive direction, in the coordinate system. After setting a control velocity of 2 m/s, what would be the location of the robot at time t+5s in that coordinate system?"
+   answer: 20
+   followup_p: Correct! new_position = initial_position + time_difference * velocity
+   followup_n: Think about a simple model for calculating the distance traveled, given the velocity and the time.
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Assume a car-like robot in a flat 2D environment. What are the parameters required to completely describe the state or location of the robot at any given time in such environment?"
+   items:
+    - choice: x and y to denote translation, theta to denote rotation.
+      comment: Correct!
+      correct: true
+    - choice: x and y to denote translation.
+      comment: Being a car-like robot, in addition to linear velocity it also has rotational velocity. So, the state should also include the rotational component at a given time.
+      correct: false
+    - choice: x and y to denote translation, theta and gamma to denote rotation.
+      comment: In a 2D environment, there is only one rotation possible at any given time.
+      correct: false
+
+ - type: "matching"
+   points: 1
+   question: "Match the state estimation problem with the typical input and output available."
+   items_a: 
+    - Localization
+    - Mapping
+    - SLAM
+   items_b:
+    - Input - sensor data, environment map; Output - robot's location.
+    - Input - sensor data, robot's location; Output - environment map.
+    - Input - sensor data; Output - robot's location, environment map.
+   distractors: 
+    - Input - environment map; Output - robot's location.
+    - Input - robot's location; Output - environment map.
+
+ - type: "multiple-answer"
+   points: 1
+   question: "Why multiple sensors are combined in state estimation? Select all that apply"
+   items:
+    - choice: For complementary sensing capabilities.
+      comment: Correct!
+      correct: true
+    - choice: To correct the drift in localization.
+      comment: Correct!
+      correct: true
+    - choice: To reduce the usage of computational resources.
+      comment: Usually more information requires more information processing, hence increases the computation.
+      correct: false
+    - choice: Provides more information about the world or the system itself.
+      comment: Correct!
+      correct: true
+    - choice: More information means easier processing.
+      comment: Usually combining information from multiple sensors is a non-trivial problem which requires defining data association, measurement synchronization, calibration between sensors, etc.
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Assume there is a robot with 4 single-beam laser sensors, measuring distance, one pointing forward, one left, one right, one back. The picture below shows a rectangular environment with that robot (in blue) pointing towards the right (in the direction of the arrow) deployed. The red dotted lines mark the 4 sensor readings. If the robot has to solve the global localization problem, after the robot gets the first sensor readings, the probability distribution over the possible locations in this environment is: <br> ![](/img/localization-ex.svg)"
+   items:
+    - choice: uniform.
+      comment: The sensor readings can be matched with the environments, changing the initial uniform probability distribution.
+      correct: false
+    - choice: multimodal (multiple peaks).
+      comment: The readings at the current location of the robot can be obtained only there.
+      correct: false
+    - choice: unimodal (single peak).
+      comment: Correct! That location is the only one where the robot can obtain such sensor readings.
+      correct: true
+    - choice: unknown.
+      comment: The sensor readings provide information to update the probability distribution.
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "What type of map representation is more suitable for a robot equipped with a 2D LiDAR?"
+   items:
+    - choice: Landmark/feature-based map
+      comment: A 2D LiDAR provides distance measurements from objects. Landmarks could be extracted however it is not easy to define which measurements will be a landmark.
+      correct: false
+    - choice: Grid map
+      comment: Correct! LiDAR provides distance measurements between the robot and objects. Such information can be used to construct a 2D grid map of occupied and unoccupied cells.
+      correct: true
+    - choice: Topology map
+      comment: A 2D LiDAR provides distance measurements from objects. Usually there is a step in between to go to a topology map which represents locations and their interconnections.
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "A robot without sensor can have a feedback controller."
+   items:
+    - choice: "True."
+      comment: "A feedback controller requires sensor measurements as a feedback to correct."
+      correct: false
+    - choice: "False."
+      comment: "Correct! A feedback controller requires sensor measurements as a feedback to correct."
+      correct: true
+
+ - type: "numerical"
+   points: 1
+   question: "A discrete PI controller is used to control a robot. The set point is 30, the proportional and integral gains are 1 and 3, respectively. The sensor, able to measure the state, is sampling every 1 second. When the controller is executed, the first four states are 35, 25, 28, and 31. Compute the output of the controller after the fourth sensor reading. 
+
+      Here the PID controller for reference: $$u_k = K_p e_k + K_i \\Delta t \\sum_{j=1}^k e_j + K_d \\frac{e_k-e_{k-1}}{\\Delta t}$$" 
+   answer: -2
+   feedback_n: "Please revise the formula for the discrete time controller. Remember that given that this is a PI controller, the derivative gain is 0."
+
+ - type: "fill-single"
+   points: 1
+   question: "The  _____  is the state space of possible positions the robot can be in."
+   answer: 
+    - configuration space
+
+ - type: "multiple-answer"
+   points: 1
+   question: "What are some examples of sampling-based path planning algorithms? (select all that apply)"
+   items:
+    - choice: Rapidly Rapidly-Exploring Random Trees (RRT)
+      correct: true
+    - choice: Probabilistic RoadMap (PRM)
+      correct: true
+    - choice: A*
+      comment: This is a search-based technique that can be used on the tree or graph generated by the sampling-based path planner.
+      correct: false
+    - choice: Dijkstra
+      comment: This is a search-based technique that can be used on the tree or graph generated by the sampling-based path planner.
+      correct: false
+    - choice: Potential field
+      comment: This is a local method based on repulsive and attractive forces.
+      correct: false

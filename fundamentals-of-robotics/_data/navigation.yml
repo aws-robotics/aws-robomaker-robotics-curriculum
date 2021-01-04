@@ -25,6 +25,8 @@ docs:
         url: /modules/1/robot-computer.html
       - title: "Robot design"
         url: /modules/1/robot-design.html
+      - title: "Assessment"
+        url: /modules/1/assessment.html
   - title: Module 2 - Robotics fundamental problems
     children:
       - title: "Robotic fundamental problems"
@@ -37,6 +39,8 @@ docs:
         url: /modules/2/planning.html
       - title: "Future of robotics"
         url: /modules/2/future-robotics.html
+      - title: "Assessment"
+        url: /modules/2/assessment.html
   - title: Module 3 - Robotics software architecture
     children:
       - title: "Robot architecture"
@@ -49,6 +53,8 @@ docs:
         url: /modules/3/hybrid.html
       - title: "Middleware"
         url: /modules/3/middleware.html
+      - title: "Assessment"
+        url: /modules/3/assessment.html
   - title: End of the course and additional resources
     children:
       - title: "Additional resources"

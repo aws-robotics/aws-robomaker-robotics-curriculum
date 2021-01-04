@@ -1,0 +1,76 @@
+title: Additional ROS components
+description: This assignment is to help you self-assess your comprehension on additional ROS components, i.e., ROS services, actions, parameters, and tools. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+ - type: "multiple-answer"
+   points: 1
+   question: ROS services are characterized by (select all that apply)
+   items:
+    - choice: bi-directional one-to-one communication.
+      comment: Correct!
+      correct: true
+    - choice: one-way one-to-one communication.
+      comment: Think about ROS services as a Remote Procedure Call.
+      correct: false
+    - choice: bi-directional many-to-one communication.
+      comment: Think about ROS services as a Remote Procedure Call.
+      correct: false
+    - choice: one-way many-to-one communication.
+      comment: Think about ROS services as a Remote Procedure Call.
+      correct: false
+    - choice: synchronous, i.e., the client waits until it gets the response back.
+      comment: Correct!
+      correct: true
+    - choice: asynchronous, i.e., the client doesn't wait for a response back.
+      comment: The client would wait for the reply.
+      correct: false
+
+ - type: "multiple-answer"
+   points: 1
+   question: ROS actions (select all that apply)
+   items:
+    - choice: are asynchronous
+      comment: Correct!
+      correct: true
+    - choice: provide mechanisms to get feedback on execution
+      comment: Correct!
+      correct: true
+    - choice: provide ways to cancel the execution
+      comment: Correct!
+      correct: true
+    - choice: are synchronous
+      comment: Think about how ROS services are, and identify then the characteristics that differentiate ROS actions from ROS services.
+      correct: false
+    - choice: do not provide ways to get feedback
+      comment: Think about how ROS services are, and identify then the characteristics that differentiate ROS actions from ROS services.
+      correct: false
+    - choice: do not provide ways to cancel the execution
+      comment: Think about how ROS services are, and identify then the characteristics that differentiate ROS actions from ROS services.
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "ROS parameter server stores parameters locally."
+   items:
+    - choice: True.
+      correct: false
+    - choice: False.
+      correct: true
+
+ - type: "matching"
+   points: 1
+   question: "Match the tools with their function."
+   items_a:
+    - tf2
+    - rviz
+    - rosbag
+    - rqt_console
+   items_b:
+    - provides support for transformation system
+    - visualizes messages
+    - record/play ROS messages
+    - displays logs
+   distractors:
+    - simulates a robot
+    - checks the syntax of the ROS node
+    - modifies parameters

@@ -1,0 +1,59 @@
+title: AWS Services
+description: This assignment is to help you self-assess your understanding on AWS Services. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+ - type: "matching"
+   points: 1
+   question: "Match the pairs."
+   items_a:
+    - Identity and Access Management (IAM)
+    - Amazon S3
+    - AWS Cloud9
+    - Elastic Computer Cloud (EC2)
+   items_b:
+    - grant permission
+    - storage of application and log files
+    - cloud-based IDE
+    - computing resources
+
+ - type: "multiple-choice"
+   points: 1
+   question: "What is the service for application monitoring in AWS RoboMaker?"
+   items:
+    - choice: Amazon CloudWatch
+      comment: Correct!
+      correct: true
+    - choice: AWS IoT Greengrass
+      comment: No. AWS IoT Greengrass allows robots to work locally with the embedded system.
+      correct: false
+    - choice: AWS Lambda
+      comment: No.  AWS Lambda allows to communicate data within the devices
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Devices need to be connected to the Internet to communicate in AWS RoboMaker."
+   items:
+    - choice: True.
+      comment: No. AWS Lambda can make devices communicate even when not connected to the Internet.
+      correct: false
+    - choice: False.
+      comment: Correct!
+      correct: true
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Object detection can be performed by which service:"
+   items:
+    - choice: AWS Rekognition
+      comment: Correct!
+      correct: true
+    - choice: AWS Kinesis
+      comment: No. AWS Kinesis is for processing data – e.g., audio, video, telemetry data.
+      correct: false
+    - choice: Amazon Polly
+      comment: No. Amazon Polly is for text-to-speech capabilities.
+      correct: false
+    - choice: Amazon Lex
+      comment: No. Amazon Lex is for dialogue capabilities.
+      correct: false
