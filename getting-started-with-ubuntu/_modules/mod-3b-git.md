@@ -50,7 +50,7 @@ Once created, follow the same commands above for cloning the repository. A usual
 
 There are cheatsheets available, for example [directly from GitHub](https://education.github.com/git-cheat-sheet-education.pdf).
 
-Before discovering what the main files are in a package (next module), let's assess the understanding of `git`.
+Before discovering what the main files are in a package (next module), [let's assess]({{ site.baseurl }}{% link _modules/mod-3c-assessment.md %}) the understanding of `git`.
 
 {% capture ref %}
 {% bibliography --cited %}

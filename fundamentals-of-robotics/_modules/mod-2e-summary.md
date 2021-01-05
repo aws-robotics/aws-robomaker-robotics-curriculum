@@ -11,4 +11,4 @@ None of the problems covered here are fully solved: robots have been demonstrate
 
 Despite the thriving research area, there are many robotic systems that can accomplish tasks. Next, we will see how we can organize the architecture of the robot so that the algorithms and software can address the problems indicated here.
 
-Before we go to the next final module, let's assess your understanding through the following assignment.
+Before we go to the next final module, let's assess your understanding through [the following assignment]({{ site.baseurl }}{% link _modules/mod-2f-assessment.md %}).

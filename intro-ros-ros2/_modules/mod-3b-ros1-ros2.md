@@ -45,4 +45,4 @@ The tools that we have seen, including Gazebo, rviz, tf have been received preli
 As we transition from ROS to ROS 2, there is a way to bridge ROS and ROS 2 (see [the ROS/ROS 2 bridge](https://index.ros.org/p/ros1_bridge/github-ros2-ros1_bridge/)). For this to work, the message or service must be available in both ROS and ROS 2.
 
 -------
-Let's assess our understanding of the main characteristics of ROS and ROS 2.
+[Let's assess]({{ site.baseurl }}{% link _modules/mod-3c-assessment.md %}) our understanding of the main characteristics of ROS and ROS 2.

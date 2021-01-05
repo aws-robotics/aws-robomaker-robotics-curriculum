@@ -210,7 +210,7 @@ Some of the information which is important to keep track of in robots and in gen
 
 
 
-Now that we have seen a very brief intro to Linux and the Terminal commands, let's assess these main commands before getting ready with ROS in the [next unit]().
+Now that we have seen a very brief intro to Linux and the Terminal commands, [let's assess]({{ site.baseurl }}{% link _modules/mod-1d-assessment.md %}) these main commands before getting ready with ROS in the [next unit]({{ site.baseurl }}{% link _modules/mod-2a-ros.md %}).
 
 
 {% capture ref %}

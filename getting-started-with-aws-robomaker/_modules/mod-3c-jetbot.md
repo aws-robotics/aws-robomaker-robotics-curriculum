@@ -56,7 +56,7 @@ Now that the new simulation is bundled, it can be run in the same way as before.
 
 ![Jetbot in Gazebo](/img/gazebo-jetbot.png)
 
-Now we have the full environment set up to start learning ROS in the next course. Let’s assess first our understanding of AWS RoboMaker.
+Now we have the full environment set up to start learning ROS in the next course. [Let’s assess first our understanding of AWS RoboMaker]({{ site.baseurl }}{% link _modules/mod-3d-assessment.md %}).
 
 {% capture ref %}
 {% bibliography --cited %}

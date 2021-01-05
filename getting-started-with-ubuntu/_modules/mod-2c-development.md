@@ -72,7 +72,7 @@ As of now, we have seen packages that are already existing. What if we want to c
 
 (`-p` creates both directories `ros_workspace` and `src`).
 
-We will discover the exciting world of ROS in the next course. For now, we are continuing in our journey on how to set up the development environment. Before moving forward, let's assess your understanding of the ROS configuration.
+We will discover the exciting world of ROS in the next course. For now, we are continuing in our journey on how to set up the development environment. Before moving forward, [let's assess]({{ site.baseurl }}{% link _modules/mod-2d-assessment.md %}) your understanding of the ROS configuration.
 
 
 {% capture ref %}

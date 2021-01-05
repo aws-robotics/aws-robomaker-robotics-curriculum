@@ -30,7 +30,7 @@ There are a number of other services that can boost the intelligence of the robo
 
 
 
-Now we should have a bigger picture about AWS RoboMaker and how that interfaces with the whole ecosystem. Before moving forward on setting up an AWS RoboMaker environment, let's assess our knowledge on AWS.
+Now we should have a bigger picture about AWS RoboMaker and how that interfaces with the whole ecosystem. Before moving forward on setting up an AWS RoboMaker environment, [let's assess our knowledge on AWS]({{ site.baseurl }}{% link _modules/mod-2c-assessment.md %}).
 
 
 {% capture ref %}

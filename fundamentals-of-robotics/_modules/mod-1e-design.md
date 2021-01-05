@@ -33,4 +33,4 @@ Clearly in both the vacuum cleaner and the drone there is a strong emphasis on a
 -------
 We have covered the hardware part of the robot. Many roboticists work with robot kits and commercial robots readily available. Knowing the characteristics will allow you to develop software that accounts for the strengths and weaknesses of the specific robot.
 
-Before we move on, go ahead with the assessment for this module.
+Before we move on, go ahead with the [assessment for this module]({{ site.baseurl }}{% link _modules/mod-1f-assessment.md %}).

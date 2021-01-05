@@ -53,7 +53,7 @@ Common errors are related to the XML file not being properly formatted, includin
 There are other parts that are not in the example, but are useful to know, especially thinking about expanding what ROS provides. In particular, we have used existing messages. Sometimes a new custom-message must be defined. Such declarations need to be included in the `CMakeLists.txt` and in a new folder called `msg/`. See the [creating a msg tutorial](https://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv#Creating_a_msg) for full details.
 
 -------
-What we learned so far allows us to achieve robotic behaviors. Before moving on to the next module that will look at some other ROS components and tools available, let's assess the understanding about ROS publish/subscribe.
+What we learned so far allows us to achieve robotic behaviors. Before moving on to the next module that will look at some other ROS components and tools available, [let's assess the understanding about ROS publish/subscribe]({{ site.baseurl }}{% link _modules/mod-1e-assessment.md %}).
 
 {% capture ref %}
 {% bibliography --cited %}

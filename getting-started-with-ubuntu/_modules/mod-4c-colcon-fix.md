@@ -80,7 +80,7 @@ will run the simulation
 While this is one source of error, there might be other errors that might be trickier to identify, especially those related to the code. Typically, if a package is widely used, you might find an answer in the [ROS Q&Aforum](https://answers.ros.org/questions/). To fix the error, otherwise, it requires ability to navigate the code and identify the error related to the language, which is out of the scope for this course. Most of the time, for common packages, this process of fixing the errors should work.
 
 
-We got the main tools up and running to continue our journey in the next courses for learning more about ROS and robot software development. 
+We got the main tools up and running to continue our journey in the next courses for learning more about ROS and robot software development. [Let's assess]({{ site.baseurl }}{% link _modules/mod-4d-assessment.md %}) first the understanding of these tools. 
 
 {% capture ref %}
 {% bibliography --cited %}
