@@ -64,7 +64,7 @@ In summary, the following commands need to be run to have the Turtlebot 2 simula
 
     cd ~/ros_workspace/src
     git clone https://github.com/turtlebot/turtlebot
-    git clone https://github.com/turtlebot/kobuki
+    git clone https://github.com/yujinrobot/kobuki
     rosdep install --from-paths src --ignore-src -r -y
     colcon build
     source ~/ros_workspace/install/setup.sh # to run again if on a new terminal and not in .bashrc
