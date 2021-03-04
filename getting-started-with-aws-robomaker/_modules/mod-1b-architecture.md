@@ -23,7 +23,7 @@ The application can be also deployed directly on a robot using another service, 
 Such an architecture enables the typical process that roboticists go through: development, test, and deploy.
 
 
-Now we should have a basic understanding of AWS RoboMaker, its architecture, and its features. We will dive into the next unit on the components from AWS that are necessary to make AWS RoboMaker set up. Before that, let's see our understanding of AWS RoboMaker.
+Now we should have a basic understanding of AWS RoboMaker, its architecture, and its features. We will dive into the next unit on the components from AWS that are necessary to make AWS RoboMaker set up. Before that, [let's see our understanding of AWS RoboMaker]({{ site.baseurl }}{% link _modules/mod-1c-assessment.md %}).
 
 
 {% capture ref %}

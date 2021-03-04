@@ -62,7 +62,7 @@ In addition, ROS provides a way to record log messages, which are human-readable
 {% include image.html url="/img/rqt-console.png" description="rqt_console." %}
 
 ------
-These are some of the main tools that are useful for debugging. There are many others that are available and the ROS website is the resource to go. Before moving on to the next module on understanding the differences between ROS and ROS 2, let's assess the understanding of what we covered in this module.
+These are some of the main tools that are useful for debugging. There are many others that are available and the ROS website is the resource to go. Before moving on to the next module on understanding the differences between ROS and ROS 2, [let's assess]({{ site.baseurl }}{% link _modules/mod-2d-assessment.md %}) the understanding of what we covered in this module.
 
 
 {% capture ref %}

@@ -16,4 +16,4 @@ The middleware allows software written for real robots to be tested also on simu
 In addition, with the advent of cloud services, ROS has a cloud extension with AWS RoboMaker, which provides a development environment, simulation, and fleet management from the cloud. This will allow to streamline the development, testing, and deployment pipeline.
 
 
-Let's revise some of the concepts before ending this course and introducing other resources available to continue your journey in learning robotics software development.
+[Let's revise]({{ site.baseurl }}{% link _modules/mod-3f-assessment.md %}) some of the concepts before ending this course and introducing other resources available to continue your journey in learning robotics software development.
