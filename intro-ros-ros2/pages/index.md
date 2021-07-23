@@ -28,3 +28,5 @@ Let’s get started and see why it is important to get to know ROS in the [next 
 ------
 
 A list of third party licenses used within Course 2 is available [here](/NOTICE.txt).
+
+For bug reporting, please create an issue within our AWS RoboMaker [GitHub repository](https://github.com/aws-robotics/aws-robomaker-robotics-curriculum). For feedback, please contact us at <aws-robomaker-academics@amazon.com>

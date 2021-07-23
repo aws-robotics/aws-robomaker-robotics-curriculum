@@ -4,19 +4,18 @@ title: ROS node with publisher and subscriber
 permalink: /modules/1/ros-simple-node.html
 ---
 
-Now that we know the concept of publisher and subscriber, let's write a simple python ROS node to make the simulated Jetbot robot move for a specified distance or rotation, and stop if there is anything in front.
+Now that we know the concept of publisher and subscriber, let's write a simple python ROS node to make the simulated Jetbot robot move for a specified distance or rotation and stop if there is anything in its path.
 
 ## Structure of the code
 
 There are three parts that are necessary in any ROS node:
-1. initialization of the node, i.e., registering with the ROS master.
-2. instantiating publishers and subscribers.
-3. running of the actual node.
+1. Initialization of the node, i.e., registering with the ROS master.
+2. Instantiating publishers and subscribers.
+3. Running the actual node.
 
+## Code
 
-## Actual code
-
-Below a sample program that follows the identified three parts. It allows the robot to achieve simple motions by publishing messages on the topic `cmd_vel`, which type message is `geometry_msgs/Twist`:
+Below is a sample program that follows the identified three parts above. It allows the robot to achieve simple motions by publishing messages on the topic `cmd_vel`, which message is `geometry_msgs/Twist`:
 
 ```
 #!/usr/bin/env python
@@ -155,39 +154,35 @@ if __name__ == "__main__":
 
 
 ## Break-down
-
-Here the main highlights of the parts of the code that are ROS specific.
+Let's dive into the main parts of the code that are ROS specific.
 
     import rospy
     
-is the the ROS Python library for interfacing with ROS topics.
+This is the ROS Python library for interfacing with ROS topics.
 
 ------
-
     rospy.init_node('simple_motion')
     rospy.sleep(2) 
     
-These are for initializing the node with name `simple_motion`. The call to the `sleep()` function -- 2 seconds -- is to ensure that the node is properly registered as in practice some unintended behavior are experienced, such as not being able to get the ROS time.
-While in this case we used an arbitrary `sleep()`, executed only once before the actual running of the main body of the node, an important disclaimer is that `sleep()` in general should never be used, as that could cause unintended consequences and the solution should be proper error handling and condition checking.
-
+These are for initializing the node with the name `simple_motion`. The `sleep()` function is called -- 2 seconds -- to ensure that the node is properly registered as in practice some unintended behavior is expected, such as not being able to get the ROS time.
+While in this case we used `sleep()`, it was executed only before the actual running of the main body of the node. An important disclaimer is that `sleep()` in general should never be used, as it could cause unintended consequences and the solution should contain proper error handling and condition checking.
 ------
 
     self._cmd_pub = rospy.Publisher(DEFAULT_CMD_VEL_TOPIC, Twist, queue_size=1)
     
-This line creates a `Publisher`: the first parameter is the topic name and should match the one used by the other node with a subscriber; `Twist` is the type of message and can be found with the `rosmsg` command presented before; `queue_size` is the number of messages that will be stored in a queue for publishing to nodes that might subscribe later. A size of 1 means the the latest will be published. [Here](http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers#Choosing_a_good_queue_size) more details about `queue_size`.
+This line creates a `Publisher`. The first parameter is the topic name and should match the one used by the other node with a subscriber. `Twist` is the type of message and can be found with the `rosmsg` command presented before. And `queue_size` is the number of messages that will be stored in a queue for publishing to nodes that might subscribe later. A size of 1 means the the latest will be published. [Here](http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers#Choosing_a_good_queue_size) are more details about `queue_size`.
 
 ------
 
     twist_msg = Twist() # ROS message
     twist_msg.linear.x = LINEAR_VELOCITY
 
-This is the initialization of the message and setting the specific member value. The easiest to find what the members are for a message and to know how to set them is to look at the documentation. For example for `Twist`, [here](http://docs.ros.org/en/melodic/api/geometry_msgs/html/msg/Twist.html) the specific documentation.
+This is the initialization of the message and the setting for the specific member value. The easiest to find what the members are for a message and to know how to set them is to look at the documentation. For example for `Twist`, go [here](http://docs.ros.org/en/melodic/api/geometry_msgs/html/msg/Twist.html) for the specific documentation.
 
 ------
-
     publisher.publish(twist_msg)
 
-This is for the actual publishing of the message, which will be received by a node subscribing to the topic. In this case, it will sent a velocity command.
+This is for the actual publishing of the message which will be received by a node subscribing to the topic. In this case, a velocity command will be sent.
 
 ------
 
@@ -197,10 +192,10 @@ and the call to its function, usually in a loop
     
     rate.sleep()
     
-allows for code to sleep so that the frequency is maintained. For example, 10 Hz means that the publishing of the `Twist` message is every 100 ms. The reason why this is necessary is that anyway the driver reading such messages and sending commands to the motors might not be able to operate at higher frequencies. Note that if the code in the loop takes longer, the execution is not at that frequency.
+allows for code to sleep so that the frequency is maintained. For example, 10 Hz means that the publishing of the `Twist` message is every 100 ms. The reason why this is necessary is that anyway the driver reading such messages and sending commands to the motors might not be able to operate at higher frequencies. If the code in the loop takes longer, the execution is not at that frequency.
 
 ------
-Similarly, for the Subscriber, there is the topic and the message type to specify. In addition, there is callback function, executed every time a message is received.
+Similarly, for the Subscriber there is the topic and the message type to specify. In addition, there is callback function executed every time a message is received.
 
     self._laser_sub = rospy.Subscriber(DEFAULT_SCAN_TOPIC, LaserScan, self._laser_callback, queue_size=1)
 
@@ -217,59 +212,59 @@ The callback function has one parameter, `msg`, which allows the code to access 
             self._close_obstacle = False
 
 The main highlights of the message are:
-- `ranges` which is an array containing range measurements.
-- `angle_min` which corresponds to the start angle of the scan, i.e., the element at index 0 of `ranges`.
-- `angle_max` which corresponds to the last angle of the scan, i.e., the element at the last index of `ranges`.
-- `angle_increment`, i.e., the difference between the angles of the range at index `i+1` and `i`.
+- `ranges` -- an array containing range measurements.
+- `angle_min` -- corresponds to the start angle of the scan, i.e., the element at index 0 of `ranges`.
+- `angle_max` -- corresponds to the last angle of the scan, i.e., the element at the last index of `ranges`.
+- `angle_increment` -- the difference between the angles of the range at index `i+1` and `i`.
 
 
 ------
 
 The other parts of the code implements the logic for the robot to move for a given distance (or rotation), given a velocity and a target distance (or angle), based on the calculated necessary time.
 
-
 ------
+## Getting code into a ROS package
+As seen in the previous course on setting up the environment, via Linux or AWS RoboMaker, ROS software is structured around packages. 
 
-## Getting the code into a ROS package
+For a standalone system or the AWS RoboMaker Virtual Desktop, we will download the repository that contains a number of packages including `simple_motion`:
 
-As seen in the previous course on setting up the environment (Linux or AWS RoboMaker), ROS software is structured around packages. 
+	cd ~/
+	git clone https://github.com/aws-samples/aws-robomaker-jetbot-ros (Links to an external site.)
+	cd ~/aws-robomaker-jetbot-ros/
+	# Install dependencies
+	chmod +x setup.sh
+	./setup.sh
+	# build the workspace
+	colcon build
 
-For a standalone system, going to the created workspace (e.g., `ros_workspace`), and downloading the corresponding ROS package from GitHub, the package can be built:
+In another terminal the Gazebo simulator can be run. For example, using the Jetbot:
 
-    cd ~/ros_workspace/src/
-    git clone https://github.com/quattrinili/simple_motion.git
-    cd ..
-    colcon build
+	roslaunch jetbot_description gazebo.launch gui:=true
 
-At this point, in another terminal, the Gazebo simulator can be run. For example, using the Jetbot:
-
-    roslaunch robomaker-jetbot world.launch
-
-and in a second terminal:
+and in a second terminal, run the robot application:
 
     roslaunch simple_motion simple_motion.launch
 
 ### Standalone machine
-Here a short video showing the steps in a standalone machine.
+Here a short video showing the steps in a standalone machine (refer to Course 1a for a refresher). 
 
 {% include video-file.html url="/img/simple-motion-standalone" %}
 
-### AWS RoboMaker
+### AWS RoboMaker Virtual Desktop
 
-For AWS RoboMaker, the main steps are:
-1. downloading the package in the correct workspace.
-2. changing the configuration of the simulation so that the new launch file will be run.
-3. build and bundle.
-4. run the simulation.
+Similarly to the standalone machine, for running AWS RoboMaker Virtual Dekstop, the main steps are (please refer to Course 1b for more details):
 
-A video for the steps in AWS RoboMaker is in the following.
+1. Download the package in the correct workspace.
+2. Run the virtual desktop and export the environment variable DISPLAY.
+3. Build the robot application.
+4. Run the simulation.
+5. Run the robot application.
+
+A video for the steps in AWS RoboMaker using the Virtual Desktop is in the following.
 
 {% include video-file.html url="/img/simple-motion-robomaker" %}
 
-Note that as the standalone machine, it is possible to run again the launch file.
-
-Please remember to stop the simulation once done to minimize credit use.
-
+-----
 Now that we have seen how to write a ROS node, let's understand the structure of the ROS package in the [next unit]({{ site.baseurl }}{% link _modules/mod-1d-details-package.md %}).
 
 {% capture ref %}
