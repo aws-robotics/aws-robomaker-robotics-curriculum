@@ -1,0 +1,600 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:02.230 align:start position:0%
+ 
+starting<00:00:00.560><c> from</c><00:00:00.799><c> robomaker</c><00:00:01.520><c> and</c><00:00:01.680><c> assuming</c><00:00:02.080><c> the</c>
+
+00:00:02.230 --> 00:00:02.240 align:start position:0%
+starting from robomaker and assuming the
+ 
+
+00:00:02.240 --> 00:00:03.990 align:start position:0%
+starting from robomaker and assuming the
+hello<00:00:02.560><c> world</c><00:00:02.960><c> application</c><00:00:03.520><c> has</c><00:00:03.679><c> been</c>
+
+00:00:03.990 --> 00:00:04.000 align:start position:0%
+hello world application has been
+ 
+
+00:00:04.000 --> 00:00:05.990 align:start position:0%
+hello world application has been
+already<00:00:04.400><c> downloaded</c><00:00:05.279><c> let's</c><00:00:05.520><c> build</c><00:00:05.839><c> and</c>
+
+00:00:05.990 --> 00:00:06.000 align:start position:0%
+already downloaded let's build and
+ 
+
+00:00:06.000 --> 00:00:07.829 align:start position:0%
+already downloaded let's build and
+bundle<00:00:06.319><c> the</c><00:00:06.399><c> robot</c><00:00:06.879><c> application</c><00:00:07.600><c> and</c><00:00:07.759><c> the</c>
+
+00:00:07.829 --> 00:00:07.839 align:start position:0%
+bundle the robot application and the
+ 
+
+00:00:07.839 --> 00:00:13.990 align:start position:0%
+bundle the robot application and the
+simulation<00:00:08.480><c> application</c><00:00:09.120><c> with</c><00:00:09.280><c> culkin</c>
+
+00:00:13.990 --> 00:00:14.000 align:start position:0%
+ 
+ 
+
+00:00:14.000 --> 00:00:27.990 align:start position:0%
+ 
+let's<00:00:14.240><c> go</c><00:00:14.400><c> to</c><00:00:14.559><c> the</c><00:00:14.639><c> robot</c><00:00:15.120><c> workspace</c>
+
+00:00:27.990 --> 00:00:28.000 align:start position:0%
+ 
+ 
+
+00:00:28.000 --> 00:00:35.430 align:start position:0%
+ 
+run<00:00:28.160><c> the</c><00:00:28.320><c> build</c><00:00:28.640><c> command</c><00:00:29.119><c> first</c>
+
+00:00:35.430 --> 00:00:35.440 align:start position:0%
+ 
+ 
+
+00:00:35.440 --> 00:00:37.350 align:start position:0%
+ 
+then<00:00:35.600><c> run</c><00:00:35.760><c> the</c><00:00:35.920><c> bundle</c><00:00:36.239><c> command</c><00:00:36.880><c> which</c><00:00:37.120><c> will</c>
+
+00:00:37.350 --> 00:00:37.360 align:start position:0%
+then run the bundle command which will
+ 
+
+00:00:37.360 --> 00:00:42.830 align:start position:0%
+then run the bundle command which will
+take<00:00:37.520><c> some</c><00:00:37.760><c> time</c><00:00:37.920><c> to</c><00:00:38.079><c> download</c><00:00:38.480><c> the</c><00:00:38.640><c> necessary</c>
+
+00:00:42.830 --> 00:00:42.840 align:start position:0%
+ 
+ 
+
+00:00:42.840 --> 00:01:21.990 align:start position:0%
+ 
+packages
+
+00:01:21.990 --> 00:01:22.000 align:start position:0%
+ 
+ 
+
+00:01:22.000 --> 00:01:23.670 align:start position:0%
+ 
+let's<00:01:22.320><c> build</c><00:01:22.640><c> and</c><00:01:22.799><c> bundle</c><00:01:23.200><c> also</c><00:01:23.520><c> the</c>
+
+00:01:23.670 --> 00:01:23.680 align:start position:0%
+let's build and bundle also the
+ 
+
+00:01:23.680 --> 00:01:48.870 align:start position:0%
+let's build and bundle also the
+simulation<00:01:24.840><c> application</c>
+
+00:01:48.870 --> 00:01:48.880 align:start position:0%
+ 
+ 
+
+00:01:48.880 --> 00:01:50.870 align:start position:0%
+ 
+again<00:01:49.520><c> the</c><00:01:49.680><c> bundle</c><00:01:50.000><c> command</c><00:01:50.399><c> will</c><00:01:50.479><c> take</c><00:01:50.720><c> some</c>
+
+00:01:50.870 --> 00:01:50.880 align:start position:0%
+again the bundle command will take some
+ 
+
+00:01:50.880 --> 00:01:52.830 align:start position:0%
+again the bundle command will take some
+time<00:01:51.119><c> to</c><00:01:51.280><c> download</c><00:01:51.759><c> all</c><00:01:51.920><c> the</c><00:01:52.079><c> necessary</c>
+
+00:01:52.830 --> 00:01:52.840 align:start position:0%
+time to download all the necessary
+ 
+
+00:01:52.840 --> 00:02:41.030 align:start position:0%
+time to download all the necessary
+packages
+
+00:02:41.030 --> 00:02:41.040 align:start position:0%
+ 
+ 
+
+00:02:41.040 --> 00:02:43.190 align:start position:0%
+ 
+now<00:02:41.200><c> that</c><00:02:41.360><c> the</c><00:02:41.519><c> applications</c><00:02:42.160><c> are</c><00:02:42.319><c> bundled</c><00:02:42.959><c> we</c>
+
+00:02:43.190 --> 00:02:43.200 align:start position:0%
+now that the applications are bundled we
+ 
+
+00:02:43.200 --> 00:02:45.509 align:start position:0%
+now that the applications are bundled we
+need<00:02:43.360><c> to</c><00:02:43.519><c> create</c><00:02:44.000><c> s3</c><00:02:44.480><c> bucket</c><00:02:44.879><c> and</c><00:02:45.040><c> copy</c><00:02:45.360><c> the</c>
+
+00:02:45.509 --> 00:02:45.519 align:start position:0%
+need to create s3 bucket and copy the
+ 
+
+00:02:45.519 --> 00:02:47.750 align:start position:0%
+need to create s3 bucket and copy the
+robot<00:02:45.920><c> and</c><00:02:46.080><c> simulation</c><00:02:46.800><c> applications</c><00:02:47.440><c> to</c><00:02:47.599><c> the</c>
+
+00:02:47.750 --> 00:02:47.760 align:start position:0%
+robot and simulation applications to the
+ 
+
+00:02:47.760 --> 00:02:53.350 align:start position:0%
+robot and simulation applications to the
+s3<00:02:48.840><c> bucket</c>
+
+00:02:53.350 --> 00:02:53.360 align:start position:0%
+ 
+ 
+
+00:02:53.360 --> 00:02:55.509 align:start position:0%
+ 
+now<00:02:53.519><c> that</c><00:02:53.680><c> the</c><00:02:53.840><c> applications</c><00:02:54.480><c> are</c><00:02:54.640><c> bundled</c><00:02:55.360><c> we</c>
+
+00:02:55.509 --> 00:02:55.519 align:start position:0%
+now that the applications are bundled we
+ 
+
+00:02:55.519 --> 00:02:57.270 align:start position:0%
+now that the applications are bundled we
+need<00:02:55.680><c> to</c><00:02:55.840><c> create</c><00:02:56.319><c> s3</c><00:02:56.800><c> bucket</c>
+
+00:02:57.270 --> 00:02:57.280 align:start position:0%
+need to create s3 bucket
+ 
+
+00:02:57.280 --> 00:02:59.110 align:start position:0%
+need to create s3 bucket
+and<00:02:57.360><c> copy</c><00:02:57.680><c> the</c><00:02:57.840><c> robot</c><00:02:58.239><c> and</c><00:02:58.400><c> simulation</c>
+
+00:02:59.110 --> 00:02:59.120 align:start position:0%
+and copy the robot and simulation
+ 
+
+00:02:59.120 --> 00:03:07.830 align:start position:0%
+and copy the robot and simulation
+applications<00:02:59.840><c> to</c><00:03:00.000><c> the</c><00:03:00.159><c> s3</c><00:03:02.840><c> bucket</c>
+
+00:03:07.830 --> 00:03:07.840 align:start position:0%
+ 
+ 
+
+00:03:07.840 --> 00:03:09.430 align:start position:0%
+ 
+let's<00:03:08.159><c> also</c><00:03:08.480><c> create</c><00:03:08.800><c> a</c><00:03:08.879><c> bucket</c><00:03:09.200><c> for</c><00:03:09.360><c> the</c>
+
+00:03:09.430 --> 00:03:09.440 align:start position:0%
+let's also create a bucket for the
+ 
+
+00:03:09.440 --> 00:03:25.670 align:start position:0%
+let's also create a bucket for the
+simulation<00:03:16.840><c> output</c>
+
+00:03:25.670 --> 00:03:25.680 align:start position:0%
+ 
+ 
+
+00:03:25.680 --> 00:03:27.830 align:start position:0%
+ 
+we<00:03:25.840><c> can</c><00:03:26.000><c> now</c><00:03:26.239><c> copy</c><00:03:26.560><c> the</c><00:03:26.720><c> robot</c><00:03:27.200><c> application</c>
+
+00:03:27.830 --> 00:03:27.840 align:start position:0%
+we can now copy the robot application
+ 
+
+00:03:27.840 --> 00:04:14.229 align:start position:0%
+we can now copy the robot application
+bundle<00:03:28.239><c> to</c><00:03:28.319><c> the</c><00:03:28.480><c> created</c><00:03:29.040><c> s3</c><00:03:30.840><c> bucket</c>
+
+00:04:14.229 --> 00:04:14.239 align:start position:0%
+ 
+ 
+
+00:04:14.239 --> 00:04:15.830 align:start position:0%
+ 
+now<00:04:14.400><c> that</c><00:04:14.560><c> the</c><00:04:14.720><c> robot</c><00:04:15.120><c> application</c><00:04:15.760><c> is</c>
+
+00:04:15.830 --> 00:04:15.840 align:start position:0%
+now that the robot application is
+ 
+
+00:04:15.840 --> 00:04:18.150 align:start position:0%
+now that the robot application is
+uploaded<00:04:16.560><c> we</c><00:04:16.720><c> can</c><00:04:16.959><c> create</c><00:04:17.280><c> the</c><00:04:17.359><c> configuration</c>
+
+00:04:18.150 --> 00:04:18.160 align:start position:0%
+uploaded we can create the configuration
+ 
+
+00:04:18.160 --> 00:04:19.749 align:start position:0%
+uploaded we can create the configuration
+for<00:04:18.320><c> the</c><00:04:18.400><c> robot</c><00:04:18.880><c> application</c>
+
+00:04:19.749 --> 00:04:19.759 align:start position:0%
+for the robot application
+ 
+
+00:04:19.759 --> 00:04:26.830 align:start position:0%
+for the robot application
+which<00:04:20.000><c> can</c><00:04:20.160><c> be</c><00:04:20.400><c> loaded</c><00:04:20.720><c> in</c><00:04:20.880><c> the</c><00:04:20.959><c> simulation</c>
+
+00:04:26.830 --> 00:04:26.840 align:start position:0%
+ 
+ 
+
+00:04:26.840 --> 00:04:31.990 align:start position:0%
+ 
+job
+
+00:04:31.990 --> 00:04:32.000 align:start position:0%
+ 
+ 
+
+00:04:32.000 --> 00:04:33.749 align:start position:0%
+ 
+this<00:04:32.240><c> means</c><00:04:32.560><c> specifying</c><00:04:33.120><c> the</c><00:04:33.280><c> robot</c>
+
+00:04:33.749 --> 00:04:33.759 align:start position:0%
+this means specifying the robot
+ 
+
+00:04:33.759 --> 00:04:35.590 align:start position:0%
+this means specifying the robot
+application<00:04:34.400><c> name</c><00:04:34.880><c> the</c><00:04:35.040><c> bucket</c>
+
+00:04:35.590 --> 00:04:35.600 align:start position:0%
+application name the bucket
+ 
+
+00:04:35.600 --> 00:05:18.870 align:start position:0%
+application name the bucket
+the<00:04:35.759><c> file</c><00:04:36.080><c> containing</c><00:04:36.560><c> the</c><00:04:40.840><c> bundle</c>
+
+00:05:18.870 --> 00:05:18.880 align:start position:0%
+ 
+ 
+
+00:05:18.880 --> 00:05:20.629 align:start position:0%
+ 
+note<00:05:19.120><c> the</c><00:05:19.199><c> capitalization</c><00:05:20.080><c> of</c><00:05:20.240><c> letters</c>
+
+00:05:20.629 --> 00:05:20.639 align:start position:0%
+note the capitalization of letters
+ 
+
+00:05:20.639 --> 00:05:22.790 align:start position:0%
+note the capitalization of letters
+matter<00:05:21.280><c> melodic</c><00:05:21.759><c> has</c><00:05:21.919><c> the</c><00:05:22.080><c> first</c><00:05:22.400><c> letter</c><00:05:22.639><c> as</c>
+
+00:05:22.790 --> 00:05:22.800 align:start position:0%
+matter melodic has the first letter as
+ 
+
+00:05:22.800 --> 00:05:23.510 align:start position:0%
+matter melodic has the first letter as
+capital
+
+00:05:23.510 --> 00:05:23.520 align:start position:0%
+capital
+ 
+
+00:05:23.520 --> 00:05:25.670 align:start position:0%
+capital
+and<00:05:23.680><c> if</c><00:05:23.840><c> not</c><00:05:24.080><c> typed</c><00:05:24.400><c> correctly</c><00:05:25.039><c> an</c><00:05:25.280><c> error</c><00:05:25.520><c> is</c>
+
+00:05:25.670 --> 00:05:25.680 align:start position:0%
+and if not typed correctly an error is
+ 
+
+00:05:25.680 --> 00:05:28.150 align:start position:0%
+and if not typed correctly an error is
+thrown
+
+00:05:28.150 --> 00:05:28.160 align:start position:0%
+ 
+ 
+
+00:05:28.160 --> 00:05:30.070 align:start position:0%
+ 
+when<00:05:28.400><c> the</c><00:05:28.479><c> creation</c><00:05:28.960><c> of</c><00:05:29.120><c> the</c><00:05:29.280><c> application</c><00:05:29.919><c> is</c>
+
+00:05:30.070 --> 00:05:30.080 align:start position:0%
+when the creation of the application is
+ 
+
+00:05:30.080 --> 00:05:31.670 align:start position:0%
+when the creation of the application is
+properly<00:05:30.560><c> done</c><00:05:31.039><c> the</c><00:05:31.280><c> screen</c>
+
+00:05:31.670 --> 00:05:31.680 align:start position:0%
+properly done the screen
+ 
+
+00:05:31.680 --> 00:05:33.350 align:start position:0%
+properly done the screen
+outputs<00:05:32.080><c> the</c><00:05:32.240><c> corresponding</c><00:05:32.960><c> json</c>
+
+00:05:33.350 --> 00:05:33.360 align:start position:0%
+outputs the corresponding json
+ 
+
+00:05:33.360 --> 00:05:36.629 align:start position:0%
+outputs the corresponding json
+configuration
+
+00:05:36.629 --> 00:05:36.639 align:start position:0%
+ 
+ 
+
+00:05:36.639 --> 00:05:38.230 align:start position:0%
+ 
+we<00:05:36.880><c> follow</c><00:05:37.199><c> similar</c><00:05:37.600><c> steps</c><00:05:38.000><c> for</c><00:05:38.080><c> the</c>
+
+00:05:38.230 --> 00:05:38.240 align:start position:0%
+we follow similar steps for the
+ 
+
+00:05:38.240 --> 00:05:41.110 align:start position:0%
+we follow similar steps for the
+simulation<00:05:38.880><c> application</c>
+
+00:05:41.110 --> 00:05:41.120 align:start position:0%
+simulation application
+ 
+
+00:05:41.120 --> 00:05:43.510 align:start position:0%
+simulation application
+first<00:05:41.680><c> copy</c><00:05:42.080><c> of</c><00:05:42.160><c> the</c><00:05:42.240><c> simulation</c><00:05:42.960><c> application</c>
+
+00:05:43.510 --> 00:05:43.520 align:start position:0%
+first copy of the simulation application
+ 
+
+00:05:43.520 --> 00:06:15.029 align:start position:0%
+first copy of the simulation application
+bundle<00:05:43.919><c> to</c><00:05:44.080><c> the</c><00:05:44.240><c> s3</c><00:05:50.840><c> bucket</c>
+
+00:06:15.029 --> 00:06:15.039 align:start position:0%
+ 
+ 
+
+00:06:15.039 --> 00:06:18.830 align:start position:0%
+ 
+then<00:06:15.440><c> creating</c><00:06:15.840><c> the</c><00:06:16.000><c> simulation</c><00:06:16.720><c> application</c>
+
+00:06:18.830 --> 00:06:18.840 align:start position:0%
+then creating the simulation application
+ 
+
+00:06:18.840 --> 00:07:09.510 align:start position:0%
+then creating the simulation application
+configuration
+
+00:07:09.510 --> 00:07:09.520 align:start position:0%
+ 
+ 
+
+00:07:09.520 --> 00:07:11.670 align:start position:0%
+ 
+additional<00:07:10.080><c> options</c><00:07:10.479><c> allow</c><00:07:10.800><c> for</c><00:07:11.039><c> specifying</c>
+
+00:07:11.670 --> 00:07:11.680 align:start position:0%
+additional options allow for specifying
+ 
+
+00:07:11.680 --> 00:07:45.510 align:start position:0%
+additional options allow for specifying
+the<00:07:11.759><c> gazebo</c><00:07:14.840><c> configuration</c>
+
+00:07:45.510 --> 00:07:45.520 align:start position:0%
+ 
+ 
+
+00:07:45.520 --> 00:07:47.830 align:start position:0%
+ 
+now<00:07:46.000><c> we</c><00:07:46.160><c> can</c><00:07:46.319><c> create</c><00:07:46.639><c> the</c><00:07:46.800><c> simulation</c><00:07:47.440><c> job</c><00:07:47.680><c> by</c>
+
+00:07:47.830 --> 00:07:47.840 align:start position:0%
+now we can create the simulation job by
+ 
+
+00:07:47.840 --> 00:07:49.749 align:start position:0%
+now we can create the simulation job by
+going<00:07:48.080><c> to</c><00:07:48.160><c> the</c><00:07:48.319><c> corresponding</c><00:07:48.960><c> menu</c><00:07:49.360><c> option</c>
+
+00:07:49.749 --> 00:07:49.759 align:start position:0%
+going to the corresponding menu option
+ 
+
+00:07:49.759 --> 00:07:51.830 align:start position:0%
+going to the corresponding menu option
+in<00:07:49.919><c> robomaker</c>
+
+00:07:51.830 --> 00:07:51.840 align:start position:0%
+in robomaker
+ 
+
+00:07:51.840 --> 00:07:53.749 align:start position:0%
+in robomaker
+in<00:07:52.000><c> the</c><00:07:52.080><c> first</c><00:07:52.319><c> screen</c><00:07:52.960><c> we</c><00:07:53.199><c> configure</c><00:07:53.599><c> the</c>
+
+00:07:53.749 --> 00:07:53.759 align:start position:0%
+in the first screen we configure the
+ 
+
+00:07:53.759 --> 00:07:55.510 align:start position:0%
+in the first screen we configure the
+duration<00:07:54.479><c> the</c><00:07:54.639><c> raws</c><00:07:54.960><c> version</c>
+
+00:07:55.510 --> 00:07:55.520 align:start position:0%
+duration the raws version
+ 
+
+00:07:55.520 --> 00:07:58.790 align:start position:0%
+duration the raws version
+the<00:07:55.759><c> iam</c><00:07:56.400><c> role</c><00:07:56.720><c> created</c><00:07:57.120><c> beforehand</c><00:07:58.080><c> the</c><00:07:58.319><c> s3</c>
+
+00:07:58.790 --> 00:07:58.800 align:start position:0%
+the iam role created beforehand the s3
+ 
+
+00:07:58.800 --> 00:08:15.830 align:start position:0%
+the iam role created beforehand the s3
+bucket<00:07:59.120><c> for</c><00:07:59.280><c> the</c><00:07:59.360><c> simulation</c><00:08:10.840><c> output</c>
+
+00:08:15.830 --> 00:08:15.840 align:start position:0%
+ 
+ 
+
+00:08:15.840 --> 00:08:17.909 align:start position:0%
+ 
+in<00:08:16.000><c> the</c><00:08:16.080><c> following</c><00:08:16.560><c> screen</c><00:08:17.280><c> we</c><00:08:17.440><c> select</c><00:08:17.759><c> the</c>
+
+00:08:17.909 --> 00:08:17.919 align:start position:0%
+in the following screen we select the
+ 
+
+00:08:17.919 --> 00:08:20.150 align:start position:0%
+in the following screen we select the
+robot<00:08:18.400><c> application</c><00:08:18.960><c> created</c><00:08:19.440><c> before</c>
+
+00:08:20.150 --> 00:08:20.160 align:start position:0%
+robot application created before
+ 
+
+00:08:20.160 --> 00:08:22.070 align:start position:0%
+robot application created before
+configure<00:08:20.639><c> the</c><00:08:20.800><c> launch</c><00:08:21.120><c> file</c><00:08:21.440><c> for</c><00:08:21.599><c> the</c><00:08:21.680><c> robot</c>
+
+00:08:22.070 --> 00:08:22.080 align:start position:0%
+configure the launch file for the robot
+ 
+
+00:08:22.080 --> 00:08:24.830 align:start position:0%
+configure the launch file for the robot
+application<00:08:22.960><c> and</c><00:08:23.199><c> tools</c><00:08:23.520><c> to</c><00:08:23.680><c> run</c><00:08:23.840><c> at</c><00:08:23.919><c> the</c>
+
+00:08:24.830 --> 00:08:24.840 align:start position:0%
+application and tools to run at the
+ 
+
+00:08:24.840 --> 00:09:11.509 align:start position:0%
+application and tools to run at the
+beginning
+
+00:09:11.509 --> 00:09:11.519 align:start position:0%
+ 
+ 
+
+00:09:11.519 --> 00:09:13.430 align:start position:0%
+ 
+next<00:09:12.000><c> we</c><00:09:12.160><c> configure</c><00:09:12.640><c> the</c><00:09:12.800><c> simulation</c>
+
+00:09:13.430 --> 00:09:13.440 align:start position:0%
+next we configure the simulation
+ 
+
+00:09:13.440 --> 00:09:15.750 align:start position:0%
+next we configure the simulation
+application<00:09:14.320><c> by</c><00:09:14.560><c> choosing</c><00:09:14.880><c> the</c><00:09:15.040><c> simulation</c>
+
+00:09:15.750 --> 00:09:15.760 align:start position:0%
+application by choosing the simulation
+ 
+
+00:09:15.760 --> 00:09:17.030 align:start position:0%
+application by choosing the simulation
+application<00:09:16.399><c> created</c>
+
+00:09:17.030 --> 00:09:17.040 align:start position:0%
+application created
+ 
+
+00:09:17.040 --> 00:09:27.430 align:start position:0%
+application created
+the<00:09:17.279><c> launch</c><00:09:17.600><c> file</c><00:09:17.839><c> and</c><00:09:18.000><c> tools</c><00:09:18.399><c> to</c><00:09:20.839><c> run</c>
+
+00:09:27.430 --> 00:09:27.440 align:start position:0%
+ 
+ 
+
+00:09:27.440 --> 00:09:28.790 align:start position:0%
+ 
+it<00:09:27.600><c> will</c><00:09:27.760><c> take</c><00:09:28.000><c> a</c><00:09:28.080><c> few</c><00:09:28.240><c> minutes</c><00:09:28.560><c> for</c><00:09:28.720><c> the</c>
+
+00:09:28.790 --> 00:09:28.800 align:start position:0%
+it will take a few minutes for the
+ 
+
+00:09:28.800 --> 00:10:04.230 align:start position:0%
+it will take a few minutes for the
+simulation<00:09:29.440><c> to</c><00:09:34.839><c> start</c>
+
+00:10:04.230 --> 00:10:04.240 align:start position:0%
+ 
+ 
+
+00:10:04.240 --> 00:10:06.470 align:start position:0%
+ 
+if<00:10:04.480><c> necessary</c><00:10:05.360><c> the</c><00:10:05.519><c> simulation</c><00:10:06.160><c> can</c><00:10:06.320><c> be</c>
+
+00:10:06.470 --> 00:10:06.480 align:start position:0%
+if necessary the simulation can be
+ 
+
+00:10:06.480 --> 00:10:08.150 align:start position:0%
+if necessary the simulation can be
+stopped<00:10:06.800><c> before</c><00:10:07.120><c> the</c><00:10:07.200><c> duration</c><00:10:07.680><c> set</c>
+
+00:10:08.150 --> 00:10:08.160 align:start position:0%
+stopped before the duration set
+ 
+
+00:10:08.160 --> 00:10:16.829 align:start position:0%
+stopped before the duration set
+by<00:10:08.399><c> choosing</c><00:10:08.720><c> the</c><00:10:08.880><c> action</c><00:10:09.279><c> to</c><00:10:09.440><c> cancel</c><00:10:09.760><c> the</c>
+
+00:10:16.829 --> 00:10:16.839 align:start position:0%
+ 
+ 
+
+00:10:16.839 --> 00:10:20.630 align:start position:0%
+ 
+simulation
+
+00:10:20.630 --> 00:10:20.640 align:start position:0%
+ 
+ 
+
+00:10:20.640 --> 00:10:22.720 align:start position:0%
+ 
+you
+
