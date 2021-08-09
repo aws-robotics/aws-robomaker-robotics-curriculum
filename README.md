@@ -2,7 +2,7 @@
 
 ![ros-cloud](ros-cloud.png)
 
-Introductory cloud robotics curriculum, designed to help students and entry level developers get started building robotics applications with the Robot Operating System (ROS) and Amazon Web Services (AWS). The curriculum was developed in collaboration with Alberto Quattrini Li, Assistant Professor of Computer Science at Dartmouth University. To get started, instructors and students can access the materials by joining [AWS Educate for free](https://aws.amazon.com/education/awseducate/). For users outside of AWS Educate, the curriculum can be accessed through this repository and build locally.
+Introductory cloud robotics curriculum, designed to help students and entry level developers get started building robot applications with the open source Robot Operating System (ROS) and Amazon Web Services (AWS). The curriculum was developed in collaboration with Alberto Quattrini Li, Assistant Professor of Computer Science at Dartmouth University. To get started, instructors and students can access the materials by joining [AWS Educate for free](https://aws.amazon.com/education/awseducate/). For users outside of AWS Educate, the curriculum can be accessed through this repository and build locally.
 
 Developed to be modular, the first three courses span prerequisite topics and basic skills necessary for robotics development using ROS, including:
 
@@ -12,7 +12,7 @@ Developed to be modular, the first three courses span prerequisite topics and ba
 
 * **Getting Started with AWS:** this course guides students through setting up the robot development environment in the cloud utilizing AWS RoboMaker. The objectives of this course include understanding the cloud development environment, preparing to write programs for robots in the cloud, and integration with various AWS cloud services.
 
-_Stay tuned for subsequent courses and tutorials focusing on intermediate and advanced topics with ROS and ROS 2._
+_Stay tuned for subsequent courses and tutorials focusing on intermediate and advanced topics with ROS 2._
 
 ![robot-fleet](robot-fleet.png)
 
