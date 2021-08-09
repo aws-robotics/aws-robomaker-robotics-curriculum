@@ -4,7 +4,7 @@ title: AWS services at run-time
 permalink: /modules/2/services.html
 ---
 
-After setting up the core services, there are a number of services that are useful to know to fully exploit the potential from RoboMaker and AWS.
+After setting up the core services, there are a number of services that are useful to know to expand the potential from RoboMaker and AWS.
 
 ## Amazon CloudWatch
 Amazon CloudWatch is a service that allows for complete observability of the system, e.g., by providing tools for monitoring application and for resource optimization {% cite aws2020cloudwatch %}. This is particularly useful for example to observe whether a robotic application will use too much resources making it not deployable on an embedded system.
@@ -12,7 +12,7 @@ Amazon CloudWatch is a service that allows for complete observability of the sys
 
 
 ## AWS IoT Greengrass and AWS Lambda
-AWS IoT Greengrass allows local devices, such as robots, to work locally with the embedded system, at the same time connect to the cloud for management, analytics, and storage {% cite aws2020greengrass %}. The local device needs greengrass software to be installed to enable communication with the cloud.
+AWS IoT Greengrass allows local devices, such as robots, to work locally with the embedded system, at the same time connect to the cloud for management, analytics, and storage {% cite aws2020greengrass %}. The local device needs Greengrass software to be installed to enable communication with the cloud.
 
 Another service, AWS Lambda are functions that can respond to data produced by the devices. In addition, AWS Lambda can ensure a safe communication with other devices even when not connected to the Internet {% cite aws2020lambda %}.
 

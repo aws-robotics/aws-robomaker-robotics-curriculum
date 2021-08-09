@@ -1,5 +1,5 @@
-title: Linux commands
-description: This assignment is to help you self-assess your understanding on AWS RoboMaker's architecture. Read carefully each question. Once answered, you will receive feedback. Good luck!
+title: AWS RoboMaker features and architecture
+description: Self-assess your understanding on AWS RoboMaker's architecture. Read carefully each question. Once answered, you will receive feedback. Good luck!
 questions:
 
  - type: "multiple-answer"
@@ -11,8 +11,6 @@ questions:
     - choice: Development Environment
       correct: true
     - choice: Simulation
-      correct: true
-    - choice: Fleet management
       correct: true
 
 

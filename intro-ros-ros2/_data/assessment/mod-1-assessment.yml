@@ -1,5 +1,5 @@
 title: ROS nodes and topics
-description: This assignment is to help you self-assess your comprehension on the **ROS basics**, i.e., ROS nodes, publishers, subscribers, message types, and the writing of the code. Read carefully each question. Once answered, you will receive feedback. Good luck!
+description: Self-assess your comprehension on the **ROS basics** including **ROS nodes, publishers, subscribers, message types, and the writing of the code**. Read carefully each question. Once answered, you will receive feedback. Good luck!
 questions:
 
  - type: "fill-single"

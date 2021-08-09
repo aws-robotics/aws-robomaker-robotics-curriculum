@@ -1,7 +1,7 @@
 title: AWS RoboMaker setup
-description: This assignment is to help you self-assess your understanding on AWS RoboMaker setup and run. Read carefully each question. Once answered, you will receive feedback. Good luck!
-questions:
+description: Self-assess your understanding on AWS RoboMaker setup and run. Read carefully each question. Once answered, you will receive feedback. Good luck!
 
+questions:
 
  - type: "multiple-answer"
    points: 1
@@ -22,7 +22,18 @@ questions:
 
  - type: "multiple-choice"
    points: 1
-   question: "The workflow to develop and deploy software that has been written is:"
+   question: "The filesystem within Cloud 9 and the Virtual Desktop is the same."
+   items:
+    - choice: True.
+      comment: Correct! We have seen in the Virtual Desktop unit that a file created in the Virtual Desktop is visible in Cloud 9 and viceversa.
+      correct: true
+    - choice: False.
+      comment: Please revise the Virtual Desktop and the way that it works.
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "The workflow to develop and deploy software that has been written within a simulation job is:"
    items:
     - choice: "1. Build, 2. Bundle, 3. Run."
       comment: Correct!

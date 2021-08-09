@@ -27,3 +27,4 @@ Let’s get started and understand why it is important in the [next unit]({{ sit
 -------
 A list of third party licenses used within Course 1b is available [here](/NOTICE.txt).
 
+For bug reporting, please create an issue within our AWS RoboMaker [GitHub repository](https://github.com/aws-robotics/aws-robomaker-robotics-curriculum). For feedback, please contact us at <aws-robomaker-academics@amazon.com>

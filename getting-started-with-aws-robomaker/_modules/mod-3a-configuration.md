@@ -23,13 +23,13 @@ Second, we set the IAM permissions so that the relevant services can be accessed
 
 EC2 is to allow access to computing resources, while S3 is to allow access to the storage. CloudWatch is for monitoring the simulation when running.
 
-## Setting up EC2 and Cloud9
+## Launching the AWS RoboMaker development environment
 
 Finally, we can set up the RoboMaker development environment and create a new environment that will contain the code.
 
 {% include video-file.html url="/img/robomaker-ide" %}
 
-The environment from the example is set with ROS Melodic. The instance type refers to the hardware allocated for the development environment and simulation. [Here](https://aws.amazon.com/ec2/instance-types/) the specific types, and RoboMaker supports all of them but T2, which does not have enough resources to run ROS.
+The environment from the example is set with ROS Melodic. The instance type refers to the hardware allocated for the development environment and simulation. [Here](https://aws.amazon.com/ec2/instance-types/) the specific types, and RoboMaker supports all of them but T2, which does not have enough resources to run ROS. At minimum we recommend c4.xlarge. 
 
 Now that we configured the environment, let's move to the [next unit]({{ site.baseurl }}{% link _modules/mod-3b-demo.md %}) to start a simple example and get comfortable with the environment.
 

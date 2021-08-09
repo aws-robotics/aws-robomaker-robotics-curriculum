@@ -45,5 +45,7 @@ docs:
         url: /modules/3/assessment.html
   - title: End of the course and additional resources
     children:
+      - title: "Final project"
+        url : /modules/4/final-project.html
       - title: "Additional resources"
         url: /additional-resources.html
