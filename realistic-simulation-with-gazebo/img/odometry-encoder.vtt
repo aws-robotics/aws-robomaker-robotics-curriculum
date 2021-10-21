@@ -1,0 +1,16 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.680 --> 00:00:05.040
+This short video shows the&nbsp;
+simulated encoder for odometry.
+
+00:00:14.000 --> 00:00:17.040
+As the robot is stuck, when&nbsp;
+the wheels start spinning,&nbsp;&nbsp;
+
+00:00:17.040 --> 00:00:24.880
+the pose estimated via the wheel&nbsp;
+encoders is updated accordingly.
+

@@ -1,0 +1,57 @@
+title: Simulated sensors
+description: Self-assess your comprehension on the **sensor characteristics and the simulated sensors in Gazebo**. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Consider the wheeled odometry based on encoder in Gazebo: if the Waveshare Jetbot is on a 2D plane, started at x=0,y=0,yaw=0, and is stuck with the wheels spinning, with a linear velocity equal to 0 and an angular velocity equal to pi/2 per second. Which of the following components of the pose will change?"
+   items:
+    - choice: x.
+      correct: false
+      comment: The wheels are moving in opposite direction, for a counter-clockwise rotation in place, thus the x component will not change.
+    - choice: y.
+      correct: false
+      comment: The wheels are moving in opposite direction, for a counter-clockwise rotation in place, thus the y component will not change.
+    - choice: yaw.
+      correct: true
+      comment: Only the angular velocity is different from 0, thus the yaw will change, even if the robot is stuck.
+    - choice: None.
+      correct: false
+      comment: The encoder is simulated, resulting in an update on the odometry based on the wheels spinning.
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Consider the same scenario of the previous question, but with the wheeled odometry based on the world pose. Which of the following components will change?"
+   items:
+    - choice: x.
+      correct: false
+    - choice: y.
+      correct: false
+    - choice: yaw.
+      correct: false
+    - choice: None.
+      correct: true
+      comment: As the update of the odometry is based on the world pose from the simulator, even with the wheels spinning, the odometry will not change.
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Consider the Gaussian noise with mean and standard deviation (e.g., for LiDAR or camera). What should be the values of mean and standard deviation for a very accurate sensor?"
+   items:
+    - choice: Low mean, low standard deviation.
+      correct: true
+      comment: Correct! The additive noise is drawn from a Gaussian distribution.
+    - choice: Low mean, high standard deviation.
+      correct: false
+      comment: "The additive noise is drawn from a Gaussian distribution, please see its shape https://commons.wikimedia.org/w/index.php?curid=3817954."
+    - choice: High mean, low standard deviation.
+      correct: false
+      comment: "The additive noise is drawn from a Gaussian distribution, please see its shape https://commons.wikimedia.org/w/index.php?curid=3817954."
+    - choice: High mean, high standard deviation.
+      correct: false
+      comment: "The additive noise is drawn from a Gaussian distribution, please see its shape https://commons.wikimedia.org/w/index.php?curid=3817954."
+      
+ - type: "file-upload"
+   points: 2
+   question: "Experiment with changing the sensor characteristics of the Waveshare Jetbot and upload a short video of such experiments."
+   feedback: "The file to modify is https://github.com/cbuscaron/robomaker-jetbot/blob/main/urdf/robomaker-jetbot.gazebo.xacro"
+

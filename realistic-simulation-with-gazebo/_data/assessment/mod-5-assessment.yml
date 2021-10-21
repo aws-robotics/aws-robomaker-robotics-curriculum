@@ -1,0 +1,54 @@
+title: Reinforcement learning
+description: This assignment is to help you self-assess your comprehension on **robot reinforcement learning**. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+ - type: "multiple-answer"
+   points: 1
+   question: "What are the main elements for a reinforcement learning problem? (select all that apply)"
+   items:
+    - choice: states
+      correct: true
+    - choice: actions
+      correct: true
+    - choice: reward function
+      correct: true
+    - choice: observation
+      correct: true
+    - choice: transition function
+      correct: true
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Besides the implementation of the reinforcement learning elements, what else is absolutely necessary to implement to have multiple episodes in simulation and train a new model?"
+   items:
+    - choice: reset()
+      correct: true
+      comment: Correct! This function allows for reinitializing the episode.
+    - choice: callback functions
+      correct: false
+      comment: While the callback functions are needed to get the sensor data from Gazebo, they are not strictly necessary for multiple episodes.
+    - choice: send_reward_to_cloudwatch()
+      correct: false
+      comment: This function is for logging.
+
+ - type: "multiple-choice"
+   points: 1
+   question: "AWS RoboMaker doesn't allow for training the model in the cloud."
+   items:
+    - choice: True
+      correct: false
+      comment: AWS provides a number of resources, including SageMaker which together with RoboMaker allows for training such learning models.
+    - choice: False
+      correct: true
+      comment: Correct!
+
+ - type: "multiple-choice"
+   points: 1
+   question: "The training results cannot be observed real-time."
+   items:
+    - choice: True
+      correct: false
+      comment: AWS Cloudwatch provides logging in real-time.
+    - choice: False
+      correct: true
+      comment: Correct! There are specific APIs used to publish the reward information to CloudWatch.

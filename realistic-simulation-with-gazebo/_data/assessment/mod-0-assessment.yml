@@ -1,0 +1,86 @@
+title: Simulation concepts
+description: Self-assess your comprehension on the **concepts of simulations and Gazebo**. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+ - type: "matching"
+   points: 1
+   question: "Please match the following terms of simulations with the corresponding definitions."
+   items_a:
+    - Virtual simulations
+    - Constructive simulations
+    - Live simulations
+   items_b:
+    - Simulations where the human is operating in the simulation.
+    - Simulations only of computer programs.
+    - Simulations where real equipments are used in a mock-up scenario.
+    
+ - type: "multiple-choice"
+   points: 1
+   question: "Simulations cannot run faster than real time."
+   items:
+    - choice: True.
+      correct: false
+      comment: The real-time factor can be changed to run simulations faster, up to the limit of the computational power on the computer.
+    - choice: False.
+      correct: true
+      comment: Correct! The real-time factor can be changed to run simulations faster, up to the limit of the computational power on the computer.
+
+ - type: "multiple-choice"
+   points: 1
+   question: "In stochastic simulations, when there are repeated runs, the result will always be the same."
+   items:
+    - choice: True.
+      correct: false
+      comment: Stochastic simulations mean that random variables are involved in the process, leading to different results.
+    - choice: False.
+      correct: true
+      comment: Correct!
+
+
+ - type: "multiple-choice"
+   points: 1
+   question: "The purpose of simulation includes:"
+   items:
+    - choice: Testing robot software.
+      correct: false
+    - choice: Training a machine learning model.
+      correct: false
+    - choice: Generate synthetic data.
+      correct: false
+    - choice: All of the above
+      correct: True
+      comment: Correct!
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Simulation is the same as the real world."
+   items:
+    - choice: True.
+      correct: false
+      comment: Simulations are approximation of the real world through mathematical models.
+    - choice: False.
+      correct: true
+      comment: Correct!
+
+
+ - type: "multiple-choice"
+   points: 1
+   question: "When running a Gazebo simulation, only one process runs to simulate the physics and display the user interface to allow a user to interact with the simulation."
+   items:
+    - choice: True.
+      correct: false
+      comment: Gazebo has a server, which runs the code for simulating the physics and generating the sensor data, and a client that can be run by a user to interact and visualize the simulation.
+    - choice: False.
+      correct: true
+      comment: Correct! Gazebo has a server, which runs the code for simulating the physics and generating the sensor data, and a client that can be run by a user to interact and visualize the simulation.
+
+ - type: "multiple-choice"
+   points: 1
+   question: "The world contains the models in the simulation and is the input to the simulator."
+   items:
+    - choice: True.
+      correct: true
+      comment: Correct!
+    - choice: False.
+      correct: false
+      comment: The world contains the specifications about the global properties of the simulation, light, models, and plugin.
