@@ -1,0 +1,15 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.600 --> 00:00:08.080
+This short video shows the odometry based&nbsp;
+on the robot pose in the simulated world.
+
+00:00:12.720 --> 00:00:17.360
+This is not realistic, as, when the wheels&nbsp;
+start spinning with the robot stuck,&nbsp;&nbsp;
+
+00:00:17.360 --> 00:00:22.400
+the pose of the robot remains the same.
+

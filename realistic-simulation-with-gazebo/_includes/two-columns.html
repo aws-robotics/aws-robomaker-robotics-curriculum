@@ -1,0 +1,15 @@
+{% if include.position == "left" %}
+  {% assign margin_position = "right" %}
+{% else %}
+  {% assign margin_position = "left" %}
+{% endif %}
+
+
+<div style="clear: both;">
+  <div style="width: 30%; float: {{ include.position }}; margin-{{ margin_position }}: 1em;">
+    {{ include.media }}
+  </div>
+  <div>
+    {{ include.description | markdownify }}
+  </div>
+</div>

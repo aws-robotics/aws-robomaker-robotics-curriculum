@@ -1,0 +1,15 @@
+title: ROS and Gazebo
+description: |
+  How to test robotics software?
+  
+  This course gets you started with the basics of the 3D simulator, Gazebo, its main concepts, and provides examples to build more realistic simulations and tests for robotics software. The goal is to provide you the main insights to understand simulation and how to use it to start creating more complex behaviors for the robot, eventually leading to the deployment on a real robot in a subsequent course.
+  
+  Your development environment should have been set up within a virtual machine (Course 1a) or AWS RoboMaker (Course 1b) and the Robot Operating System (ROS) was introduced in Course 2.
+  
+  Assessment will be performed through short quizzes and exercises at the end of each module, including working with a mobile robot in simulation.
+
+  Gazebo provides several models and is integrated with ROS. It can be further explored beyond what discussed in this course. Additional resources are included to further deepen the topics covered in this course.
+  
+course_id: 3
+base_url: "courses/587/pages/"
+

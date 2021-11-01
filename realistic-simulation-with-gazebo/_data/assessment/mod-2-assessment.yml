@@ -1,0 +1,8 @@
+title: Line following
+description: "This assignment is to help you self-assess your comprehension on the **line following example**. Read carefully each question. Once answered, you will receive feedback. Good luck!"
+questions:
+
+ - type: "file-upload"
+   points: 5
+   question: "Consider the same line following scenario seen in this module. Add noise to the camera and modify the code for following the line to include an image processing filter to address such a noise. Please submit then the code and video showing the behavior of the robot without any filter and with the filter."
+   feedback: "Here an example of filters available in OpenCV https://docs.opencv.org/master/d4/d13/tutorial_py_filtering.html"

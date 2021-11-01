@@ -1,0 +1,91 @@
+main:
+  - title: "Syllabus"
+    url: /index.html
+  - title: "Modules"
+    url: /modules/index.html
+  - title: "Additional resources"
+    url: /additional-resources.html
+
+docs:
+  - title: Course Introduction
+    children:
+      - title: "Motivation"
+        url: /modules/0/motivation.html
+      - title: "Course objectives"
+        url: /modules/0/objectives.html
+  - title: Module 0 - Simulation concepts
+    children:
+      - title: "What are simulations"
+        url: /modules/0/simulations.html
+      - title: "Gazebo architecture"
+        url: /modules/0/gazebo-architecture.html
+      - title: "Assessment"
+        url: /modules/0/assessment.html
+  - title: Module 1 - Simulated sensors
+    children:
+      - title: "Simulated sensors"
+        url: /modules/1/sensors.html
+      - title: "Wheel odometry"
+        url: /modules/1/odometry.html
+      - title: "LiDAR"
+        url: /modules/1/lidar.html
+      - title: "Camera"
+        url: /modules/1/camera.html
+      - title: "Assessment"
+        url: /modules/1/assessment.html
+  - title: Module 2 - Line following example
+    children:
+      - title: "Computer vision example"
+        url: /modules/2/cv-example.html
+      - title: "Pipeline for line following"
+        url: /modules/2/line-following.html
+      - title: "Implementation"
+        url: /modules/2/implementation.html
+      - title: "Possible extensions"
+        url: /modules/2/extensions.html
+      - title: "Assessment"
+        url: /modules/2/assessment.html
+  - title: Module 3 - World modeling in Gazebo
+    children:
+      - title: "World modeling"
+        url: /modules/3/world-modeling.html
+      - title: "Gazebo world"
+        url: /modules/3/gazebo-world.html
+      - title: "Modifying the world"
+        url: /modules/3/modifying-world.html
+      - title: "AWS RoboMaker WorldForge"
+        url: /modules/3/aws-worldforge.html
+      - title: "Actor"
+        url: /modules/3/actor.html
+      - title: "Assessment"
+        url: /modules/3/assessment.html
+  - title: Module 4 - Robot modeling in Gazebo
+    children:
+      - title: "Robot modeling"
+        url: /modules/4/robot-modeling.html
+      - title: "Robot physical properties"
+        url: /modules/4/robot-physical-properties.html
+      - title: "Sensors"
+        url: /modules/4/sensors.html
+      - title: "Assessment"
+        url: /modules/4/assessment.html
+  - title: Module 5 - Learning
+    children:
+      - title: "Learning"
+        url: /modules/5/learning.html
+      - title: "Reinforcement learning basics"
+        url: /modules/5/rl-basics.html
+      - title: "Maze example"
+        url: /modules/5/maze.html
+      - title: "How to run on AWS RoboMaker Simulation Job"
+        url: /modules/5/maze-robomaker-virtual-desktop.html
+      - title: "How to run on AWS RoboMaker Simulation Job"
+        url: /modules/5/maze-robomaker-virtual-desktop.html
+      - title: "Assessment"
+        url: /modules/5/assessment.html
+  - title: End of the course and additional resources
+    children:
+      - title: "Final project"
+        url: /modules/6/final-project.html
+      - title: "Additional resources"
+        url: /additional-resources.html

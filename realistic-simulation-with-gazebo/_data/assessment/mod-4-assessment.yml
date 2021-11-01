@@ -1,0 +1,55 @@
+title: Gazebo robot modeling
+description: "This assignment is to help you self-assess your comprehension on **Gazebo robot modeling**. Read carefully each question. Once answered, you will receive feedback. Good luck!"
+questions:
+
+ - type: "multiple-answer"
+   points: 1
+   question: "To add a new sensor, e.g., a second camera, what is absolutely necessary to be added to the URDF of the robot? (select all that apply)"
+   items:
+    - choice: joint
+      comment: Correct! The joint connects that link to another link of the robot.
+      correct: true
+    - choice: link
+      comment: Correct! The link will be used to attach the sensor.
+      correct: true
+    - choice: material
+      comment: Other elements can be specified, but the others are absolutely necessary.
+      correct: false
+    - choice: visual
+      comment: Other elements can be specified, but the others are absolutely necessary.
+      correct: false
+    
+ - type: "multiple-choice"
+   points: 1
+   question: "Is high-fidelity of visual and collision always necessary for running the simulation?"
+   items:
+    - choice: Yes
+      correct: false
+      comment: It is not always the case, especially if computational resources are limited.
+    - choice: No
+      correct: true
+      comment: Correct. Typically they are simplified for making the simulation using less resources.
+
+ - type: "multiple-answer"
+   points: 1
+   question: "What are the main parameters that need to be specified for a sensor plugin? (select all that apply)"
+   items:
+    - choice: link that the sensor will be attached to
+      comment: Correct, those three information are the ones necessary for adding a new sensor plugin. Please see the documentation regarding the specific sensor plugin.
+      correct: true
+    - choice: visual
+      comment: Please revise the structure of a sensor plugin.
+      correct: false
+    - choice: collision
+      comment: Please revise the structure of a sensor plugin.
+      correct: false
+    - choice: sensor type
+      comment: Correct, those three information are the ones necessary for adding a new sensor plugin. Please see the documentation regarding the specific sensor plugin.
+      correct: true
+    - choice: sensor parameters
+      comment: Correct, those three information are the ones necessary for adding a new sensor plugin. Please see the documentation regarding the specific sensor plugin.
+      correct: true
+
+ - type: "file-upload"
+   points: 1
+   question: "Add a second camera to the Waveshare Jetbot in a stereo configuration so they have the same orientation and are separated on one axis, similar to the eyes. Upload a video showing the two video streams running in rviz."

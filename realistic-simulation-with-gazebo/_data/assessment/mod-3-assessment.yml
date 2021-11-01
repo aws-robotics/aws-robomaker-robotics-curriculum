@@ -1,0 +1,87 @@
+title: Gazebo world modeling
+description: This assignment is to help you self-assess your comprehension on **Gazebo world modeling**. Read carefully each question. Once answered, you will receive feedback. Good luck!
+questions:
+
+ - type: "multiple-choice"
+   points: 1
+   question: "Which file type should be modified to specify a simulated world in Gazebo?"
+   items:
+    - choice: .world file
+      correct: true
+      comment: Correct! The .world file is a specific file in SDF format used to specify a collection of objects and the properties of the simulated world.
+    - choice: .sdf file.
+      correct: false
+      comment: Please revise the example of the .world files.
+    - choice: .urdf file.
+      correct: false
+      comment: Please revise the example of the .world files.
+    - choice: .png file.
+      correct: false
+      comment: Please revise the example of the .world files.
+
+ - type: "multiple-choice"
+   points: 1
+   question: "How to add new models of objects so that Gazebo can load them?"
+   items:
+    - choice: Writing all the model in the .world file.
+      correct: false
+      comment: Typically a new model is defined separately so that can be reused in new simulations.
+    - choice: .Setting up a related environment variable with the path to those models.
+      correct: true
+      comment: Correct, in particular GAZEBO_MODEL_PATH.
+    - choice: Modifying existing .sdf files.
+      correct: false
+      comment: Typically a new model is defined separately so that can be reused in new simulations.
+
+ - type: "multiple-answer"
+   points: 1
+   question: "What are the basic necessary files for a new model? (select all that apply)"
+   items:
+    - choice: .sdf file
+      comment: Correct, those are the basic files needed for a new model.
+      correct: true
+    - choice: .config file
+      comment: Correct, those are the basic files needed for a new model.
+      correct: true
+    - choice: .png file
+      comment: The other files are not typically necessary for a new model.
+      correct: false
+    - choice: .urdf file
+      comment: The other files are not typically necessary for a new model.
+      correct: false
+    - choice: .world file
+      comment: The other files are not typically necessary for a new model.
+      correct: false
+
+ - type: "multiple-choice"
+   points: 1
+   question: "AWS WorldForge is"
+   items:
+    - choice: A simulator like Gazebo
+      correct: false
+      comment: Please revise it on how it can help in generating new worlds.
+    - choice: A world generator
+      correct: true
+      comment: Correct! It can generate a number of Gazebo worlds based on some input parameters.
+    - choice: A simulated robot
+      correct: false
+      comment: Please revise it on how it can help in generating new worlds.
+    - choice: An Integrated Development Environment (IDE)
+      correct: false
+      comment: Please revise it on how it can help in generating new worlds.
+
+ - type: "file-upload"
+   points: 1
+   question: "Generate a Gazebo world with AWS RoboMaker WorldForge and run it locally. Submit a video of the generated world loaded in Gazebo."
+   feedback: "Please look at the tutorial https://aws.amazon.com/blogs/aws/aws-announces-worldforge-in-aws-robomaker/"
+
+ - type: "multiple-choice"
+   points: 1
+   question: "An actor in Gazebo is affected by gravity and can collide with objects."
+   items:
+    - choice: True
+      correct: false
+      comment: An actor is only an animation (e.g., a walking person) that is not affected by the physics engine.
+    - choice: False
+      correct: true
+      comment: Correct!

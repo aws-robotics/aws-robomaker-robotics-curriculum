@@ -1,0 +1,80 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:01.990 align:start position:0%
+ 
+this<00:00:00.399><c> video</c><00:00:00.799><c> shows</c><00:00:01.120><c> the</c><00:00:01.280><c> line</c><00:00:01.520><c> following</c>
+
+00:00:01.990 --> 00:00:02.000 align:start position:0%
+this video shows the line following
+ 
+
+00:00:02.000 --> 00:00:07.110 align:start position:0%
+this video shows the line following
+behavior<00:00:02.480><c> of</c><00:00:02.560><c> the</c><00:00:02.720><c> robot</c>
+
+00:00:07.110 --> 00:00:07.120 align:start position:0%
+ 
+ 
+
+00:00:07.120 --> 00:00:09.589 align:start position:0%
+ 
+first<00:00:07.759><c> the</c><00:00:08.000><c> image</c><00:00:08.320><c> is</c><00:00:08.400><c> given</c><00:00:08.720><c> as</c><00:00:08.960><c> input</c><00:00:09.280><c> to</c><00:00:09.440><c> the</c>
+
+00:00:09.589 --> 00:00:09.599 align:start position:0%
+first the image is given as input to the
+ 
+
+00:00:09.599 --> 00:00:11.509 align:start position:0%
+first the image is given as input to the
+algorithm<00:00:10.080><c> that</c><00:00:10.320><c> identifies</c><00:00:10.880><c> the</c><00:00:11.040><c> centroid</c>
+
+00:00:11.509 --> 00:00:11.519 align:start position:0%
+algorithm that identifies the centroid
+ 
+
+00:00:11.519 --> 00:00:16.230 align:start position:0%
+algorithm that identifies the centroid
+of<00:00:11.599><c> a</c><00:00:11.679><c> line</c><00:00:12.000><c> closer</c><00:00:12.320><c> to</c><00:00:12.480><c> the</c><00:00:14.920><c> robot</c>
+
+00:00:16.230 --> 00:00:16.240 align:start position:0%
+of a line closer to the robot
+ 
+
+00:00:16.240 --> 00:00:18.630 align:start position:0%
+of a line closer to the robot
+second<00:00:16.960><c> the</c><00:00:17.199><c> algorithm</c><00:00:17.760><c> corrects</c><00:00:18.160><c> the</c><00:00:18.320><c> course</c>
+
+00:00:18.630 --> 00:00:18.640 align:start position:0%
+second the algorithm corrects the course
+ 
+
+00:00:18.640 --> 00:00:20.550 align:start position:0%
+second the algorithm corrects the course
+based<00:00:18.960><c> on</c><00:00:19.039><c> the</c><00:00:19.199><c> offset</c><00:00:19.680><c> between</c><00:00:19.920><c> the</c><00:00:20.080><c> centroid</c>
+
+00:00:20.550 --> 00:00:20.560 align:start position:0%
+based on the offset between the centroid
+ 
+
+00:00:20.560 --> 00:00:27.589 align:start position:0%
+based on the offset between the centroid
+and<00:00:20.720><c> the</c><00:00:20.800><c> center</c><00:00:21.119><c> line</c><00:00:21.359><c> of</c><00:00:21.439><c> the</c><00:00:21.680><c> image</c>
+
+00:00:27.589 --> 00:00:27.599 align:start position:0%
+ 
+ 
+
+00:00:27.599 --> 00:00:29.990 align:start position:0%
+ 
+in<00:00:27.760><c> the</c><00:00:28.000><c> end</c><00:00:28.480><c> the</c><00:00:28.640><c> robot</c><00:00:29.119><c> is</c><00:00:29.279><c> able</c><00:00:29.439><c> to</c><00:00:29.599><c> follow</c>
+
+00:00:29.990 --> 00:00:30.000 align:start position:0%
+in the end the robot is able to follow
+ 
+
+00:00:30.000 --> 00:00:35.600 align:start position:0%
+in the end the robot is able to follow
+reasonably<00:00:30.560><c> well</c><00:00:30.720><c> the</c><00:00:30.880><c> green</c><00:00:32.600><c> line</c>
+
