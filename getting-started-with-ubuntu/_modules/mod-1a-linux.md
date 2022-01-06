@@ -16,7 +16,7 @@ Why is it important to consider an OS within a robot? The OS allocates resources
 
 For our purpose, we will take a look at the command line, i.e., a user interface that based on commands typed with the keyboard, and useful commands that we will encounter throughout the curriculum. This is an important skill to know as it is the base for configuring robots, as typically they do not have any screen on-board, as well as to work on servers in the cloud.
 
-Let's dive into the steps of installing a new instance of Ubuntu on a Virtual Machine in the [next unit]({{ site.baseurl }}{% link _modules/mod-1b-installation.md %}) -- if you already have a machine with Ubuntu you can skip the following unit.
+Let's dive into the steps of installing a new instance of Ubuntu on a Virtual Machine in the [next unit]({{ site.baseurl }}{% link _modules/mod-1b-installation-vm.md %}) -- if you already have a machine with Ubuntu you can skip the following unit.
 
 
 {% capture ref %}
