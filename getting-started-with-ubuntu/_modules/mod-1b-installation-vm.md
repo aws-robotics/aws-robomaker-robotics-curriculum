@@ -22,7 +22,7 @@ Note that steps 2., 3., and 4., listed above would not be that different from an
 
 A full discussion on Ubuntu is in its official book {% cite hill2016official %}.
 
-Now that we have a functioning machine, let's dive into the main commands from the command line in the [next unit]({{ site.baseurl }}{% link _modules/mod-1c-commandline.md %}).
+Now that we have a functioning machine, let's dive into the main commands from the command line in the [related unit]({{ site.baseurl }}{% link _modules/mod-1c-commandline.md %}). You're welcome to explore how a Linux system can be set up in Docker in [the next unit]({{ site.baseurl }}{% link _modules/mod-1b-installation-docker.md %}).
 
 
 {% capture ref %}

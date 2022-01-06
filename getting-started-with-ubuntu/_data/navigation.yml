@@ -17,8 +17,10 @@ docs:
     children:
       - title: "Linux"
         url: /modules/1/linux.html
-      - title: "Installation"
+      - title: "Installation with VM"
         url: /modules/1/installation.html
+      - title: "Installation with Docker"
+        url: /modules/1/installation-docker.html
       - title: "Commandline"
         url: /modules/1/commandline.html
       - title: "Assessment"
